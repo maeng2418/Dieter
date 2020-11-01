@@ -9,7 +9,9 @@ module.exports = {
   },
   resolve: {
     alias: {
-      components: path.resolve(__dirname, 'client/src/components'),
+      components: path.resolve(__dirname, './src/components'),
+      tags: path.resolve(__dirname, './src/components/Tags'),
+      pages: path.resolve(__dirname, './src/pages'),
     },
   },
   devtool: 'inline-source-map',

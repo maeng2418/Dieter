@@ -8,6 +8,7 @@
     "install:all": "concurrently 'yarn --cwd server install' 'yarn --cwd client install'"
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "eslint": "^7.8.1",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.22.1",
