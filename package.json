@@ -1,0 +1,22 @@
+{
+  "name": "dieter",
+  "version": "1.0.0",
+  "description": "칼로리 기록 웹 어플리케이션",
+  "scripts": {
+    "start": "concurrently 'yarn --cwd client build' 'yarn --cwd server start'",
+    "dev": "concurrently 'yarn --cwd client build:dev' 'yarn --cwd server dev'",
+    "install:all": "concurrently 'yarn --cwd server install' 'yarn --cwd client install'"
+  },
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.1"
+  },
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  },
+  "author": "maeng2418",
+  "license": "ISC"
+}
