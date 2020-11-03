@@ -1,10 +1,9 @@
 import { Div } from 'tags';
 
-const Main = () => {
+const MainPage = () => {
   return Div(['메인콘텐츠'], {
-    classname: 'main',
-    id: 'main',
+    class: 'main-page',
   });
 };
 
-export default Main;
+export default MainPage;

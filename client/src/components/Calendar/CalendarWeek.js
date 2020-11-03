@@ -3,7 +3,7 @@ import { Div } from 'tags';
 export const CalendarWeek = (children = [], props = {}) => {
   return Div(children, {
     ...props,
-    classname: `calendar-week ${props.classname && props.classname}`,
+    class: `calendar-week ${props.class && props.class}`,
     style: `${Style} ${props.style && props.style}`,
   });
 };

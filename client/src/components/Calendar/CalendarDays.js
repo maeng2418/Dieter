@@ -5,7 +5,7 @@ export const CalendarDays = (children = [], props = {}) => {
   const days = ['일', '월', '화', '수', '목', '금', '토'];
   return Div([days.map((day) => CalendarDay([day])).join('')], {
     ...props,
-    classname: `calendar-days ${props.classname && props.classname}`,
+    class: `calendar-days ${props.class && props.class}`,
     style: `${Style} ${props.style && props.style}`,
   });
 };

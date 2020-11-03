@@ -1,15 +1,14 @@
 import { Div } from 'tags';
+import { NavButton } from './NavButton';
 
-export const CalendarDay = (children = [], props = {}) => {
+export const Navigator = (children = [], props = {}) => {
   return Div(children, {
     ...props,
-    class: `calendar-day ${props.class && props.class}`,
+    class: `navigator ${props.class && props.class}`,
     style: `${Style} ${props.style && props.style}`,
   });
 };
 
 const Style = `
-  width: 8rem;
-  border: 1px solid black;
   text-align: center;
 `;

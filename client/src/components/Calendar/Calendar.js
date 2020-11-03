@@ -7,7 +7,7 @@ import { CalendarDate } from './CalendarDate';
 export const Calendar = (children = [], props = {}) => {
   return Div([CalendarHeader('2020년 10월'), CalendarBody([createCalendar(2020, 11)])], {
     ...props,
-    classname: `calendar ${props.classname && props.classname}`,
+    class: `calendar ${props.class && props.class}`,
     style: `${Style} ${props.style && props.style}`,
   });
 };
@@ -42,7 +42,7 @@ const createCalendar = (year, month) => {
         dayList.push(
           // 이전달 마지막 일자 - (해당 월의 시작 요일 - 1) + 카운트
           CalendarDate([`${prevLastDate - (firstDay - 1) + j}`], {
-            classname: `past ${en_days[j]}`,
+            class: `past ${en_days[j]}`,
             style: 'color: gray',
           })
         );
@@ -50,7 +50,7 @@ const createCalendar = (year, month) => {
       } else if (i >= 0 && startDayCount <= lastDate) {
         dayList.push(
           CalendarDate([`${startDayCount}`], {
-            classname: `${en_days[j]}`,
+            class: `${en_days[j]}`,
             style: `color: ${(en_days[j] === 'sun' && 'red') || (en_days[j] === 'sat' && 'blue')}`,
           })
         );
@@ -59,7 +59,7 @@ const createCalendar = (year, month) => {
       } else if (startDayCount > lastDate) {
         dayList.push(
           CalendarDate([`${lastDayCount}`], {
-            classname: `future ${en_days[j]}`,
+            class: `future ${en_days[j]}`,
             style: 'color: gray',
           })
         );

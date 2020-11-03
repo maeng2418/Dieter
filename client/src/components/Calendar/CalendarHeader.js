@@ -4,17 +4,17 @@ export const CalendarHeader = (children = [], props = {}) => {
   return Div(
     [
       Button(['<'], {
-        classname: 'prev-btn',
+        class: 'prev-btn',
         style: `background: none; border: none; font-size: 2rem; outline: none;`,
         onmouseover: "this.style.color='#fa541c'",
         onmouseout: "this.style.color='black'",
       }),
       Div([...children], {
-        classname: 'current-year-month',
+        class: 'current-year-month',
         style: 'margin: 0 3rem; font-size: 1.5rem; font-weight: 600; line-height: 2;',
       }),
       Button(['>'], {
-        classname: 'next-btn',
+        class: 'next-btn',
         style: `background: none; border: none; font-size: 2rem; outline: none;`,
         onmouseover: "this.style.color='#fa541c'",
         onmouseout: "this.style.color='black'",
@@ -22,7 +22,7 @@ export const CalendarHeader = (children = [], props = {}) => {
     ],
     {
       ...props,
-      classname: `calendar-header ${props.classname && props.classname}`,
+      class: `calendar-header ${props.class && props.class}`,
       style: `${Style} ${props.style && props.style}`,
     }
   );
