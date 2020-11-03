@@ -1,11 +1,13 @@
 import { Div } from 'tags';
-import { CalendarHeader } from './CalendarHeader';
 import { CalendarBody } from './CalendarBody';
 import { CalendarWeek } from './CalendarWeek';
 import { CalendarDate } from './CalendarDate';
+import { getState } from '../../store';
 
 export const Calendar = (children = [], props = {}) => {
-  return Div([CalendarHeader('2020년 10월'), CalendarBody([createCalendar(2020, 11)])], {
+  const year = getState('date').getFullYear();
+  const month = getState('date').getMonth() + 1;
+  return Div([CalendarBody([createCalendar(year, month)])], {
     ...props,
     class: `calendar ${props.class && props.class}`,
     style: `${Style} ${props.style && props.style}`,

@@ -1,20 +1,25 @@
 import { Div, Button } from 'tags';
+import { getState } from '../../store';
 
-export const CalendarHeader = (children = [], props = {}) => {
+export const MonthNav = (children = [], props = {}) => {
+  const year = getState('date').getFullYear();
+  const month = getState('date').getMonth() + 1;
   return Div(
     [
       Button(['<'], {
-        class: 'prev-btn',
+        id: 'prev-btn',
+        class: 'month-nav-btn',
         style: `background: none; border: none; font-size: 2rem; outline: none;`,
         onmouseover: "this.style.color='#fa541c'",
         onmouseout: "this.style.color='black'",
       }),
-      Div([...children], {
+      Div([`${year}년 ${month}월`], {
         class: 'current-year-month',
         style: 'margin: 0 3rem; font-size: 1.5rem; font-weight: 600; line-height: 2;',
       }),
       Button(['>'], {
-        class: 'next-btn',
+        id: 'next-btn',
+        class: 'month-nav-btn',
         style: `background: none; border: none; font-size: 2rem; outline: none;`,
         onmouseover: "this.style.color='#fa541c'",
         onmouseout: "this.style.color='black'",
@@ -22,7 +27,7 @@ export const CalendarHeader = (children = [], props = {}) => {
     ],
     {
       ...props,
-      class: `calendar-header ${props.class && props.class}`,
+      class: `month-nav ${props.class && props.class}`,
       style: `${Style} ${props.style && props.style}`,
     }
   );

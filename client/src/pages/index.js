@@ -1,15 +1,12 @@
 import { Layout } from 'components';
 import MainPage from './main';
 import onEventHandler from '../event-controller';
-import { setEvent, setState } from '../store';
-
-const event = (data) => {
-  console.log(data);
-};
+import { setState, setEvent } from '../store';
+import { onStoreDateHandler } from '../store/event-handler';
 
 const App = () => {
   setState('date', new Date());
-  setEvent('date', event);
+  setEvent('date', onStoreDateHandler);
   onEventHandler();
   return Layout([MainPage()]);
 };
