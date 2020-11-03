@@ -1,7 +1,7 @@
-import { Div } from 'tags';
+import { H1 } from 'tags';
 
 export const Header = (children = [], props = {}) => {
-  return Div(children, {
+  return H1(children, {
     ...props,
     classname: `header ${props.classname && props.classname}`,
     style: `${Style} ${props.style && props.style}`,
