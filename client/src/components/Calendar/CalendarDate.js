@@ -3,7 +3,7 @@ import { Div } from 'tags';
 export const CalendarDate = (children = [], props = {}) => {
   return Div(children, {
     ...props,
-    classname: `calendar-date ${props.classname && props.classname}`,
+    class: `calendar-date ${props.class && props.class}`,
     style: `${Style} ${props.style && props.style}`,
   });
 };

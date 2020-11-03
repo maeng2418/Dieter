@@ -1,10 +1,10 @@
 import { Layout } from 'components';
-import Main from './main';
-import CalendarPage from './calendar';
+import MainPage from './main';
+import onEventHandler from '../event-controller';
 
-// 라우팅 처리
 const App = () => {
-  return Layout([CalendarPage()]);
+  onEventHandler();
+  return Layout([MainPage()]);
 };
 
 export default App;
