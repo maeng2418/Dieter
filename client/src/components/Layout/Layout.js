@@ -4,7 +4,7 @@ import { Header, MonthNav, Navigator, NavButton } from 'components';
 export const Layout = (children = [], props = {}) => {
   return Div(
     [
-      Header(['헤더']),
+      Header(['다이어터']),
       MonthNav(),
       Navigator([
         NavButton(['내역'], { id: 'main' }),
