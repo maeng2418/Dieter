@@ -8,11 +8,19 @@ import { getState, setState, setEvent } from '../store';
 const onNavEventHandler = (page) => {
   window.history.pushState({ page }, null, `#${page}`);
   const statePage = window.history.state.page;
+  const $currentNav = document.querySelector('.selected-page');
+  const $newNav = document.getElementById(page);
   if (statePage === 'main') {
     document.querySelector('.content').innerHTML = MainPage();
   } else if (statePage === 'calendar') {
     document.querySelector('.content').innerHTML = CalendarPage();
   }
+  $currentNav.style.background = '#36cfc9';
+  $currentNav.style.color = '#fff';
+  $newNav.style.background = '#fff';
+  $newNav.style.color = '#36cfc9';
+  $currentNav.classList.remove('selected-page');
+  $newNav.classList.add('selected-page');
 };
 
 const onChangeDateHandler = (prevNext) => {
