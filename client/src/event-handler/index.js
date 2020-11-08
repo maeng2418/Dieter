@@ -1,7 +1,7 @@
 import MainPage from 'pages/main';
 import CalendarPage from 'pages/calendar';
 import { Option } from 'tags';
-import { DateList } from 'components';
+import { DateList, KcalList } from 'components';
 import { getState, setState, setEvent } from '../store';
 
 // 네이비게이션 이벤트 핸들러
@@ -72,8 +72,13 @@ const onSubmitHandler = () => {
   const content = document.querySelector('.input-content').value;
   const kcal = document.querySelector('.input-kcal').value;
 
-  const $mainPage = document.querySelector('.main-page');
-  $mainPage.innerHTML += DateList([], { type, category, date, content, kcal });
+  const $dateList = document.getElementById(date);
+  if ($dateList) {
+    $dateList.innerHTML += KcalList([content, kcal], { type: type });
+  } else {
+    const $mainPage = document.querySelector('.main-page');
+    $mainPage.innerHTML += DateList([], { type, category, date, content, kcal });
+  }
 };
 
 const onEventHandler = () => {
