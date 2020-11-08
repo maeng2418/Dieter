@@ -11,4 +11,6 @@ export const Navigator = (children = [], props = {}) => {
 
 const Style = `
   text-align: center;
+  width: 50%;
+  margin: auto;
 `;

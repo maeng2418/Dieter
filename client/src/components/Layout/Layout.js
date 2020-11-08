@@ -7,7 +7,7 @@ export const Layout = (children = [], props = {}) => {
       Header(['다이어터']),
       MonthNav(),
       Navigator([
-        NavButton(['내역'], { id: 'main' }),
+        NavButton(['내역'], { id: 'main', class: 'selected-page' }),
         NavButton(['달력'], { id: 'calendar' }),
         NavButton(['통계'], { id: 'graph' }),
       ]),
