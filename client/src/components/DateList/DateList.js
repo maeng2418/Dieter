@@ -7,6 +7,7 @@ export const DateList = (children = [], props = {}) => {
     [DateTitle([props.date]), KcalList([props.content, props.kcal], { type: props.type })],
     {
       ...props,
+      id: props.date,
       class: `date-list ${props.class && props.class}`,
       style: `${Style} ${props.style && props.style}`,
     }

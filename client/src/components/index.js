@@ -6,4 +6,4 @@ export { default as Navigator, NavButton } from './Navigator';
 export { default as FormItem } from './FormItem';
 export { default as RegisterForm } from './RegisterForm';
 export { default as Row } from './Row';
-export { default as DateList } from './DateList';
+export { default as DateList, KcalList } from './DateList';
