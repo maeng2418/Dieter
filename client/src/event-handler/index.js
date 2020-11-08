@@ -1,5 +1,7 @@
 import MainPage from 'pages/main';
 import CalendarPage from 'pages/calendar';
+import { Option } from 'tags';
+import { DateList } from 'components';
 import { getState, setState, setEvent } from '../store';
 
 // 네이비게이션 이벤트 핸들러
@@ -32,13 +34,54 @@ const onChangeDateHandler = (prevNext) => {
   setState('date', new Date(year, month, 1));
 };
 
+const onSelectTypeHandler = (classList) => {
+  const $intake = document.querySelector('.intake-btn');
+  const $consumption = document.querySelector('.consumption-btn');
+  const $category = document.querySelector('.category');
+  const SelectStyle =
+    'height: 2rem; width: 5rem; outline: none; color: #36cfc9; background: #fff; border: 2px solid #36cfc9;';
+  const UnselectStyle =
+    'height: 2rem; width: 5rem; outline: none; background: #36cfc9; color: #fff; border: 2px solid #36cfc9;';
+  if (classList.contains('intake-btn')) {
+    $intake.setAttribute('style', SelectStyle);
+    $consumption.setAttribute('style', UnselectStyle);
+    $intake.classList.toggle('isSelected');
+    $consumption.classList.toggle('isSelected');
+    $category.innerHTML = Option(['한식']) + Option(['중식']) + Option(['일식']);
+  } else {
+    $intake.setAttribute('style', UnselectStyle);
+    $consumption.setAttribute('style', SelectStyle);
+    $intake.classList.toggle('isSelected');
+    $consumption.classList.toggle('isSelected');
+    $category.innerHTML = Option(['유산소 운동']) + Option(['근력 운동']);
+  }
+};
+
+const onSubmitHandler = () => {
+  const type = document.querySelector('.isSelected').id;
+  const category = document.querySelector('.category').value;
+  const date = document.querySelector('.date-picker').value;
+  const content = document.querySelector('.input-content').value;
+  const kcal = document.querySelector('.input-kcal').value;
+
+  const $mainPage = document.querySelector('.main-page');
+  $mainPage.innerHTML += DateList([], { type, category, date, content, kcal });
+};
+
 const onEventHandler = () => {
   document.getElementById('root').addEventListener('click', async (e) => {
-    e.preventDefault();
     if (e.target.closest(`.nav-btn`)) {
+      e.preventDefault();
       onNavEventHandler(e.target.id);
     } else if (e.target.closest('.month-nav-btn')) {
+      e.preventDefault();
       onChangeDateHandler(e.target.id);
+    } else if (e.target.closest('.type-btn')) {
+      e.preventDefault();
+      onSelectTypeHandler(e.target.classList);
+    } else if (e.target.closest('.submit-btn')) {
+      e.preventDefault();
+      onSubmitHandler();
     }
   });
 };
