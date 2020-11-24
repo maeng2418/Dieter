@@ -1,5 +1,6 @@
 import MainPage from 'pages/main';
 import CalendarPage from 'pages/calendar';
+import GraphPage from 'pages/graph';
 import { Option } from 'tags';
 import { DateList, KcalList } from 'components';
 import { getState, setState, setEvent } from '../store';
@@ -14,6 +15,8 @@ const onNavEventHandler = (page) => {
     document.querySelector('.content').innerHTML = MainPage();
   } else if (statePage === 'calendar') {
     document.querySelector('.content').innerHTML = CalendarPage();
+  } else if (statePage === 'graph') {
+    document.querySelector('.content').innerHTML = GraphPage();
   }
   $currentNav.style.background = '#36cfc9';
   $currentNav.style.color = '#fff';
