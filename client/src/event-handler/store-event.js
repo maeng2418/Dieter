@@ -5,6 +5,6 @@ export const onStoreDateHandler = (date) => {
     ${date.getFullYear()}년 ${date.getMonth() + 1}월
   `;
   if (location.hash === '#calendar') {
-    document.querySelector('.calendar').innerHTML = Calendar();
+    document.querySelector('.calendar-page').innerHTML = Calendar();
   }
 };

@@ -158,3 +158,19 @@
 2020-11-24T09:36:12.797Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
 2020-11-24T09:36:12.806Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNjIxMDU3MiwiZXhwIjoxNjA2Mjk2OTcyfQ.BYQHY1wIGyQiFi-Qi2aFbCtihwK564IwdcBOYxHFuGQ
 2020-11-24T09:36:12.807Z [info] success migrating
+2020-11-24T09:40:22.032Z [info] Express server started on port: 3000
+2020-11-24T09:40:22.058Z [info] DB migrate: false
+2020-11-24T09:40:22.076Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-11-24T09:40:22.086Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNjIxMDgyMiwiZXhwIjoxNjA2Mjk3MjIyfQ._7o3M7x5P2JZjWXd-JdIkJpHKsiJKmI6sgDBxHojQhw
+2020-11-24T09:40:22.086Z [info] success migrating
+2020-11-24T09:40:39.816Z [info] [0mGET / [36m304[0m 3.585 ms - -[0m
+2020-11-24T09:40:39.866Z [info] [0mGET /index.js [32m200[0m 2.302 ms - 424572[0m
+2020-11-24T09:46:28.314Z [info] [0mGET / [36m304[0m 0.630 ms - -[0m
+2020-11-24T09:46:28.360Z [info] [0mGET /index.js [36m304[0m 0.770 ms - -[0m
+2020-11-24T09:46:51.912Z [info] Express server started on port: 3000
+2020-11-24T09:46:51.942Z [info] DB migrate: false
+2020-11-24T09:46:51.958Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-11-24T09:46:51.968Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNjIxMTIxMSwiZXhwIjoxNjA2Mjk3NjExfQ.PpcpVI7xKY5-PM6pUIrbg5TOjOcPBpTrFATSzKtPEtc
+2020-11-24T09:46:51.968Z [info] success migrating
+2020-11-24T09:46:52.844Z [info] [0mGET / [36m304[0m 3.041 ms - -[0m
+2020-11-24T09:46:52.899Z [info] [0mGET /index.js [32m200[0m 1.889 ms - 424585[0m
