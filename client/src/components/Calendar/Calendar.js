@@ -18,6 +18,7 @@ const Style = `
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin: 3rem auto;
 `;
 
 const createCalendar = (year, month) => {
