@@ -1,10 +1,9 @@
-import { DataTypes, Model } from 'sequelize';
+import { Model, DataTypes } from 'sequelize';
 import { sequelize } from '../modules/database';
 // import REGEX from '../../../shared/validate';
 
-class User extends Model {}
-
-User.init(
+const User = sequelize.define(
+  'user',
   {
     id: {
       type: DataTypes.INTEGER.UNSIGNED,
@@ -35,7 +34,7 @@ User.init(
       allowNull: false,
     },
   },
-  { timestamps: true, tableName: 'user', sequelize }
+  { timestamps: true }
 );
 
 export default User;

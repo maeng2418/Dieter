@@ -1,7 +1,7 @@
 import fs from 'fs';
 import jwt from 'jsonwebtoken';
 import crypto from 'crypto';
-import { User, Time } from '../models';
+import { Users } from '../models';
 import { jwtSecret } from '../config/constants';
 import logger from '../config/logger';
 
@@ -11,7 +11,8 @@ const readData = (file) => {
 
 const createAdminUser = async (body) => {
   body.password = crypto.createHash('sha256').update(body.password).digest('base64');
-  await User.create(body);
+  console.log('hello');
+  await Users.create(body);
 
   return jwt.sign(
     {
@@ -30,8 +31,5 @@ const bulkData = async () => {
   const signupAdminUser = readData('data/user.json');
   const token = await createAdminUser(signupAdminUser);
   logger.info(`admin token: ${token}`);
-  // create Time
-  const timeData = readData('data/time.json');
-  await Time.bulkCreate(timeData);
 };
 export default bulkData;
