@@ -1,0 +1,25 @@
+2020-11-24T09:00:48.824Z [info] Express server started on port: 3000
+2020-11-24T09:00:48.831Z [info] unable to connect to the database: 127.0.0.1([object Object])(connect ECONNREFUSED 127.0.0.1:3306)
+2020-11-24T09:00:56.560Z [info] Express server started on port: 3000
+2020-11-24T09:00:56.566Z [info] unable to connect to the database: 127.0.0.1([object Object])(connect ECONNREFUSED 127.0.0.1:3306)
+2020-11-24T09:05:25.187Z [info] Express server started on port: 3000
+2020-11-24T09:05:25.193Z [info] unable to connect to the database: 127.0.0.1([object Object])(connect ECONNREFUSED 127.0.0.1:3306)
+2020-11-24T09:05:38.514Z [info] Express server started on port: 3000
+2020-11-24T09:05:38.520Z [info] unable to connect to the database: 127.0.0.1([object Object])(connect ECONNREFUSED 127.0.0.1:3306)
+2020-11-24T09:05:44.465Z [info] Express server started on port: 3000
+2020-11-24T09:05:44.471Z [info] unable to connect to the database: 127.0.0.1([object Object])(connect ECONNREFUSED 127.0.0.1:3306)
+2020-11-24T09:05:53.027Z [info] [0mGET / [33m404[0m 5.668 ms - 139[0m
+2020-11-24T09:06:11.638Z [info] Express server started on port: 3000
+2020-11-24T09:06:11.644Z [info] unable to connect to the database: 127.0.0.1([object Object])(connect ECONNREFUSED 127.0.0.1:3306)
+2020-11-24T09:06:20.216Z [info] [0mGET / [33m404[0m 4.173 ms - 139[0m
+2020-11-24T09:06:21.780Z [info] [0mGET / [33m404[0m 0.804 ms - 139[0m
+2020-11-24T09:09:36.627Z [info] Express server started on port: 3000
+2020-11-24T09:09:36.633Z [info] unable to connect to the database: 127.0.0.1([object Object])(connect ECONNREFUSED 127.0.0.1:3306)
+2020-11-24T09:09:47.403Z [error] Error: ENOENT: no such file or directory, stat '/Users/maeng/Desktop/Project/Dieter/server/client/public/index.html'
+2020-11-24T09:09:47.407Z [info] [0mGET / [33m404[0m 5.910 ms - 163[0m
+2020-11-24T09:10:06.634Z [info] Express server started on port: 3000
+2020-11-24T09:10:06.639Z [info] unable to connect to the database: 127.0.0.1([object Object])(connect ECONNREFUSED 127.0.0.1:3306)
+2020-11-24T09:10:09.714Z [info] Express server started on port: 3000
+2020-11-24T09:10:09.720Z [info] unable to connect to the database: 127.0.0.1([object Object])(connect ECONNREFUSED 127.0.0.1:3306)
+2020-11-24T09:10:10.985Z [info] [0mGET / [32m200[0m 5.521 ms - 341[0m
+2020-11-24T09:10:11.018Z [info] [0mGET /index.js [36m304[0m 1.079 ms - -[0m
