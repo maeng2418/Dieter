@@ -90,7 +90,7 @@ const onSubmitHandler = () => {
 const onLoginHandler = () => {
   const id = document.querySelector('.input-id').value;
   const pw = document.querySelector('.input-pw').value;
-  console.log('id: ' + id + ' pw: ' + pw);
+  console.log(`${process.env.API_END_POINT}:${process.env.API_PORT}`);
 };
 
 const onEventHandler = () => {
