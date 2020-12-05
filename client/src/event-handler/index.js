@@ -1,6 +1,7 @@
 import MainPage from 'pages/main';
 import CalendarPage from 'pages/calendar';
 import GraphPage from 'pages/graph';
+import LoginPage from 'pages/login';
 import { Option } from 'tags';
 import { DateList, KcalList } from 'components';
 import { getState, setState, setEvent } from '../store';
@@ -17,6 +18,8 @@ const onNavEventHandler = (page) => {
     document.querySelector('.content').innerHTML = CalendarPage();
   } else if (statePage === 'graph') {
     document.querySelector('.content').innerHTML = GraphPage();
+  } else if (statePage === 'login') {
+    document.querySelector('.content').innerHTML = LoginPage();
   }
   $currentNav.style.background = '#36cfc9';
   $currentNav.style.color = '#fff';
@@ -84,6 +87,12 @@ const onSubmitHandler = () => {
   }
 };
 
+const onLoginHandler = () => {
+  const id = document.querySelector('.input-id').value;
+  const pw = document.querySelector('.input-pw').value;
+  console.log('id: ' + id + ' pw: ' + pw);
+};
+
 const onEventHandler = () => {
   document.getElementById('root').addEventListener('click', async (e) => {
     if (e.target.closest(`.nav-btn`)) {
@@ -98,6 +107,9 @@ const onEventHandler = () => {
     } else if (e.target.closest('.submit-btn')) {
       e.preventDefault();
       onSubmitHandler();
+    } else if (e.target.closest('.login-btn')) {
+      e.preventDefault();
+      onLoginHandler();
     }
   });
 };
