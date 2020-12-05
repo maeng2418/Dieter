@@ -5,6 +5,7 @@ import LoginPage from 'pages/login';
 import { Option } from 'tags';
 import { DateList, KcalList } from 'components';
 import { getState, setState, setEvent } from '../store';
+import API from 'utils/api';
 
 // 네이비게이션 이벤트 핸들러
 const onNavEventHandler = (page) => {
@@ -87,10 +88,16 @@ const onSubmitHandler = () => {
   }
 };
 
-const onLoginHandler = () => {
-  const id = document.querySelector('.input-id').value;
-  const pw = document.querySelector('.input-pw').value;
-  console.log(`${process.env.API_END_POINT}:${process.env.API_PORT}`);
+const onLoginHandler = async () => {
+  const email = document.querySelector('.input-id').value;
+  const password = document.querySelector('.input-pw').value;
+  const data = { email, password };
+  const response = await API.post(`/users/email`, data);
+  if (response.data.result.success) {
+    onNavEventHandler('main');
+  } else {
+    alert('로그인에 실패하였습니다.');
+  }
 };
 
 const onEventHandler = () => {

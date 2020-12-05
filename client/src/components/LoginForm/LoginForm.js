@@ -34,7 +34,6 @@ export const LoginForm = (children = [], props = {}) => {
       ...props,
       class: `form ${props.class && props.class}`,
       style: `${Style} ${props.style && props.style}`,
-      onsubmit: 'return false;',
     }
   );
 };
