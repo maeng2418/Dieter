@@ -101,7 +101,7 @@ const emailSignIn = async (req, res, next) => {
       .cookie('authorization', token, {
         // 2 시간 뒤 만료
         expires: new Date(Date.now() + 120 * 60 * 1000),
-        httpOnly: true,
+        httpOnly: false,
       })
       .status(OK)
       .json({

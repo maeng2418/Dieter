@@ -1,9 +1,11 @@
 import MainPage from 'pages/main';
 import CalendarPage from 'pages/calendar';
 import GraphPage from 'pages/graph';
+import LoginPage from 'pages/login';
 import { Option } from 'tags';
 import { DateList, KcalList } from 'components';
 import { getState, setState, setEvent } from '../store';
+import API from 'utils/api';
 
 // 네이비게이션 이벤트 핸들러
 const onNavEventHandler = (page) => {
@@ -17,6 +19,8 @@ const onNavEventHandler = (page) => {
     document.querySelector('.content').innerHTML = CalendarPage();
   } else if (statePage === 'graph') {
     document.querySelector('.content').innerHTML = GraphPage();
+  } else if (statePage === 'login') {
+    document.querySelector('.content').innerHTML = LoginPage();
   }
   $currentNav.style.background = '#36cfc9';
   $currentNav.style.color = '#fff';
@@ -84,6 +88,18 @@ const onSubmitHandler = () => {
   }
 };
 
+const onLoginHandler = async () => {
+  const email = document.querySelector('.input-id').value;
+  const password = document.querySelector('.input-pw').value;
+  const data = { email, password };
+  const response = await API.post(`/users/email`, data);
+  if (response.data.result.success) {
+    onNavEventHandler('main');
+  } else {
+    alert('로그인에 실패하였습니다.');
+  }
+};
+
 const onEventHandler = () => {
   document.getElementById('root').addEventListener('click', async (e) => {
     if (e.target.closest(`.nav-btn`)) {
@@ -98,6 +114,9 @@ const onEventHandler = () => {
     } else if (e.target.closest('.submit-btn')) {
       e.preventDefault();
       onSubmitHandler();
+    } else if (e.target.closest('.login-btn')) {
+      e.preventDefault();
+      onLoginHandler();
     }
   });
 };
