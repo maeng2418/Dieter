@@ -1,4 +1,4 @@
-import { Div } from 'tags';
+import { Div, Button } from 'tags';
 import { RegisterForm, DateList } from 'components';
 
 const MainPage = () => {
@@ -12,6 +12,7 @@ const MainPage = () => {
         content: '짬뽕',
         date: '2020-11-08',
       }),
+      Button(['GET 버튼'], { class: 'get-btn' }),
     ],
     {
       class: 'main-page',

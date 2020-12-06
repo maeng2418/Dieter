@@ -1,6 +1,6 @@
-import { Model, DataTypes } from 'sequelize';
+import { DataTypes } from 'sequelize';
 import { sequelize } from '../modules/database';
-// import REGEX from '../../../shared/validate';
+import Kcal from './kcals';
 
 const User = sequelize.define(
   'user',
@@ -36,5 +36,11 @@ const User = sequelize.define(
   },
   { timestamps: true }
 );
+
+User.hasMany(Kcal, {
+  sourceKey: 'id',
+  foreignKey: { name: 'userId', allowNull: false },
+  as: 'kcals',
+});
 
 export default User;
