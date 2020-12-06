@@ -100,6 +100,11 @@ const onLoginHandler = async () => {
   }
 };
 
+const onGetHandler = async () => {
+  const response = await API.get(`/kcals`);
+  console.log(response.data);
+};
+
 const onEventHandler = () => {
   document.getElementById('root').addEventListener('click', async (e) => {
     if (e.target.closest(`.nav-btn`)) {
@@ -117,6 +122,9 @@ const onEventHandler = () => {
     } else if (e.target.closest('.login-btn')) {
       e.preventDefault();
       onLoginHandler();
+    } else if (e.target.closest('.get-btn')) {
+      e.preventDefault();
+      onGetHandler();
     }
   });
 };
