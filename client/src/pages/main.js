@@ -1,23 +1,31 @@
-import { Div, Button } from 'tags';
+import { Div } from 'tags';
 import { RegisterForm, DateList } from 'components';
+import API from 'utils/api';
 
 const MainPage = () => {
-  return Div(
-    [
-      RegisterForm(),
-      DateList([], {
-        type: 'intake',
-        category: '중식',
-        kcal: 500,
-        content: '짬뽕',
-        date: '2020-11-08',
-      }),
-      Button(['GET 버튼'], { class: 'get-btn' }),
-    ],
-    {
-      class: 'main-page',
-    }
-  );
+  return Div([RegisterForm()], {
+    class: 'main-page',
+  });
+};
+
+const onLoadData = async () => {
+  const response = await API.get(`/kcals`);
+  if (response.data.result.success) {
+    return response.data.result.kcals.reduce(
+      (acc, cur) =>
+        acc +
+        DateList([], {
+          type: cur.type,
+          category: cur.category,
+          kcal: cur.kcal,
+          content: cur.content,
+          date: cur.date,
+        }),
+      ''
+    );
+  } else {
+    return '';
+  }
 };
 
 export default MainPage;
