@@ -18,19 +18,13 @@ const findAllKcals = async (id) => {
 // 칼로리데이터 DB에 저장
 const insertKcal = async (kcalData) => {
   try {
-    const response = await Kcals.findOrCreate({
-      attributes: ['id', 'type', 'date', 'category', 'kcal', 'content', 'userId'],
-      where: {
-        userId: kcalData.userId,
-      },
-      defaults: {
-        type: kcalData.type,
-        date: kcalData.date,
-        category: kcalData.category,
-        kcal: kcalData.kcal,
-        content: kcalData.content,
-        userId: kcalData.userId,
-      },
+    const response = await Kcals.create({
+      type: kcalData.type,
+      date: kcalData.date,
+      category: kcalData.category,
+      kcal: kcalData.kcal,
+      content: kcalData.content,
+      userId: kcalData.userId,
     });
     return response;
   } catch (err) {

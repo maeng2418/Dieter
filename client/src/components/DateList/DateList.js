@@ -4,7 +4,11 @@ import { KcalList } from './KcalList';
 
 export const DateList = (children = [], props = {}) => {
   return Div(
-    [DateTitle([props.date]), KcalList([props.content, props.kcal], { type: props.type })],
+    [
+      DateTitle([props.date]),
+      KcalList([props.content, props.kcal], { type: props.type }),
+      children,
+    ],
     {
       ...props,
       id: props.date,
