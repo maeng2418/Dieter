@@ -126,11 +126,13 @@ const getDayKcal = () => {
 };
 
 const getEmoji = (kcal) => {
-  let Emoji = UnderEmoji;
-  if (kcal >= 3500) Emoji = ObesityEmoji;
-  if (kcal > 2500) Emoji = OverEmoji;
-  if (kcal > 2000) Emoji = NormalEmoji;
-  return Div([Img([], { src: Emoji, style: EmojiStyle })], { style: EmojiContainerStyle });
+  if (kcal >= 3500)
+    return Div([Img([], { src: ObesityEmoji, style: EmojiStyle })], { style: EmojiContainerStyle });
+  if (kcal > 2500)
+    return Div([Img([], { src: OverEmoji, style: EmojiStyle })], { style: EmojiContainerStyle });
+  if (kcal > 2000)
+    return Div([Img([], { src: NormalEmoji, style: EmojiStyle })], { style: EmojiContainerStyle });
+  return Div([Img([], { src: UnderEmoji, style: EmojiStyle })], { style: EmojiContainerStyle });
 };
 
 const EmojiStyle = `
