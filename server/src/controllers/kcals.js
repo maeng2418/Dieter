@@ -7,13 +7,20 @@ const insertKcal = async (req, res, next) => {
   body['userId'] = req.user.id;
 
   try {
-    await KcalService.insertKcal(body);
+    const newKcal = await KcalService.insertKcal(body);
 
     res.status(CREATED).json({
       status: CREATED,
       message: `created new kcal`,
       result: {
         success: true,
+        kcal: {
+          id: newKcal.id,
+          type: newKcal.type,
+          date: newKcal.date,
+          category: newKcal.category,
+          kcal: newKcal.kcal,
+        },
       },
     });
   } catch (err) {

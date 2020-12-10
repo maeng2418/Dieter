@@ -8,7 +8,7 @@ import { getState, setState, setEvent } from '../store';
 import API from 'utils/api';
 
 // 네이비게이션 이벤트 핸들러
-const onNavEventHandler = (page) => {
+const onNavEventHandler = async (page) => {
   window.history.pushState({ page }, null, `#${page}`);
   const statePage = window.history.state.page;
   const $currentNav = document.querySelector('.selected-page');
@@ -88,13 +88,7 @@ const onSubmitHandler = async () => {
   });
 
   if (response.data.result.success) {
-    const $dateList = document.getElementById(date);
-    if ($dateList) {
-      $dateList.innerHTML += KcalList([content, kcal], { type: type });
-    } else {
-      const $mainPage = document.querySelector('.main-page');
-      $mainPage.innerHTML += DateList([], { type, category, date, content, kcal });
-    }
+    setState('kcalData', [...getState('kcalData'), response.data.result.kcal]);
   } else {
     alert('칼로리 등록에 실패하였습니다.');
   }
@@ -106,11 +100,21 @@ const onLoginHandler = async () => {
   const data = { email, password };
   const response = await API.post(`/users/email`, data);
   if (response.data.result.success) {
+    const result = await onLoadDataHandler();
+    setState('kcalData', result);
     const $app = document.querySelector('.app');
     $app.innerHTML = Layout([MainPage()]);
   } else {
     alert('로그인에 실패하였습니다.');
   }
+};
+
+export const onLoadDataHandler = async () => {
+  const response = await API.get(`/kcals`);
+  if (response.data.result.success) {
+    return response.data.result.kcals;
+  }
+  return [];
 };
 
 const onEventHandler = () => {

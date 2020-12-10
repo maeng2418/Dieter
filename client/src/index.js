@@ -1,3 +1,5 @@
 import App from 'pages';
 
-document.getElementById('root').innerHTML = App();
+(async () => {
+  document.getElementById('root').innerHTML = await App();
+})();
