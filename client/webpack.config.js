@@ -14,6 +14,7 @@ module.exports = {
       tags: path.resolve(__dirname, './src/components/Tags'),
       pages: path.resolve(__dirname, './src/pages'),
       utils: path.resolve(__dirname, './src/utils'),
+      images: path.resolve(__dirname, './src/assets/images'),
     },
   },
   devtool: 'inline-source-map',
