@@ -1,9 +1,21 @@
 import { Form, Button, Input } from 'tags';
 import { FormItem } from 'components';
 
-export const LoginForm = (children = [], props = {}) => {
+export const SignUpForm = (children = [], props = {}) => {
   return Form(
     [
+      FormItem(
+        [
+          '이름',
+          Input([], {
+            type: 'text',
+            placeholder: '이름을 입력해주세요.',
+            style: InputStyle,
+            class: 'input-username',
+          }),
+        ],
+        { style: 'width: 100%; cursor: pointer;' }
+      ),
       FormItem(
         [
           '아이디',
@@ -28,8 +40,19 @@ export const LoginForm = (children = [], props = {}) => {
         ],
         { style: 'width: 100%; cursor: pointer;' }
       ),
-      Button(['로그인'], { style: SubmitButtonStyle, class: 'login-btn' }),
-      Button(['회원가입'], { style: SignUpButtonStyle, class: 'nav-btn', id: 'signup' }),
+      FormItem(
+        [
+          '비밀번호 확인',
+          Input([], {
+            type: 'password',
+            placeholder: '비밀번호를 입력해주세요.',
+            style: InputStyle,
+            class: 'input-ch-pw',
+          }),
+        ],
+        { style: 'width: 100%; cursor: pointer;' }
+      ),
+      Button(['회원가입'], { style: SubmitButtonStyle, class: 'signup-btn' }),
     ],
     {
       ...props,
@@ -66,17 +89,6 @@ const SubmitButtonStyle = `
   border: 2px solid #36cfc9;
   outline: none;
   margin: 2rem auto;
-  width: 100%;
-  cursor: pointer;
-`;
-
-const SignUpButtonStyle = `
-  height: 2rem;
-  background: #fff;
-  color: #36cfc9;
-  border: 2px solid #36cfc9;
-  outline: none;
-  margin: 0rem auto;
   width: 100%;
   cursor: pointer;
 `;

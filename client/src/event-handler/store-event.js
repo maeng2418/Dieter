@@ -1,5 +1,4 @@
-import { Div, KcalList, RegisterForm, Calendar, DateList } from 'components';
-import { dateDescending } from 'utils/date-sorting';
+import { Calendar } from 'components';
 
 export const onStoreDateHandler = (date) => {
   document.querySelector('.current-year-month').innerHTML = `
@@ -11,9 +10,5 @@ export const onStoreDateHandler = (date) => {
 };
 
 export const onStoreLoadDataHandler = (data) => {
-  if (location.hash === '#main') {
-    window.location.reload();
-  } else if (location.hash === '#calendar') {
-    // document.querySelector('.content');
-  }
+  window.location.reload();
 };

@@ -2,10 +2,12 @@ import MainPage from 'pages/main';
 import CalendarPage from 'pages/calendar';
 import GraphPage from 'pages/graph';
 import LoginPage from 'pages/login';
+import SignUpPage from 'pages/signup';
 import { Option } from 'tags';
 import { DateList, KcalList, Layout } from 'components';
 import { getState, setState, setEvent } from 'store';
 import API from 'utils/api';
+import { onStoreLoadDataHandler } from './store-event';
 
 // 네이비게이션 이벤트 핸들러
 const onNavEventHandler = async (page) => {
@@ -21,6 +23,10 @@ const onNavEventHandler = async (page) => {
     document.querySelector('.content').innerHTML = GraphPage();
   } else if (statePage === 'login') {
     document.querySelector('.content').innerHTML = LoginPage();
+    return;
+  } else if (statePage === 'signup') {
+    document.querySelector('.content').innerHTML = SignUpPage();
+    return;
   }
   $currentNav.style.background = '#36cfc9';
   $currentNav.style.color = '#fff';
@@ -102,6 +108,7 @@ const onLoginHandler = async () => {
   if (response.data.result.success) {
     const result = await onLoadDataHandler();
     setState('kcalData', result);
+    setEvent('kcalData', onStoreLoadDataHandler);
     const $app = document.querySelector('.app');
     $app.innerHTML = Layout([MainPage()]);
   } else {
@@ -122,9 +129,35 @@ const onSignOutHandler = () => {
   window.location.reload();
 };
 
+const onSignUpHandler = async () => {
+  const name = document.querySelector('.input-username').value;
+  const id = document.querySelector('.input-id').value;
+  const pw = document.querySelector('.input-pw').value;
+  const chPw = document.querySelector('.input-ch-pw').value;
+
+  if (pw !== chPw) {
+    alert('패스워드를 다시 확인해주세요.');
+    return;
+  }
+
+  const response = await API.post(`/users/email/signup`, {
+    username: name,
+    email: id,
+    password: pw,
+  });
+
+  if (response.data.result.token) {
+    onNavEventHandler('login');
+  } else {
+    alert('회원가입에 실패하였습니다.');
+  }
+};
+
 const onEventHandler = () => {
   document.getElementById('root').addEventListener('click', async (e) => {
-    e.preventDefault();
+    if (e.target.type !== 'date') {
+      e.preventDefault();
+    }
     if (e.target.closest(`.nav-btn`)) {
       onNavEventHandler(e.target.id);
     } else if (e.target.closest('.month-nav-btn')) {
@@ -139,6 +172,8 @@ const onEventHandler = () => {
       onGetHandler();
     } else if (e.target.closest('.signout')) {
       onSignOutHandler();
+    } else if (e.target.closest('.signup-btn')) {
+      onSignUpHandler();
     }
   });
 };

@@ -9,3 +9,4 @@ export { default as Row } from './Row';
 export { default as DateList, KcalList } from './DateList';
 export { default as Graph } from './Graph';
 export { default as LoginForm } from './LoginForm';
+export { default as SignUpForm } from './SignUpForm';
