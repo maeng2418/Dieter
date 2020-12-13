@@ -17,6 +17,9 @@ export const FormItem = (children = [], props = {}) => {
 };
 
 const Style = `
-  width: 50%;
+  width: 48%;
   margin: .5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 `;

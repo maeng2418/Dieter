@@ -1,4 +1,4 @@
-import { Form, Button, Input, Select, Option } from 'tags';
+import { Div, Form, Button, Input, Select, Option } from 'tags';
 import { FormItem, Row } from 'components';
 import { getFormatDate } from 'utils/date-format';
 
@@ -7,16 +7,21 @@ export const RegisterForm = (children = [], props = {}) => {
     [
       FormItem([
         '분류',
-        Button(['섭취'], {
-          style: ButtonStyle + isSelectedStyle,
-          class: 'type-btn intake-btn isSelected',
-          id: 'intake',
-        }),
-        Button(['소비'], {
-          style: ButtonStyle + unSelectedStyle,
-          class: 'type-btn consumption-btn',
-          id: 'consumption',
-        }),
+        Div(
+          [
+            Button(['섭취'], {
+              style: ButtonStyle + isSelectedStyle,
+              class: 'type-btn intake-btn isSelected',
+              id: 'intake',
+            }),
+            Button(['소비'], {
+              style: ButtonStyle + unSelectedStyle,
+              class: 'type-btn consumption-btn',
+              id: 'consumption',
+            }),
+          ],
+          { style: 'width: 75%;' }
+        ),
       ]),
       Row([
         FormItem([
