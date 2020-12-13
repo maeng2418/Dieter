@@ -1,0 +1,4 @@
+2020-11-29T11:20:35.088Z [info] DB migrate: false
+2020-11-29T11:20:35.163Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-11-29T11:20:35.177Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNjY0ODgzNSwiZXhwIjoxNjA2NzM1MjM1fQ.JiklxDTCggFX-hRXewZAauQYZ6EZVF3U9gB-nFLOPHY
+2020-11-29T11:20:35.178Z [info] success migrating

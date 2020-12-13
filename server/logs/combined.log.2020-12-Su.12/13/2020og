@@ -1,0 +1,1567 @@
+2020-12-13T07:59:25.850Z [info] Express server started on port: 3000
+2020-12-13T07:59:25.921Z [info] DB migrate: true
+2020-12-13T07:59:25.975Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T08:02:51.072Z [info] [0mOPTIONS /api/users/email [32m204[0m 1.288 ms - 0[0m
+2020-12-13T08:02:51.105Z [info] [0mPOST /api/users/email [32m200[0m 13.784 ms - 87[0m
+2020-12-13T08:02:51.117Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:02:51.124Z [info] [0mGET /api/kcals [36m304[0m 10.290 ms - -[0m
+2020-12-13T08:03:32.467Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:03:32.473Z [info] [0mGET /api/kcals [36m304[0m 7.999 ms - -[0m
+2020-12-13T08:03:39.720Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:03:39.724Z [info] [0mGET /api/kcals [36m304[0m 4.267 ms - -[0m
+2020-12-13T08:03:47.115Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:03:47.119Z [info] [0mGET /api/kcals [36m304[0m 4.275 ms - -[0m
+2020-12-13T08:03:57.163Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:03:57.169Z [info] [0mGET /api/kcals [36m304[0m 7.038 ms - -[0m
+2020-12-13T08:04:00.681Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:04:00.686Z [info] [0mGET /api/kcals [36m304[0m 5.675 ms - -[0m
+2020-12-13T08:04:06.929Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:04:06.933Z [info] [0mGET /api/kcals [36m304[0m 3.857 ms - -[0m
+2020-12-13T08:04:11.916Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:04:11.921Z [info] [0mGET /api/kcals [36m304[0m 5.442 ms - -[0m
+2020-12-13T08:08:06.508Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:08:06.517Z [info] [0mGET /api/kcals [36m304[0m 8.884 ms - -[0m
+2020-12-13T08:08:13.752Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:08:13.755Z [info] [0mGET /api/kcals [36m304[0m 3.897 ms - -[0m
+2020-12-13T08:08:15.203Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:08:15.208Z [info] [0mGET /api/kcals [36m304[0m 5.057 ms - -[0m
+2020-12-13T08:08:35.206Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:08:35.213Z [info] [0mGET /api/kcals [36m304[0m 6.715 ms - -[0m
+2020-12-13T08:08:54.630Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:08:54.640Z [info] [0mGET /api/kcals [36m304[0m 10.613 ms - -[0m
+2020-12-13T08:09:54.540Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:09:54.546Z [info] [0mGET /api/kcals [36m304[0m 6.094 ms - -[0m
+2020-12-13T08:09:59.034Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:09:59.037Z [info] [0mGET /api/kcals [36m304[0m 3.260 ms - -[0m
+2020-12-13T08:10:01.665Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:10:01.669Z [info] [0mGET /api/kcals [36m304[0m 4.399 ms - -[0m
+2020-12-13T08:10:43.121Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:10:43.128Z [info] [0mGET /api/kcals [36m304[0m 7.126 ms - -[0m
+2020-12-13T08:10:45.584Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:10:45.589Z [info] [0mGET /api/kcals [36m304[0m 5.049 ms - -[0m
+2020-12-13T08:10:48.812Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:10:48.816Z [info] [0mGET /api/kcals [36m304[0m 4.195 ms - -[0m
+2020-12-13T08:10:54.152Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:10:54.155Z [info] [0mGET /api/kcals [36m304[0m 3.802 ms - -[0m
+2020-12-13T08:10:58.282Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:10:58.286Z [info] [0mGET /api/kcals [36m304[0m 3.676 ms - -[0m
+2020-12-13T08:11:03.596Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:11:03.601Z [info] [0mGET /api/kcals [36m304[0m 6.656 ms - -[0m
+2020-12-13T08:11:13.239Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:11:13.242Z [info] [0mGET /api/kcals [36m304[0m 3.275 ms - -[0m
+2020-12-13T08:11:20.732Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:11:20.736Z [info] [0mGET /api/kcals [36m304[0m 4.932 ms - -[0m
+2020-12-13T08:11:30.920Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:11:30.923Z [info] [0mGET /api/kcals [36m304[0m 3.250 ms - -[0m
+2020-12-13T08:11:37.457Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:11:37.461Z [info] [0mGET /api/kcals [36m304[0m 4.975 ms - -[0m
+2020-12-13T08:11:55.623Z [info] Express server started on port: 3000
+2020-12-13T08:11:55.665Z [info] DB migrate: false
+2020-12-13T08:11:55.770Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T08:11:55.789Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzg0NzExNSwiZXhwIjoxNjA3OTMzNTE1fQ.7Yzubkc5yWy1TRoWze7CSGZmxgxDUtgii4zlli-ZWbQ
+2020-12-13T08:11:55.789Z [info] success migrating
+2020-12-13T08:11:58.895Z [info] Express server started on port: 3000
+2020-12-13T08:11:58.925Z [info] DB migrate: true
+2020-12-13T08:11:58.936Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T08:26:48.182Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:26:48.201Z [info] [0mGET /api/kcals [32m200[0m 22.649 ms - 75[0m
+2020-12-13T08:26:59.181Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:26:59.186Z [info] [0mGET /api/kcals [36m304[0m 5.500 ms - -[0m
+2020-12-13T08:27:04.188Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:27:04.191Z [info] [0mGET /api/kcals [36m304[0m 2.738 ms - -[0m
+2020-12-13T08:27:08.505Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:27:08.509Z [info] [0mGET /api/kcals [36m304[0m 4.339 ms - -[0m
+2020-12-13T08:27:10.021Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:27:10.024Z [info] [0mGET /api/kcals [36m304[0m 4.081 ms - -[0m
+2020-12-13T08:27:35.648Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:27:35.653Z [info] [0mGET /api/kcals [36m304[0m 5.481 ms - -[0m
+2020-12-13T08:27:41.670Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:27:41.674Z [info] [0mGET /api/kcals [36m304[0m 3.484 ms - -[0m
+2020-12-13T08:30:25.848Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:30:25.856Z [info] [0mGET /api/kcals [36m304[0m 8.409 ms - -[0m
+2020-12-13T08:30:41.783Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:30:41.787Z [info] [0mGET /api/kcals [36m304[0m 4.343 ms - -[0m
+2020-12-13T08:31:05.699Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:31:05.704Z [info] [0mGET /api/kcals [36m304[0m 5.176 ms - -[0m
+2020-12-13T08:45:53.103Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:45:53.108Z [info] [0mGET /api/kcals [36m304[0m 4.900 ms - -[0m
+2020-12-13T08:45:56.061Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:45:56.063Z [info] [0mGET /api/kcals [36m304[0m 2.420 ms - -[0m
+2020-12-13T08:45:58.593Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:45:58.596Z [info] [0mGET /api/kcals [36m304[0m 4.256 ms - -[0m
+2020-12-13T08:46:00.554Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:46:00.556Z [info] [0mGET /api/kcals [36m304[0m 2.288 ms - -[0m
+2020-12-13T08:46:02.222Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:46:02.224Z [info] [0mGET /api/kcals [36m304[0m 3.287 ms - -[0m
+2020-12-13T08:46:05.715Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:46:05.718Z [info] [0mGET /api/kcals [36m304[0m 3.160 ms - -[0m
+2020-12-13T08:50:50.817Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:50:50.821Z [info] [0mGET /api/kcals [36m304[0m 3.948 ms - -[0m
+2020-12-13T08:50:57.505Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:50:57.507Z [info] [0mGET /api/kcals [36m304[0m 2.717 ms - -[0m
+2020-12-13T08:51:00.398Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:51:00.401Z [info] [0mGET /api/kcals [36m304[0m 2.375 ms - -[0m
+2020-12-13T08:51:17.020Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:51:17.024Z [info] [0mGET /api/kcals [36m304[0m 4.709 ms - -[0m
+2020-12-13T08:51:29.748Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:51:29.753Z [info] [0mGET /api/kcals [36m304[0m 4.756 ms - -[0m
+2020-12-13T08:51:33.721Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:51:33.724Z [info] [0mGET /api/kcals [36m304[0m 4.209 ms - -[0m
+2020-12-13T08:51:41.267Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:51:41.270Z [info] [0mGET /api/kcals [36m304[0m 3.198 ms - -[0m
+2020-12-13T08:53:30.434Z [info] Express server started on port: 3000
+2020-12-13T08:53:30.464Z [info] DB migrate: true
+2020-12-13T08:53:30.476Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T08:57:12.623Z [info] Express server started on port: 3000
+2020-12-13T08:57:12.654Z [info] DB migrate: true
+2020-12-13T08:57:12.666Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T08:57:14.852Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:57:14.862Z [info] [0mGET /api/kcals [36m304[0m 12.602 ms - -[0m
+2020-12-13T08:57:28.818Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:57:28.827Z [info] [0mGET /api/kcals [36m304[0m 9.635 ms - -[0m
+2020-12-13T08:58:37.076Z [info] [0mOPTIONS /api/kcals [32m204[0m 0.377 ms - 0[0m
+2020-12-13T08:58:37.094Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:58:37.106Z [info] [0mPOST /api/kcals [32m201[0m 11.974 ms - 152[0m
+2020-12-13T08:58:37.294Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:58:37.300Z [info] [0mGET /api/kcals [32m200[0m 5.744 ms - 175[0m
+2020-12-13T08:58:43.946Z [info] [0mOPTIONS /api/kcals [32m204[0m 0.147 ms - 0[0m
+2020-12-13T08:58:43.951Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:58:43.955Z [info] [0mPOST /api/kcals [32m201[0m 4.235 ms - 152[0m
+2020-12-13T08:58:44.123Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:58:44.126Z [info] [0mGET /api/kcals [32m200[0m 3.841 ms - 276[0m
+2020-12-13T08:58:50.555Z [info] [0mOPTIONS /api/kcals [32m204[0m 0.171 ms - 0[0m
+2020-12-13T08:58:50.560Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:58:50.563Z [info] [0mPOST /api/kcals [32m201[0m 3.494 ms - 155[0m
+2020-12-13T08:58:50.737Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T08:58:50.743Z [info] [0mGET /api/kcals [32m200[0m 5.622 ms - 380[0m
+2020-12-13T09:00:02.606Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:00:02.613Z [info] [0mGET /api/kcals [36m304[0m 6.949 ms - -[0m
+2020-12-13T09:02:34.902Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:02:34.910Z [info] [0mGET /api/kcals [36m304[0m 7.861 ms - -[0m
+2020-12-13T09:02:52.910Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:02:52.914Z [info] [0mGET /api/kcals [36m304[0m 4.088 ms - -[0m
+2020-12-13T09:02:54.998Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:02:55.001Z [info] [0mGET /api/kcals [36m304[0m 3.989 ms - -[0m
+2020-12-13T09:03:51.549Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:03:51.562Z [info] [0mGET /api/kcals [36m304[0m 12.700 ms - -[0m
+2020-12-13T09:03:54.288Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:03:54.291Z [info] [0mGET /api/kcals [36m304[0m 3.397 ms - -[0m
+2020-12-13T09:04:11.448Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:04:11.458Z [info] [0mGET /api/kcals [36m304[0m 11.571 ms - -[0m
+2020-12-13T09:04:12.959Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:04:12.962Z [info] [0mGET /api/kcals [36m304[0m 2.807 ms - -[0m
+2020-12-13T09:04:15.405Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:04:15.407Z [info] [0mGET /api/kcals [36m304[0m 3.674 ms - -[0m
+2020-12-13T09:04:35.565Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:04:35.570Z [info] [0mGET /api/kcals [36m304[0m 5.984 ms - -[0m
+2020-12-13T09:04:39.844Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:04:39.847Z [info] [0mGET /api/kcals [36m304[0m 2.414 ms - -[0m
+2020-12-13T09:04:58.898Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:04:58.904Z [info] [0mGET /api/kcals [36m304[0m 6.766 ms - -[0m
+2020-12-13T09:05:05.919Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:05:05.922Z [info] [0mGET /api/kcals [36m304[0m 2.650 ms - -[0m
+2020-12-13T09:05:07.234Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:05:07.237Z [info] [0mGET /api/kcals [36m304[0m 3.474 ms - -[0m
+2020-12-13T09:05:27.453Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:05:27.458Z [info] [0mGET /api/kcals [36m304[0m 7.095 ms - -[0m
+2020-12-13T09:05:32.775Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:05:32.778Z [info] [0mGET /api/kcals [36m304[0m 2.905 ms - -[0m
+2020-12-13T09:05:38.365Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:05:38.368Z [info] [0mGET /api/kcals [36m304[0m 2.955 ms - -[0m
+2020-12-13T09:05:46.037Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:05:46.041Z [info] [0mGET /api/kcals [36m304[0m 4.125 ms - -[0m
+2020-12-13T09:05:47.547Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:05:47.551Z [info] [0mGET /api/kcals [36m304[0m 4.720 ms - -[0m
+2020-12-13T09:05:50.207Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:05:50.209Z [info] [0mGET /api/kcals [36m304[0m 3.153 ms - -[0m
+2020-12-13T09:07:11.786Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:07:11.794Z [info] [0mGET /api/kcals [36m304[0m 8.080 ms - -[0m
+2020-12-13T09:07:16.839Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:07:16.843Z [info] [0mGET /api/kcals [36m304[0m 3.556 ms - -[0m
+2020-12-13T09:07:46.136Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:07:46.142Z [info] [0mGET /api/kcals [36m304[0m 6.354 ms - -[0m
+2020-12-13T09:07:51.334Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:07:51.337Z [info] [0mGET /api/kcals [36m304[0m 3.970 ms - -[0m
+2020-12-13T09:07:56.223Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:07:56.226Z [info] [0mGET /api/kcals [36m304[0m 3.734 ms - -[0m
+2020-12-13T09:08:04.472Z [info] Express server started on port: 3000
+2020-12-13T09:08:04.503Z [info] DB migrate: true
+2020-12-13T09:08:04.515Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T09:08:07.059Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:08:07.070Z [info] [0mGET /api/kcals [36m304[0m 14.235 ms - -[0m
+2020-12-13T09:08:16.638Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:08:16.642Z [info] [0mGET /api/kcals [36m304[0m 4.214 ms - -[0m
+2020-12-13T09:08:18.546Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:08:18.549Z [info] [0mGET /api/kcals [36m304[0m 3.501 ms - -[0m
+2020-12-13T09:08:23.110Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:08:23.114Z [info] [0mGET /api/kcals [36m304[0m 4.946 ms - -[0m
+2020-12-13T09:08:28.544Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:08:28.548Z [info] [0mGET /api/kcals [36m304[0m 3.794 ms - -[0m
+2020-12-13T09:08:29.577Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:08:29.581Z [info] [0mGET /api/kcals [36m304[0m 5.190 ms - -[0m
+2020-12-13T09:08:53.759Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:08:53.767Z [info] [0mGET /api/kcals [36m304[0m 7.958 ms - -[0m
+2020-12-13T09:08:56.024Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:08:56.027Z [info] [0mGET /api/kcals [36m304[0m 3.554 ms - -[0m
+2020-12-13T09:09:26.841Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:09:26.845Z [info] [0mGET /api/kcals [36m304[0m 4.624 ms - -[0m
+2020-12-13T09:09:51.728Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:09:51.735Z [info] [0mGET /api/kcals [36m304[0m 7.063 ms - -[0m
+2020-12-13T09:12:45.266Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:12:45.273Z [info] [0mGET /api/kcals [36m304[0m 7.830 ms - -[0m
+2020-12-13T09:13:00.539Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:13:00.545Z [info] [0mGET /api/kcals [36m304[0m 6.471 ms - -[0m
+2020-12-13T09:13:04.287Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:13:04.290Z [info] [0mGET /api/kcals [36m304[0m 4.317 ms - -[0m
+2020-12-13T09:13:06.188Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:13:06.190Z [info] [0mGET /api/kcals [36m304[0m 2.579 ms - -[0m
+2020-12-13T09:13:07.089Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:13:07.092Z [info] [0mGET /api/kcals [36m304[0m 3.240 ms - -[0m
+2020-12-13T09:13:15.695Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:13:15.697Z [info] [0mGET /api/kcals [36m304[0m 3.181 ms - -[0m
+2020-12-13T09:13:27.367Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:13:27.372Z [info] [0mGET /api/kcals [36m304[0m 5.490 ms - -[0m
+2020-12-13T09:13:36.518Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:13:36.521Z [info] [0mGET /api/kcals [36m304[0m 2.687 ms - -[0m
+2020-12-13T09:13:53.356Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:13:53.366Z [info] [0mGET /api/kcals [36m304[0m 10.518 ms - -[0m
+2020-12-13T09:16:40.430Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:16:40.434Z [info] [0mGET /api/kcals [36m304[0m 4.325 ms - -[0m
+2020-12-13T09:16:54.195Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:16:54.200Z [info] [0mGET /api/kcals [36m304[0m 5.320 ms - -[0m
+2020-12-13T09:17:01.377Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:17:01.382Z [info] [0mGET /api/kcals [36m304[0m 4.616 ms - -[0m
+2020-12-13T09:19:17.349Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:19:17.354Z [info] [0mGET /api/kcals [36m304[0m 5.649 ms - -[0m
+2020-12-13T09:19:24.547Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:19:24.550Z [info] [0mGET /api/kcals [36m304[0m 2.678 ms - -[0m
+2020-12-13T09:19:30.945Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:19:30.948Z [info] [0mGET /api/kcals [36m304[0m 3.331 ms - -[0m
+2020-12-13T09:19:38.704Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:19:38.706Z [info] [0mGET /api/kcals [36m304[0m 2.778 ms - -[0m
+2020-12-13T09:20:57.847Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:20:57.853Z [info] [0mGET /api/kcals [36m304[0m 6.450 ms - -[0m
+2020-12-13T09:21:32.788Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:21:32.795Z [info] [0mGET /api/kcals [36m304[0m 7.835 ms - -[0m
+2020-12-13T09:21:39.809Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:21:39.811Z [info] [0mGET /api/kcals [36m304[0m 2.522 ms - -[0m
+2020-12-13T09:22:45.738Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:22:45.743Z [info] [0mGET /api/kcals [36m304[0m 4.810 ms - -[0m
+2020-12-13T09:22:53.049Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:22:53.052Z [info] [0mGET /api/kcals [36m304[0m 5.530 ms - -[0m
+2020-12-13T09:22:55.201Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:22:55.204Z [info] [0mGET /api/kcals [36m304[0m 2.910 ms - -[0m
+2020-12-13T09:23:08.631Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:23:08.636Z [info] [0mGET /api/kcals [36m304[0m 5.175 ms - -[0m
+2020-12-13T09:23:09.967Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:23:09.970Z [info] [0mGET /api/kcals [36m304[0m 3.405 ms - -[0m
+2020-12-13T09:23:13.246Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:23:13.249Z [info] [0mGET /api/kcals [36m304[0m 3.254 ms - -[0m
+2020-12-13T09:23:18.408Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:23:18.411Z [info] [0mGET /api/kcals [36m304[0m 3.388 ms - -[0m
+2020-12-13T09:23:22.300Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:23:22.303Z [info] [0mGET /api/kcals [36m304[0m 4.227 ms - -[0m
+2020-12-13T09:23:33.597Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:23:33.602Z [info] [0mGET /api/kcals [36m304[0m 5.447 ms - -[0m
+2020-12-13T09:23:36.995Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:23:36.997Z [info] [0mGET /api/kcals [36m304[0m 3.134 ms - -[0m
+2020-12-13T09:23:42.614Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:23:42.617Z [info] [0mGET /api/kcals [36m304[0m 3.869 ms - -[0m
+2020-12-13T09:23:45.781Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:23:45.783Z [info] [0mGET /api/kcals [36m304[0m 2.395 ms - -[0m
+2020-12-13T09:24:38.394Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:24:38.398Z [info] [0mGET /api/kcals [36m304[0m 4.668 ms - -[0m
+2020-12-13T09:24:40.911Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:24:40.913Z [info] [0mGET /api/kcals [36m304[0m 2.694 ms - -[0m
+2020-12-13T09:25:11.280Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:25:11.284Z [info] [0mGET /api/kcals [36m304[0m 4.171 ms - -[0m
+2020-12-13T09:25:14.372Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:25:14.375Z [info] [0mGET /api/kcals [36m304[0m 3.200 ms - -[0m
+2020-12-13T09:26:31.812Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:26:31.819Z [info] [0mGET /api/kcals [36m304[0m 6.076 ms - -[0m
+2020-12-13T09:26:58.647Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:26:58.652Z [info] [0mGET /api/kcals [36m304[0m 6.136 ms - -[0m
+2020-12-13T09:27:01.385Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:27:01.388Z [info] [0mGET /api/kcals [36m304[0m 3.906 ms - -[0m
+2020-12-13T09:27:05.328Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:27:05.332Z [info] [0mGET /api/kcals [36m304[0m 4.568 ms - -[0m
+2020-12-13T09:36:10.009Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:36:10.016Z [info] [0mGET /api/kcals [36m304[0m 7.366 ms - -[0m
+2020-12-13T09:36:16.621Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:36:16.623Z [info] [0mGET /api/kcals [36m304[0m 3.010 ms - -[0m
+2020-12-13T09:36:21.905Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:36:21.908Z [info] [0mGET /api/kcals [36m304[0m 4.185 ms - -[0m
+2020-12-13T09:36:31.574Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:36:31.577Z [info] [0mGET /api/kcals [36m304[0m 3.643 ms - -[0m
+2020-12-13T09:36:39.360Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:36:39.364Z [info] [0mGET /api/kcals [36m304[0m 4.016 ms - -[0m
+2020-12-13T09:36:45.856Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:36:45.858Z [info] [0mGET /api/kcals [36m304[0m 3.199 ms - -[0m
+2020-12-13T09:36:47.831Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:36:47.834Z [info] [0mGET /api/kcals [36m304[0m 2.793 ms - -[0m
+2020-12-13T09:36:57.390Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:36:57.393Z [info] [0mGET /api/kcals [36m304[0m 3.063 ms - -[0m
+2020-12-13T09:38:20.493Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:38:20.498Z [info] [0mGET /api/kcals [36m304[0m 4.877 ms - -[0m
+2020-12-13T09:38:36.225Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:38:36.232Z [info] [0mGET /api/kcals [36m304[0m 7.300 ms - -[0m
+2020-12-13T09:55:14.744Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:55:14.749Z [info] [0mGET /api/kcals [36m304[0m 5.735 ms - -[0m
+2020-12-13T09:55:17.542Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:55:17.545Z [info] [0mGET /api/kcals [36m304[0m 2.991 ms - -[0m
+2020-12-13T09:55:22.767Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:55:22.773Z [info] [0mGET /api/kcals [36m304[0m 6.580 ms - -[0m
+2020-12-13T09:55:24.154Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:55:24.156Z [info] [0mGET /api/kcals [36m304[0m 2.748 ms - -[0m
+2020-12-13T09:55:26.945Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:55:26.949Z [info] [0mGET /api/kcals [36m304[0m 6.352 ms - -[0m
+2020-12-13T09:55:29.267Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:55:29.271Z [info] [0mGET /api/kcals [36m304[0m 4.771 ms - -[0m
+2020-12-13T09:55:38.565Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:55:38.567Z [info] [0mGET /api/kcals [36m304[0m 3.307 ms - -[0m
+2020-12-13T09:55:40.690Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:55:40.692Z [info] [0mGET /api/kcals [36m304[0m 2.890 ms - -[0m
+2020-12-13T09:55:45.759Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:55:45.763Z [info] [0mGET /api/kcals [36m304[0m 4.871 ms - -[0m
+2020-12-13T09:55:50.054Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:55:50.057Z [info] [0mGET /api/kcals [36m304[0m 4.206 ms - -[0m
+2020-12-13T09:56:09.184Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:56:09.191Z [info] [0mGET /api/kcals [36m304[0m 7.768 ms - -[0m
+2020-12-13T09:56:13.445Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:56:13.447Z [info] [0mGET /api/kcals [36m304[0m 2.280 ms - -[0m
+2020-12-13T09:56:24.140Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:56:24.142Z [info] [0mGET /api/kcals [36m304[0m 2.806 ms - -[0m
+2020-12-13T09:56:41.168Z [info] Express server started on port: 3000
+2020-12-13T09:56:41.202Z [info] DB migrate: true
+2020-12-13T09:56:41.220Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T09:56:44.738Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:56:44.751Z [info] [0mGET /api/kcals [36m304[0m 15.841 ms - -[0m
+2020-12-13T09:57:04.560Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:57:04.569Z [info] [0mGET /api/kcals [32m200[0m 9.083 ms - 75[0m
+2020-12-13T09:57:10.655Z [info] [0mOPTIONS /api/kcals [32m204[0m 0.431 ms - 0[0m
+2020-12-13T09:57:10.672Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:57:10.681Z [info] [0mPOST /api/kcals [32m201[0m 10.382 ms - 152[0m
+2020-12-13T09:57:16.675Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:57:16.679Z [info] [0mGET /api/kcals [32m200[0m 5.045 ms - 175[0m
+2020-12-13T09:57:22.979Z [info] [0mOPTIONS /api/kcals [32m204[0m 0.162 ms - 0[0m
+2020-12-13T09:57:22.983Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:57:22.989Z [info] [0mPOST /api/kcals [32m201[0m 5.541 ms - 152[0m
+2020-12-13T09:57:28.262Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:57:28.265Z [info] [0mGET /api/kcals [32m200[0m 3.518 ms - 276[0m
+2020-12-13T09:57:39.701Z [info] Express server started on port: 3000
+2020-12-13T09:57:39.735Z [info] DB migrate: true
+2020-12-13T09:57:39.748Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T09:57:45.100Z [info] [0mGET / [36m304[0m 3.212 ms - -[0m
+2020-12-13T09:57:45.120Z [info] [0mGET /index.js [32m200[0m 1.919 ms - 608399[0m
+2020-12-13T09:57:45.845Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:57:45.856Z [info] [0mGET /api/kcals [36m304[0m 15.456 ms - -[0m
+2020-12-13T09:57:45.865Z [info] [0mGET /favicon.ico [36m304[0m 2.582 ms - -[0m
+2020-12-13T09:57:47.005Z [info] [0mGET / [36m304[0m 0.574 ms - -[0m
+2020-12-13T09:57:47.050Z [info] [0mGET /index.js [36m304[0m 0.897 ms - -[0m
+2020-12-13T09:57:47.060Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:57:47.065Z [info] [0mGET /api/kcals [36m304[0m 5.500 ms - -[0m
+2020-12-13T09:57:47.106Z [info] [0mGET /favicon.ico [32m200[0m 1.979 ms - 341[0m
+2020-12-13T09:57:53.836Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:57:53.847Z [info] [0mPOST /api/kcals [32m201[0m 11.298 ms - 152[0m
+2020-12-13T09:57:54.991Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:57:54.995Z [info] [0mPOST /api/kcals [32m201[0m 3.888 ms - 152[0m
+2020-12-13T09:58:36.934Z [info] [0mGET / [36m304[0m 0.693 ms - -[0m
+2020-12-13T09:58:37.021Z [info] [0mGET /index.js [36m304[0m 0.526 ms - -[0m
+2020-12-13T09:58:37.051Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:58:37.060Z [info] [0mGET /api/kcals [32m200[0m 9.396 ms - 480[0m
+2020-12-13T09:58:37.069Z [info] [0mGET /favicon.ico [32m200[0m 1.187 ms - 341[0m
+2020-12-13T09:58:39.536Z [info] [0mGET /favicon.ico [36m304[0m 0.721 ms - -[0m
+2020-12-13T09:58:42.867Z [info] [0mGET /favicon.ico [36m304[0m 0.585 ms - -[0m
+2020-12-13T09:58:53.029Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:58:53.036Z [info] [0mPOST /api/kcals [32m201[0m 6.901 ms - 152[0m
+2020-12-13T09:58:53.065Z [info] [0mGET / [36m304[0m 0.528 ms - -[0m
+2020-12-13T09:58:53.113Z [info] [0mGET /index.js [36m304[0m 0.499 ms - -[0m
+2020-12-13T09:58:53.136Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:58:53.139Z [info] [0mGET /api/kcals [32m200[0m 3.716 ms - 582[0m
+2020-12-13T09:58:53.145Z [info] [0mGET /favicon.ico [32m200[0m 2.559 ms - 341[0m
+2020-12-13T09:58:55.037Z [info] [0mGET /favicon.ico [36m304[0m 0.848 ms - -[0m
+2020-12-13T09:58:55.038Z [info] [0mGET /21d53fc8c1d6f370f26f3322f43aa670.svg [32m200[0m 2.219 ms - 7290[0m
+2020-12-13T09:58:56.023Z [info] [0mGET /favicon.ico [36m304[0m 0.745 ms - -[0m
+2020-12-13T09:59:18.200Z [info] [0mGET / [36m304[0m 0.493 ms - -[0m
+2020-12-13T09:59:18.245Z [info] [0mGET /index.js [36m304[0m 0.532 ms - -[0m
+2020-12-13T09:59:18.257Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:59:18.265Z [info] [0mGET /api/kcals [36m304[0m 7.926 ms - -[0m
+2020-12-13T09:59:18.286Z [info] [0mGET /favicon.ico [32m200[0m 1.535 ms - 341[0m
+2020-12-13T09:59:35.790Z [info] Express server started on port: 3000
+2020-12-13T09:59:35.818Z [info] DB migrate: true
+2020-12-13T09:59:35.832Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T09:59:37.626Z [info] [0mGET /favicon.ico [36m304[0m 4.258 ms - -[0m
+2020-12-13T09:59:37.627Z [info] [0mGET /21d53fc8c1d6f370f26f3322f43aa670.svg [36m304[0m 3.573 ms - -[0m
+2020-12-13T09:59:38.192Z [info] [0mGET /favicon.ico [36m304[0m 1.617 ms - -[0m
+2020-12-13T09:59:40.284Z [info] [0mGET / [36m304[0m 0.841 ms - -[0m
+2020-12-13T09:59:40.391Z [info] [0mGET /index.js [32m200[0m 2.368 ms - 608402[0m
+2020-12-13T09:59:40.440Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T09:59:40.452Z [info] [0mGET /api/kcals [36m304[0m 15.209 ms - -[0m
+2020-12-13T09:59:40.455Z [info] [0mGET /favicon.ico [32m200[0m 7.380 ms - 341[0m
+2020-12-13T10:00:04.384Z [info] [0mGET /favicon.ico [36m304[0m 0.772 ms - -[0m
+2020-12-13T10:00:14.446Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T10:00:14.459Z [info] [0mPOST /api/kcals [32m201[0m 13.562 ms - 152[0m
+2020-12-13T10:00:14.491Z [info] [0mGET / [36m304[0m 0.545 ms - -[0m
+2020-12-13T10:00:14.542Z [info] [0mGET /index.js [36m304[0m 0.471 ms - -[0m
+2020-12-13T10:00:14.578Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T10:00:14.582Z [info] [0mGET /api/kcals [32m200[0m 3.879 ms - 684[0m
+2020-12-13T10:00:14.608Z [info] [0mGET /favicon.ico [32m200[0m 1.117 ms - 341[0m
+2020-12-13T10:00:16.031Z [info] [0mGET /favicon.ico [36m304[0m 0.831 ms - -[0m
+2020-12-13T10:00:16.032Z [info] [0mGET /21d53fc8c1d6f370f26f3322f43aa670.svg [32m200[0m 2.212 ms - 7290[0m
+2020-12-13T10:00:18.200Z [info] [0mGET /favicon.ico [36m304[0m 0.580 ms - -[0m
+2020-12-13T10:01:23.390Z [info] [0mGET / [36m304[0m 0.512 ms - -[0m
+2020-12-13T10:01:23.480Z [info] [0mGET /index.js [36m304[0m 0.418 ms - -[0m
+2020-12-13T10:01:23.526Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T10:01:23.529Z [info] [0mGET /favicon.ico [32m200[0m 1.222 ms - 341[0m
+2020-12-13T10:01:23.533Z [info] [0mGET /api/kcals [36m304[0m 7.612 ms - -[0m
+2020-12-13T10:01:27.914Z [info] Express server started on port: 3000
+2020-12-13T10:01:27.941Z [info] DB migrate: true
+2020-12-13T10:01:27.953Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T10:01:30.468Z [info] [0mGET /21d53fc8c1d6f370f26f3322f43aa670.svg [36m304[0m 2.936 ms - -[0m
+2020-12-13T10:01:30.471Z [info] [0mGET /favicon.ico [36m304[0m 1.659 ms - -[0m
+2020-12-13T10:01:31.535Z [info] [0mGET /favicon.ico [36m304[0m 0.726 ms - -[0m
+2020-12-13T10:01:45.002Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T10:01:45.017Z [info] [0mPOST /api/kcals [32m201[0m 17.424 ms - 153[0m
+2020-12-13T10:01:45.057Z [info] [0mGET / [36m304[0m 1.680 ms - -[0m
+2020-12-13T10:01:45.113Z [info] [0mGET /index.js [32m200[0m 2.177 ms - 608498[0m
+2020-12-13T10:01:45.166Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T10:01:45.178Z [info] [0mGET /api/kcals [32m200[0m 11.220 ms - 787[0m
+2020-12-13T10:01:45.179Z [info] [0mGET /favicon.ico [32m200[0m 5.414 ms - 341[0m
+2020-12-13T10:01:48.856Z [info] [0mGET /favicon.ico [36m304[0m 1.207 ms - -[0m
+2020-12-13T10:01:48.857Z [info] [0mGET /21d53fc8c1d6f370f26f3322f43aa670.svg [32m200[0m 3.300 ms - 7290[0m
+2020-12-13T10:01:49.388Z [info] [0mGET /favicon.ico [36m304[0m 0.748 ms - -[0m
+2020-12-13T10:05:43.702Z [info] [0mGET / [36m304[0m 0.502 ms - -[0m
+2020-12-13T10:05:43.794Z [info] [0mGET /index.js [36m304[0m 0.427 ms - -[0m
+2020-12-13T10:05:43.859Z [info] [0mGET /favicon.ico [32m200[0m 0.746 ms - 341[0m
+2020-12-13T10:05:51.867Z [info] [0mPOST /api/users/email [32m200[0m 11.382 ms - 87[0m
+2020-12-13T10:05:51.878Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T10:05:51.881Z [info] [0mGET /api/kcals [36m304[0m 3.685 ms - -[0m
+2020-12-13T10:05:57.459Z [info] Express server started on port: 3000
+2020-12-13T10:05:57.485Z [info] DB migrate: true
+2020-12-13T10:05:57.497Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T10:06:40.526Z [info] [0mGET / [36m304[0m 3.847 ms - -[0m
+2020-12-13T10:06:40.584Z [info] [0mGET /index.js [32m200[0m 2.176 ms - 608703[0m
+2020-12-13T10:06:40.634Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T10:06:40.642Z [info] [0mGET /favicon.ico [32m200[0m 2.291 ms - 341[0m
+2020-12-13T10:06:40.651Z [info] [0mGET /api/kcals [36m304[0m 21.325 ms - -[0m
+2020-12-13T10:07:38.981Z [info] Express server started on port: 3000
+2020-12-13T10:07:39.009Z [info] DB migrate: true
+2020-12-13T10:07:39.023Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T10:07:41.036Z [info] [0mGET / [36m304[0m 3.262 ms - -[0m
+2020-12-13T10:07:41.123Z [info] [0mGET /index.js [36m304[0m 0.488 ms - -[0m
+2020-12-13T10:07:41.158Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T10:07:41.172Z [info] [0mGET /api/kcals [36m304[0m 16.766 ms - -[0m
+2020-12-13T10:07:41.204Z [info] [0mGET /favicon.ico [32m200[0m 7.948 ms - 341[0m
+2020-12-13T10:13:58.581Z [info] Express server started on port: 3000
+2020-12-13T10:13:58.608Z [info] DB migrate: true
+2020-12-13T10:13:58.623Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T10:14:20.321Z [info] Express server started on port: 3000
+2020-12-13T10:14:20.349Z [info] DB migrate: true
+2020-12-13T10:14:20.363Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T10:14:39.406Z [info] [0mGET /favicon.ico [36m304[0m 5.836 ms - -[0m
+2020-12-13T10:14:39.410Z [info] [0mGET /21d53fc8c1d6f370f26f3322f43aa670.svg [32m200[0m 6.099 ms - 7290[0m
+2020-12-13T10:14:40.527Z [info] [0mGET /favicon.ico [36m304[0m 0.856 ms - -[0m
+2020-12-13T10:14:42.408Z [info] [0mGET / [36m304[0m 0.651 ms - -[0m
+2020-12-13T10:14:42.509Z [info] [0mGET /index.js [32m200[0m 0.664 ms - 608525[0m
+2020-12-13T10:14:42.566Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T10:14:42.581Z [info] [0mGET /api/kcals [36m304[0m 16.465 ms - -[0m
+2020-12-13T10:14:42.611Z [info] [0mGET /favicon.ico [32m200[0m 1.613 ms - 341[0m
+2020-12-13T10:14:47.820Z [info] [0mGET /favicon.ico [36m304[0m 1.150 ms - -[0m
+2020-12-13T10:14:47.821Z [info] [0mGET /21d53fc8c1d6f370f26f3322f43aa670.svg [36m304[0m 1.183 ms - -[0m
+2020-12-13T10:14:48.406Z [info] [0mGET /favicon.ico [36m304[0m 0.934 ms - -[0m
+2020-12-13T10:17:28.628Z [info] Express server started on port: 3000
+2020-12-13T10:17:28.660Z [info] DB migrate: true
+2020-12-13T10:17:28.673Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T10:17:31.525Z [info] [0mGET / [36m304[0m 3.129 ms - -[0m
+2020-12-13T10:17:31.574Z [info] [0mGET /index.js [36m304[0m 0.495 ms - -[0m
+2020-12-13T10:17:31.614Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T10:17:31.623Z [info] [0mGET /api/kcals [36m304[0m 12.038 ms - -[0m
+2020-12-13T10:17:31.671Z [info] [0mGET /favicon.ico [32m200[0m 3.557 ms - 341[0m
+2020-12-13T10:18:36.065Z [info] Express server started on port: 3000
+2020-12-13T10:18:36.092Z [info] DB migrate: true
+2020-12-13T10:18:36.106Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T10:40:40.946Z [info] [0mGET / [36m304[0m 4.223 ms - -[0m
+2020-12-13T10:40:41.038Z [info] [0mGET /index.js [32m200[0m 2.674 ms - 608783[0m
+2020-12-13T10:40:41.093Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T10:40:41.113Z [info] [0mGET /api/kcals [36m304[0m 24.124 ms - -[0m
+2020-12-13T10:40:41.135Z [info] [0mGET /favicon.ico [32m200[0m 1.988 ms - 341[0m
+2020-12-13T10:50:40.287Z [info] Express server started on port: 3000
+2020-12-13T10:50:40.319Z [info] DB migrate: true
+2020-12-13T10:50:40.333Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T10:50:42.670Z [info] [0mGET / [36m304[0m 3.597 ms - -[0m
+2020-12-13T10:50:42.752Z [info] [0mGET /index.js [32m200[0m 2.433 ms - 608783[0m
+2020-12-13T10:50:42.804Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T10:50:42.816Z [info] [0mGET /api/kcals [36m304[0m 14.165 ms - -[0m
+2020-12-13T10:50:42.855Z [info] [0mGET /favicon.ico [32m200[0m 2.877 ms - 341[0m
+2020-12-13T10:53:29.822Z [info] Express server started on port: 3000
+2020-12-13T10:53:29.851Z [info] DB migrate: true
+2020-12-13T10:53:29.867Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T10:53:32.137Z [info] [0mGET /favicon.ico [36m304[0m 5.247 ms - -[0m
+2020-12-13T10:53:32.141Z [info] [0mGET /21d53fc8c1d6f370f26f3322f43aa670.svg [32m200[0m 6.046 ms - 7290[0m
+2020-12-13T10:53:32.803Z [info] [0mGET /favicon.ico [36m304[0m 0.623 ms - -[0m
+2020-12-13T10:53:34.507Z [info] [0mGET /favicon.ico [36m304[0m 0.670 ms - -[0m
+2020-12-13T10:53:35.290Z [info] [0mGET /favicon.ico [36m304[0m 0.695 ms - -[0m
+2020-12-13T10:53:39.144Z [info] [0mGET / [36m304[0m 0.908 ms - -[0m
+2020-12-13T10:53:39.242Z [info] [0mGET /index.js [32m200[0m 1.574 ms - 608783[0m
+2020-12-13T10:53:39.310Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T10:53:39.321Z [info] [0mGET /api/kcals [36m304[0m 12.777 ms - -[0m
+2020-12-13T10:53:39.344Z [info] [0mGET /favicon.ico [32m200[0m 1.798 ms - 341[0m
+2020-12-13T10:54:00.171Z [info] Express server started on port: 3000
+2020-12-13T10:54:00.198Z [info] DB migrate: true
+2020-12-13T10:54:00.211Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T10:54:01.607Z [info] [0mGET / [36m304[0m 3.553 ms - -[0m
+2020-12-13T10:54:01.658Z [info] [0mGET /index.js [36m304[0m 1.156 ms - -[0m
+2020-12-13T10:54:01.696Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T10:54:01.705Z [info] [0mGET /api/kcals [36m304[0m 11.028 ms - -[0m
+2020-12-13T10:54:01.750Z [info] [0mGET /favicon.ico [32m200[0m 5.308 ms - 341[0m
+2020-12-13T10:54:03.987Z [info] [0mGET /favicon.ico [36m304[0m 2.223 ms - -[0m
+2020-12-13T10:54:03.989Z [info] [0mGET /21d53fc8c1d6f370f26f3322f43aa670.svg [32m200[0m 2.545 ms - 7290[0m
+2020-12-13T10:54:04.469Z [info] [0mGET /favicon.ico [36m304[0m 0.791 ms - -[0m
+2020-12-13T10:54:06.615Z [info] [0mGET / [36m304[0m 0.446 ms - -[0m
+2020-12-13T10:54:06.678Z [info] [0mGET /index.js [32m200[0m 1.006 ms - 608783[0m
+2020-12-13T10:54:06.748Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T10:54:06.753Z [info] [0mGET /api/kcals [36m304[0m 10.240 ms - -[0m
+2020-12-13T10:54:06.793Z [info] [0mGET /favicon.ico [32m200[0m 6.143 ms - 341[0m
+2020-12-13T10:54:40.926Z [info] Express server started on port: 3000
+2020-12-13T10:54:40.955Z [info] DB migrate: true
+2020-12-13T10:54:40.969Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T10:54:56.359Z [info] [0mGET / [36m304[0m 3.920 ms - -[0m
+2020-12-13T10:54:56.461Z [info] [0mGET /index.js [32m200[0m 2.003 ms - 608788[0m
+2020-12-13T10:54:56.515Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T10:54:56.529Z [info] [0mGET /api/kcals [36m304[0m 17.161 ms - -[0m
+2020-12-13T10:54:56.552Z [info] [0mGET /favicon.ico [32m200[0m 1.728 ms - 341[0m
+2020-12-13T10:55:26.559Z [info] Express server started on port: 3000
+2020-12-13T10:55:26.589Z [info] DB migrate: true
+2020-12-13T10:55:26.609Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T10:55:42.074Z [info] [0mGET / [36m304[0m 3.575 ms - -[0m
+2020-12-13T10:55:42.159Z [info] [0mGET /index.js [32m200[0m 2.625 ms - 608783[0m
+2020-12-13T10:55:42.217Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T10:55:42.235Z [info] [0mGET /api/kcals [36m304[0m 20.876 ms - -[0m
+2020-12-13T10:55:42.267Z [info] [0mGET /favicon.ico [32m200[0m 4.921 ms - 341[0m
+2020-12-13T10:56:39.635Z [info] Express server started on port: 3000
+2020-12-13T10:56:39.662Z [info] DB migrate: true
+2020-12-13T10:56:39.675Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T10:56:47.070Z [info] [0mGET /favicon.ico [36m304[0m 4.208 ms - -[0m
+2020-12-13T10:56:47.688Z [info] [0mGET /favicon.ico [36m304[0m 0.808 ms - -[0m
+2020-12-13T10:56:52.983Z [info] [0mGET /favicon.ico [36m304[0m 2.132 ms - -[0m
+2020-12-13T10:56:52.987Z [info] [0mGET /21d53fc8c1d6f370f26f3322f43aa670.svg [32m200[0m 3.287 ms - 7290[0m
+2020-12-13T10:56:53.412Z [info] [0mGET /favicon.ico [36m304[0m 0.680 ms - -[0m
+2020-12-13T10:57:31.020Z [info] [0mGET / [36m304[0m 1.082 ms - -[0m
+2020-12-13T10:57:31.083Z [info] [0mGET /index.js [32m200[0m 0.893 ms - 608898[0m
+2020-12-13T10:57:31.148Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T10:57:31.168Z [info] [0mGET /api/kcals [36m304[0m 22.169 ms - -[0m
+2020-12-13T10:57:31.184Z [info] [0mGET /favicon.ico [32m200[0m 1.282 ms - 341[0m
+2020-12-13T10:57:54.689Z [info] Express server started on port: 3000
+2020-12-13T10:57:54.717Z [info] DB migrate: true
+2020-12-13T10:57:54.737Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T10:57:57.526Z [info] [0mGET / [36m304[0m 3.071 ms - -[0m
+2020-12-13T10:57:57.589Z [info] [0mGET /index.js [36m304[0m 0.577 ms - -[0m
+2020-12-13T10:57:57.622Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T10:57:57.630Z [info] [0mGET /api/kcals [36m304[0m 11.877 ms - -[0m
+2020-12-13T10:57:57.678Z [info] [0mGET /favicon.ico [32m200[0m 5.536 ms - 341[0m
+2020-12-13T10:57:58.479Z [info] [0mGET /favicon.ico [36m304[0m 1.748 ms - -[0m
+2020-12-13T10:57:58.481Z [info] [0mGET /21d53fc8c1d6f370f26f3322f43aa670.svg [32m200[0m 2.099 ms - 7290[0m
+2020-12-13T10:57:58.922Z [info] [0mGET /favicon.ico [36m304[0m 0.564 ms - -[0m
+2020-12-13T10:58:03.878Z [info] [0mGET / [36m304[0m 0.729 ms - -[0m
+2020-12-13T10:58:03.982Z [info] [0mGET /index.js [32m200[0m 0.788 ms - 608925[0m
+2020-12-13T10:58:04.037Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T10:58:04.041Z [info] [0mGET /api/kcals [36m304[0m 3.899 ms - -[0m
+2020-12-13T10:58:04.074Z [info] [0mGET /favicon.ico [32m200[0m 0.995 ms - 341[0m
+2020-12-13T10:58:04.571Z [info] [0mGET / [36m304[0m 0.484 ms - -[0m
+2020-12-13T10:58:04.622Z [info] [0mGET /index.js [36m304[0m 0.462 ms - -[0m
+2020-12-13T10:58:04.675Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T10:58:04.678Z [info] [0mGET /api/kcals [36m304[0m 4.170 ms - -[0m
+2020-12-13T10:58:04.711Z [info] [0mGET /favicon.ico [32m200[0m 0.979 ms - 341[0m
+2020-12-13T10:59:02.706Z [info] Express server started on port: 3000
+2020-12-13T10:59:02.739Z [info] DB migrate: true
+2020-12-13T10:59:02.753Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T10:59:16.904Z [info] [0mGET / [36m304[0m 3.280 ms - -[0m
+2020-12-13T10:59:16.991Z [info] [0mGET /index.js [32m200[0m 1.878 ms - 608786[0m
+2020-12-13T10:59:17.050Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T10:59:17.060Z [info] [0mGET /favicon.ico [32m200[0m 2.507 ms - 341[0m
+2020-12-13T10:59:17.067Z [info] [0mGET /api/kcals [36m304[0m 19.988 ms - -[0m
+2020-12-13T11:04:33.322Z [info] [0mGET /favicon.ico [36m304[0m 1.205 ms - -[0m
+2020-12-13T11:04:33.323Z [info] [0mGET /21d53fc8c1d6f370f26f3322f43aa670.svg [32m200[0m 1.781 ms - 7290[0m
+2020-12-13T11:04:33.886Z [info] [0mGET /favicon.ico [36m304[0m 0.657 ms - -[0m
+2020-12-13T11:04:40.339Z [info] Express server started on port: 3000
+2020-12-13T11:04:40.366Z [info] DB migrate: true
+2020-12-13T11:04:40.381Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T11:08:25.435Z [info] Express server started on port: 3000
+2020-12-13T11:08:25.460Z [info] DB migrate: true
+2020-12-13T11:08:25.472Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T11:08:35.051Z [info] [0mGET /favicon.ico [36m304[0m 5.054 ms - -[0m
+2020-12-13T11:08:35.595Z [info] [0mGET /favicon.ico [36m304[0m 0.888 ms - -[0m
+2020-12-13T11:08:37.683Z [info] [0mGET / [36m304[0m 0.735 ms - -[0m
+2020-12-13T11:08:37.771Z [info] [0mGET /index.js [32m200[0m 2.021 ms - 608810[0m
+2020-12-13T11:08:37.842Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T11:08:37.851Z [info] [0mGET /favicon.ico [32m200[0m 2.124 ms - 341[0m
+2020-12-13T11:08:37.859Z [info] [0mGET /api/kcals [36m304[0m 19.423 ms - -[0m
+2020-12-13T11:09:44.226Z [info] Express server started on port: 3000
+2020-12-13T11:09:44.254Z [info] DB migrate: true
+2020-12-13T11:09:44.269Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T11:09:50.241Z [info] [0mGET /favicon.ico [36m304[0m 4.525 ms - -[0m
+2020-12-13T11:09:50.762Z [info] [0mGET /favicon.ico [36m304[0m 1.669 ms - -[0m
+2020-12-13T11:09:50.767Z [info] [0mGET /21d53fc8c1d6f370f26f3322f43aa670.svg [32m200[0m 4.456 ms - 7290[0m
+2020-12-13T11:09:51.228Z [info] [0mGET /favicon.ico [36m304[0m 0.802 ms - -[0m
+2020-12-13T11:09:53.064Z [info] [0mGET / [36m304[0m 0.736 ms - -[0m
+2020-12-13T11:09:53.118Z [info] [0mGET /index.js [32m200[0m 0.724 ms - 608990[0m
+2020-12-13T11:09:53.168Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T11:09:53.179Z [info] [0mGET /api/kcals [36m304[0m 13.724 ms - -[0m
+2020-12-13T11:09:53.181Z [info] [0mGET /favicon.ico [32m200[0m 6.486 ms - 341[0m
+2020-12-13T11:10:38.869Z [info] Express server started on port: 3000
+2020-12-13T11:10:38.904Z [info] DB migrate: true
+2020-12-13T11:10:38.917Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T11:10:42.172Z [info] [0mGET / [36m304[0m 2.798 ms - -[0m
+2020-12-13T11:10:42.226Z [info] [0mGET /index.js [36m304[0m 0.624 ms - -[0m
+2020-12-13T11:10:42.273Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T11:10:42.282Z [info] [0mGET /api/kcals [36m304[0m 11.836 ms - -[0m
+2020-12-13T11:10:42.317Z [info] [0mGET /favicon.ico [32m200[0m 4.171 ms - 341[0m
+2020-12-13T11:10:42.851Z [info] [0mGET / [36m304[0m 0.521 ms - -[0m
+2020-12-13T11:10:42.920Z [info] [0mGET /index.js [32m200[0m 0.921 ms - 608963[0m
+2020-12-13T11:10:42.995Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T11:10:43.000Z [info] [0mGET /api/kcals [36m304[0m 8.450 ms - -[0m
+2020-12-13T11:10:43.034Z [info] [0mGET /favicon.ico [32m200[0m 1.614 ms - 341[0m
+2020-12-13T11:10:45.938Z [info] [0mGET /favicon.ico [36m304[0m 0.725 ms - -[0m
+2020-12-13T11:10:50.242Z [info] [0mGET /favicon.ico [36m304[0m 0.945 ms - -[0m
+2020-12-13T11:10:52.359Z [info] [0mGET /favicon.ico [36m304[0m 0.821 ms - -[0m
+2020-12-13T11:10:54.652Z [info] [0mGET /favicon.ico [36m304[0m 0.585 ms - -[0m
+2020-12-13T11:11:29.189Z [info] Express server started on port: 3000
+2020-12-13T11:11:29.218Z [info] DB migrate: true
+2020-12-13T11:11:29.231Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T11:11:32.305Z [info] [0mGET / [36m304[0m 3.532 ms - -[0m
+2020-12-13T11:11:32.369Z [info] [0mGET /index.js [36m304[0m 0.566 ms - -[0m
+2020-12-13T11:11:32.411Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T11:11:32.418Z [info] [0mGET /api/kcals [36m304[0m 11.364 ms - -[0m
+2020-12-13T11:11:32.452Z [info] [0mGET /favicon.ico [32m200[0m 3.020 ms - 341[0m
+2020-12-13T11:11:33.302Z [info] [0mGET / [36m304[0m 0.503 ms - -[0m
+2020-12-13T11:11:33.380Z [info] [0mGET /index.js [32m200[0m 0.827 ms - 608983[0m
+2020-12-13T11:11:33.446Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T11:11:33.453Z [info] [0mGET /api/kcals [36m304[0m 9.386 ms - -[0m
+2020-12-13T11:11:33.489Z [info] [0mGET /favicon.ico [32m200[0m 1.065 ms - 341[0m
+2020-12-13T11:11:38.634Z [info] [0mGET /favicon.ico [36m304[0m 0.585 ms - -[0m
+2020-12-13T11:11:40.827Z [info] [0mGET /favicon.ico [36m304[0m 2.221 ms - -[0m
+2020-12-13T11:11:40.830Z [info] [0mGET /21d53fc8c1d6f370f26f3322f43aa670.svg [32m200[0m 3.195 ms - 7290[0m
+2020-12-13T11:11:41.607Z [info] [0mGET /favicon.ico [36m304[0m 0.821 ms - -[0m
+2020-12-13T11:12:36.352Z [info] Express server started on port: 3000
+2020-12-13T11:12:36.379Z [info] DB migrate: true
+2020-12-13T11:12:36.390Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T11:12:38.864Z [info] [0mGET / [36m304[0m 3.268 ms - -[0m
+2020-12-13T11:12:38.960Z [info] [0mGET /index.js [36m304[0m 0.634 ms - -[0m
+2020-12-13T11:12:39.017Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T11:12:39.026Z [info] [0mGET /api/kcals [36m304[0m 12.090 ms - -[0m
+2020-12-13T11:12:39.061Z [info] [0mGET /favicon.ico [32m200[0m 2.289 ms - 341[0m
+2020-12-13T11:12:43.125Z [info] [0mGET / [36m304[0m 0.553 ms - -[0m
+2020-12-13T11:12:43.184Z [info] [0mGET /index.js [32m200[0m 0.660 ms - 608983[0m
+2020-12-13T11:12:43.236Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T11:12:43.239Z [info] [0mGET /api/kcals [36m304[0m 3.623 ms - -[0m
+2020-12-13T11:12:43.275Z [info] [0mGET /favicon.ico [32m200[0m 2.615 ms - 341[0m
+2020-12-13T11:12:50.056Z [info] [0mGET /favicon.ico [36m304[0m 0.857 ms - -[0m
+2020-12-13T11:12:52.195Z [info] [0mGET /favicon.ico [36m304[0m 0.598 ms - -[0m
+2020-12-13T11:13:42.602Z [info] Express server started on port: 3000
+2020-12-13T11:13:42.631Z [info] DB migrate: true
+2020-12-13T11:13:42.645Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T11:13:50.769Z [info] [0mGET / [36m304[0m 3.539 ms - -[0m
+2020-12-13T11:13:50.866Z [info] [0mGET /index.js [32m200[0m 1.946 ms - 609022[0m
+2020-12-13T11:13:50.924Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T11:13:50.934Z [info] [0mGET /api/kcals [36m304[0m 12.006 ms - -[0m
+2020-12-13T11:13:50.961Z [info] [0mGET /favicon.ico [32m200[0m 1.202 ms - 341[0m
+2020-12-13T11:14:57.191Z [info] Express server started on port: 3000
+2020-12-13T11:14:57.218Z [info] DB migrate: true
+2020-12-13T11:14:57.232Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T11:15:00.227Z [info] [0mGET / [36m304[0m 3.812 ms - -[0m
+2020-12-13T11:15:00.326Z [info] [0mGET /index.js [36m304[0m 0.990 ms - -[0m
+2020-12-13T11:15:00.361Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T11:15:00.370Z [info] [0mGET /api/kcals [36m304[0m 11.087 ms - -[0m
+2020-12-13T11:15:00.408Z [info] [0mGET /favicon.ico [32m200[0m 2.962 ms - 341[0m
+2020-12-13T11:15:05.019Z [info] [0mGET / [36m304[0m 0.527 ms - -[0m
+2020-12-13T11:15:05.090Z [info] [0mGET /index.js [32m200[0m 1.406 ms - 608947[0m
+2020-12-13T11:15:05.156Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T11:15:05.160Z [info] [0mGET /api/kcals [36m304[0m 4.148 ms - -[0m
+2020-12-13T11:15:05.195Z [info] [0mGET /favicon.ico [32m200[0m 1.012 ms - 341[0m
+2020-12-13T11:16:12.381Z [info] Express server started on port: 3000
+2020-12-13T11:16:12.408Z [info] DB migrate: true
+2020-12-13T11:16:12.420Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T11:16:14.241Z [info] [0mGET / [36m304[0m 2.699 ms - -[0m
+2020-12-13T11:16:14.328Z [info] [0mGET /index.js [36m304[0m 1.683 ms - -[0m
+2020-12-13T11:16:14.372Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T11:16:14.382Z [info] [0mGET /api/kcals [36m304[0m 12.099 ms - -[0m
+2020-12-13T11:16:14.421Z [info] [0mGET /favicon.ico [32m200[0m 2.382 ms - 341[0m
+2020-12-13T11:16:16.435Z [info] [0mGET / [36m304[0m 0.501 ms - -[0m
+2020-12-13T11:16:16.487Z [info] [0mGET /index.js [32m200[0m 0.711 ms - 608963[0m
+2020-12-13T11:16:16.541Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T11:16:16.544Z [info] [0mGET /api/kcals [36m304[0m 3.827 ms - -[0m
+2020-12-13T11:16:16.586Z [info] [0mGET /favicon.ico [32m200[0m 7.348 ms - 341[0m
+2020-12-13T11:16:18.475Z [info] [0mGET / [36m304[0m 0.527 ms - -[0m
+2020-12-13T11:16:18.519Z [info] [0mGET /index.js [36m304[0m 0.547 ms - -[0m
+2020-12-13T11:16:18.574Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T11:16:18.578Z [info] [0mGET /api/kcals [36m304[0m 4.222 ms - -[0m
+2020-12-13T11:16:18.621Z [info] [0mGET /favicon.ico [32m200[0m 4.262 ms - 341[0m
+2020-12-13T11:16:32.416Z [info] Express server started on port: 3000
+2020-12-13T11:16:32.443Z [info] DB migrate: true
+2020-12-13T11:16:32.456Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T11:16:34.525Z [info] [0mGET / [36m304[0m 2.803 ms - -[0m
+2020-12-13T11:16:34.599Z [info] [0mGET /index.js [36m304[0m 3.029 ms - -[0m
+2020-12-13T11:16:34.632Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T11:16:34.641Z [info] [0mGET /api/kcals [36m304[0m 10.551 ms - -[0m
+2020-12-13T11:16:34.665Z [info] [0mGET /favicon.ico [32m200[0m 2.337 ms - 341[0m
+2020-12-13T11:16:35.232Z [info] [0mGET / [36m304[0m 0.460 ms - -[0m
+2020-12-13T11:16:35.276Z [info] [0mGET /index.js [36m304[0m 0.402 ms - -[0m
+2020-12-13T11:16:35.317Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T11:16:35.322Z [info] [0mGET /api/kcals [36m304[0m 4.718 ms - -[0m
+2020-12-13T11:16:35.341Z [info] [0mGET /favicon.ico [32m200[0m 0.930 ms - 341[0m
+2020-12-13T11:16:36.862Z [info] [0mGET / [36m304[0m 0.606 ms - -[0m
+2020-12-13T11:16:36.921Z [info] [0mGET /index.js [32m200[0m 5.278 ms - 608967[0m
+2020-12-13T11:16:36.976Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T11:16:36.980Z [info] [0mGET /api/kcals [36m304[0m 3.854 ms - -[0m
+2020-12-13T11:16:37.007Z [info] [0mGET /favicon.ico [32m200[0m 0.932 ms - 341[0m
+2020-12-13T11:17:13.287Z [info] Express server started on port: 3000
+2020-12-13T11:17:13.313Z [info] DB migrate: true
+2020-12-13T11:17:13.324Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T11:17:16.356Z [info] [0mGET / [36m304[0m 2.828 ms - -[0m
+2020-12-13T11:17:16.454Z [info] [0mGET /index.js [36m304[0m 1.459 ms - -[0m
+2020-12-13T11:17:16.493Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T11:17:16.501Z [info] [0mGET /api/kcals [36m304[0m 11.148 ms - -[0m
+2020-12-13T11:17:16.536Z [info] [0mGET /favicon.ico [32m200[0m 2.274 ms - 341[0m
+2020-12-13T11:17:18.472Z [info] [0mGET / [36m304[0m 0.535 ms - -[0m
+2020-12-13T11:17:18.527Z [info] [0mGET /index.js [32m200[0m 0.730 ms - 608989[0m
+2020-12-13T11:17:18.583Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T11:17:18.586Z [info] [0mGET /api/kcals [36m304[0m 3.204 ms - -[0m
+2020-12-13T11:17:18.622Z [info] [0mGET /favicon.ico [32m200[0m 1.211 ms - 341[0m
+2020-12-13T11:17:19.366Z [info] [0mGET /favicon.ico [36m304[0m 0.852 ms - -[0m
+2020-12-13T11:17:19.368Z [info] [0mGET /21d53fc8c1d6f370f26f3322f43aa670.svg [32m200[0m 2.492 ms - 7290[0m
+2020-12-13T11:17:19.781Z [info] [0mGET /favicon.ico [36m304[0m 0.652 ms - -[0m
+2020-12-13T11:17:55.174Z [info] [0mGET /favicon.ico [36m304[0m 0.802 ms - -[0m
+2020-12-13T11:17:56.389Z [info] [0mGET /21d53fc8c1d6f370f26f3322f43aa670.svg [36m304[0m 0.912 ms - -[0m
+2020-12-13T11:17:56.390Z [info] [0mGET /favicon.ico [36m304[0m 0.649 ms - -[0m
+2020-12-13T11:17:59.547Z [info] [0mGET /favicon.ico [36m304[0m 0.618 ms - -[0m
+2020-12-13T12:15:15.063Z [info] Express server started on port: 3000
+2020-12-13T12:15:15.095Z [info] DB migrate: true
+2020-12-13T12:15:15.108Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T12:15:18.583Z [info] [0mGET / [36m304[0m 3.684 ms - -[0m
+2020-12-13T12:15:18.682Z [info] [0mGET /index.js [32m200[0m 2.178 ms - 609173[0m
+2020-12-13T12:15:18.827Z [info] [0mGET /favicon.ico [32m200[0m 1.881 ms - 341[0m
+2020-12-13T12:15:28.331Z [info] [0mPOST /api/users/email [32m200[0m 14.258 ms - 87[0m
+2020-12-13T12:15:28.342Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T12:15:28.348Z [info] [0mGET /api/kcals [36m304[0m 7.336 ms - -[0m
+2020-12-13T12:15:53.025Z [info] Express server started on port: 3000
+2020-12-13T12:15:53.052Z [info] DB migrate: true
+2020-12-13T12:15:53.067Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T12:15:57.070Z [info] [0mGET / [36m304[0m 3.485 ms - -[0m
+2020-12-13T12:15:57.156Z [info] [0mGET /index.js [32m200[0m 2.313 ms - 609173[0m
+2020-12-13T12:15:57.217Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T12:15:57.229Z [info] [0mGET /api/kcals [36m304[0m 18.392 ms - -[0m
+2020-12-13T12:15:57.255Z [info] [0mGET /favicon.ico [32m200[0m 1.890 ms - 341[0m
+2020-12-13T12:15:58.229Z [info] [0mGET /favicon.ico [36m304[0m 0.756 ms - -[0m
+2020-12-13T12:15:58.232Z [info] [0mGET /21d53fc8c1d6f370f26f3322f43aa670.svg [32m200[0m 0.961 ms - 7290[0m
+2020-12-13T12:15:58.674Z [info] [0mGET /favicon.ico [36m304[0m 0.709 ms - -[0m
+2020-12-13T12:16:00.515Z [info] [0mGET / [36m304[0m 0.630 ms - -[0m
+2020-12-13T12:16:00.577Z [info] [0mGET /index.js [36m304[0m 0.500 ms - -[0m
+2020-12-13T12:16:00.613Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T12:16:00.617Z [info] [0mGET /api/kcals [36m304[0m 3.976 ms - -[0m
+2020-12-13T12:16:00.655Z [info] [0mGET /favicon.ico [32m200[0m 0.988 ms - 341[0m
+2020-12-13T12:17:10.517Z [info] Express server started on port: 3000
+2020-12-13T12:17:10.543Z [info] DB migrate: true
+2020-12-13T12:17:10.554Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T12:17:12.275Z [info] [0mGET / [36m304[0m 2.838 ms - -[0m
+2020-12-13T12:17:12.387Z [info] [0mGET /index.js [36m304[0m 0.538 ms - -[0m
+2020-12-13T12:17:12.428Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T12:17:12.437Z [info] [0mGET /api/kcals [36m304[0m 13.039 ms - -[0m
+2020-12-13T12:17:12.466Z [info] [0mGET /favicon.ico [32m200[0m 2.079 ms - 341[0m
+2020-12-13T12:17:13.898Z [info] [0mGET /favicon.ico [36m304[0m 1.562 ms - -[0m
+2020-12-13T12:17:13.900Z [info] [0mGET /21d53fc8c1d6f370f26f3322f43aa670.svg [32m200[0m 1.766 ms - 7290[0m
+2020-12-13T12:17:14.405Z [info] [0mGET /favicon.ico [36m304[0m 0.638 ms - -[0m
+2020-12-13T12:17:16.644Z [info] [0mGET / [36m304[0m 0.526 ms - -[0m
+2020-12-13T12:17:16.705Z [info] [0mGET /index.js [32m200[0m 0.718 ms - 609173[0m
+2020-12-13T12:17:16.753Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T12:17:16.756Z [info] [0mGET /api/kcals [36m304[0m 2.939 ms - -[0m
+2020-12-13T12:17:16.789Z [info] [0mGET /favicon.ico [32m200[0m 0.904 ms - 341[0m
+2020-12-13T12:17:45.637Z [info] [0mGET / [36m304[0m 0.738 ms - -[0m
+2020-12-13T12:17:45.695Z [info] [0mGET /index.js [36m304[0m 0.524 ms - -[0m
+2020-12-13T12:17:45.742Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T12:17:45.749Z [info] [0mGET /api/kcals [36m304[0m 7.600 ms - -[0m
+2020-12-13T12:17:45.787Z [info] [0mGET /favicon.ico [32m200[0m 0.940 ms - 341[0m
+2020-12-13T12:18:29.850Z [info] Express server started on port: 3000
+2020-12-13T12:18:29.880Z [info] DB migrate: true
+2020-12-13T12:18:29.894Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T12:18:56.271Z [info] [0mGET / [36m304[0m 4.254 ms - -[0m
+2020-12-13T12:18:56.338Z [info] [0mGET /index.js [32m200[0m 2.145 ms - 609020[0m
+2020-12-13T12:18:56.396Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T12:18:56.413Z [info] [0mGET /api/kcals [36m304[0m 19.901 ms - -[0m
+2020-12-13T12:18:56.441Z [info] [0mGET /favicon.ico [32m200[0m 1.876 ms - 341[0m
+2020-12-13T12:19:50.089Z [info] [0mGET / [36m304[0m 0.480 ms - -[0m
+2020-12-13T12:19:50.178Z [info] [0mGET /index.js [36m304[0m 0.405 ms - -[0m
+2020-12-13T12:19:50.230Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T12:19:50.236Z [info] [0mGET /api/kcals [36m304[0m 6.742 ms - -[0m
+2020-12-13T12:19:50.268Z [info] [0mGET /favicon.ico [32m200[0m 1.016 ms - 341[0m
+2020-12-13T12:21:47.677Z [info] Express server started on port: 3000
+2020-12-13T12:21:47.708Z [info] DB migrate: true
+2020-12-13T12:21:47.721Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T12:21:51.884Z [info] [0mGET /favicon.ico [36m304[0m 5.537 ms - -[0m
+2020-12-13T12:21:51.888Z [info] [0mGET /21d53fc8c1d6f370f26f3322f43aa670.svg [32m200[0m 6.486 ms - 7290[0m
+2020-12-13T12:21:52.428Z [info] [0mGET /favicon.ico [36m304[0m 0.675 ms - -[0m
+2020-12-13T12:21:53.727Z [info] [0mGET / [36m304[0m 0.658 ms - -[0m
+2020-12-13T12:21:53.853Z [info] [0mGET /index.js [32m200[0m 1.082 ms - 609020[0m
+2020-12-13T12:21:53.905Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T12:21:53.914Z [info] [0mGET /api/kcals [36m304[0m 10.934 ms - -[0m
+2020-12-13T12:21:53.986Z [info] [0mGET /favicon.ico [32m200[0m 3.139 ms - 341[0m
+2020-12-13T12:22:38.098Z [info] Express server started on port: 3000
+2020-12-13T12:22:38.130Z [info] DB migrate: true
+2020-12-13T12:22:38.142Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T12:22:53.677Z [info] [0mGET / [36m304[0m 4.051 ms - -[0m
+2020-12-13T12:22:53.772Z [info] [0mGET /index.js [32m200[0m 2.488 ms - 609003[0m
+2020-12-13T12:22:53.831Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T12:22:53.849Z [info] [0mGET /api/kcals [36m304[0m 21.303 ms - -[0m
+2020-12-13T12:22:53.881Z [info] [0mGET /favicon.ico [32m200[0m 2.546 ms - 341[0m
+2020-12-13T12:23:07.238Z [info] [0mGET /favicon.ico [36m304[0m 1.317 ms - -[0m
+2020-12-13T12:25:39.066Z [info] [0mGET /favicon.ico [36m304[0m 0.564 ms - -[0m
+2020-12-13T12:32:49.272Z [info] Express server started on port: 3000
+2020-12-13T12:32:49.305Z [info] DB migrate: true
+2020-12-13T12:32:49.320Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T12:32:54.856Z [info] [0mGET / [36m304[0m 3.583 ms - -[0m
+2020-12-13T12:32:54.932Z [info] [0mGET /index.js [32m200[0m 1.958 ms - 609068[0m
+2020-12-13T12:32:54.995Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T12:32:55.006Z [info] [0mGET /api/kcals [36m304[0m 14.007 ms - -[0m
+2020-12-13T12:32:55.041Z [info] [0mGET /favicon.ico [32m200[0m 2.225 ms - 341[0m
+2020-12-13T12:33:15.132Z [info] Express server started on port: 3000
+2020-12-13T12:33:15.162Z [info] DB migrate: true
+2020-12-13T12:33:15.178Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T12:33:21.169Z [info] [0mGET / [36m304[0m 3.328 ms - -[0m
+2020-12-13T12:33:21.244Z [info] [0mGET /index.js [32m200[0m 2.160 ms - 609076[0m
+2020-12-13T12:33:21.295Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T12:33:21.305Z [info] [0mGET /api/kcals [36m304[0m 12.780 ms - -[0m
+2020-12-13T12:33:21.343Z [info] [0mGET /favicon.ico [32m200[0m 1.656 ms - 341[0m
+2020-12-13T12:33:27.138Z [info] [0mGET / [36m304[0m 0.728 ms - -[0m
+2020-12-13T12:33:27.203Z [info] [0mGET /index.js [36m304[0m 0.600 ms - -[0m
+2020-12-13T12:33:27.295Z [info] [0mGET /favicon.ico [32m200[0m 1.493 ms - 341[0m
+2020-12-13T12:33:37.847Z [info] [0mPOST /api/users/email [32m200[0m 10.143 ms - 87[0m
+2020-12-13T12:33:37.856Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T12:33:37.860Z [info] [0mGET /api/kcals [36m304[0m 4.150 ms - -[0m
+2020-12-13T12:33:46.937Z [info] [0mGET / [36m304[0m 1.234 ms - -[0m
+2020-12-13T12:33:47.003Z [info] [0mGET /index.js [36m304[0m 0.503 ms - -[0m
+2020-12-13T12:33:47.082Z [info] [0mGET /favicon.ico [32m200[0m 2.855 ms - 341[0m
+2020-12-13T12:33:57.048Z [info] [0mPOST /api/users/email [32m200[0m 3.965 ms - 87[0m
+2020-12-13T12:33:57.057Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T12:33:57.060Z [info] [0mGET /api/kcals [36m304[0m 3.498 ms - -[0m
+2020-12-13T12:34:01.592Z [info] [0mGET / [36m304[0m 1.071 ms - -[0m
+2020-12-13T12:34:01.650Z [info] [0mGET /index.js [36m304[0m 1.126 ms - -[0m
+2020-12-13T12:34:01.694Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T12:34:01.698Z [info] [0mGET /api/kcals [36m304[0m 3.576 ms - -[0m
+2020-12-13T12:34:01.736Z [info] [0mGET /favicon.ico [32m200[0m 1.228 ms - 341[0m
+2020-12-13T12:35:37.202Z [info] Express server started on port: 3000
+2020-12-13T12:35:37.230Z [info] DB migrate: true
+2020-12-13T12:35:37.245Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T12:35:40.336Z [info] [0mGET / [36m304[0m 3.554 ms - -[0m
+2020-12-13T12:35:40.467Z [info] [0mGET /index.js [36m304[0m 0.569 ms - -[0m
+2020-12-13T12:35:40.492Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T12:35:40.500Z [info] [0mGET /api/kcals [36m304[0m 10.861 ms - -[0m
+2020-12-13T12:35:40.528Z [info] [0mGET /favicon.ico [32m200[0m 2.069 ms - 341[0m
+2020-12-13T12:35:46.530Z [info] [0mGET /favicon.ico [36m304[0m 1.904 ms - -[0m
+2020-12-13T12:35:46.533Z [info] [0mGET /21d53fc8c1d6f370f26f3322f43aa670.svg [32m200[0m 2.568 ms - 7290[0m
+2020-12-13T12:35:47.123Z [info] [0mGET /favicon.ico [36m304[0m 0.764 ms - -[0m
+2020-12-13T12:35:47.725Z [info] [0mGET /favicon.ico [36m304[0m 0.595 ms - -[0m
+2020-12-13T12:35:48.523Z [info] [0mGET / [36m304[0m 0.579 ms - -[0m
+2020-12-13T12:35:48.584Z [info] [0mGET /index.js [32m200[0m 0.812 ms - 609148[0m
+2020-12-13T12:35:48.687Z [info] [0mGET /favicon.ico [32m200[0m 0.861 ms - 341[0m
+2020-12-13T12:36:15.647Z [info] [0mGET / [36m304[0m 0.520 ms - -[0m
+2020-12-13T12:36:15.706Z [info] [0mGET /index.js [36m304[0m 1.671 ms - -[0m
+2020-12-13T12:36:15.800Z [info] [0mGET /favicon.ico [32m200[0m 1.045 ms - 341[0m
+2020-12-13T12:36:17.959Z [info] [0mGET / [36m304[0m 0.484 ms - -[0m
+2020-12-13T12:36:18.024Z [info] [0mGET /index.js [36m304[0m 0.463 ms - -[0m
+2020-12-13T12:36:18.108Z [info] [0mGET /favicon.ico [36m304[0m 0.583 ms - -[0m
+2020-12-13T12:36:27.789Z [info] Express server started on port: 3000
+2020-12-13T12:36:27.816Z [info] DB migrate: true
+2020-12-13T12:36:27.828Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T12:36:29.675Z [info] [0mGET / [36m304[0m 3.214 ms - -[0m
+2020-12-13T12:36:29.790Z [info] [0mGET /index.js [36m304[0m 0.637 ms - -[0m
+2020-12-13T12:36:29.840Z [info] [0mGET /favicon.ico [32m200[0m 2.597 ms - 341[0m
+2020-12-13T12:36:35.640Z [info] [0mPOST /api/users/email [32m200[0m 11.397 ms - 87[0m
+2020-12-13T12:36:35.651Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T12:36:35.657Z [info] [0mGET /api/kcals [36m304[0m 7.504 ms - -[0m
+2020-12-13T12:36:37.384Z [info] [0mGET /favicon.ico [36m304[0m 0.701 ms - -[0m
+2020-12-13T12:36:46.381Z [info] [0mGET / [36m304[0m 0.641 ms - -[0m
+2020-12-13T12:36:46.484Z [info] [0mGET /index.js [32m200[0m 0.888 ms - 609181[0m
+2020-12-13T12:36:46.575Z [info] [0mGET /favicon.ico [32m200[0m 0.939 ms - 341[0m
+2020-12-13T12:37:25.014Z [info] Express server started on port: 3000
+2020-12-13T12:37:25.040Z [info] DB migrate: true
+2020-12-13T12:37:25.052Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T12:37:34.860Z [info] [0mPOST /api/users/email [32m200[0m 14.610 ms - 87[0m
+2020-12-13T12:37:34.871Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T12:37:34.878Z [info] [0mGET /api/kcals [36m304[0m 9.764 ms - -[0m
+2020-12-13T12:37:36.138Z [info] [0mGET / [36m304[0m 1.551 ms - -[0m
+2020-12-13T12:37:36.211Z [info] [0mGET /index.js [32m200[0m 2.002 ms - 609169[0m
+2020-12-13T12:37:36.323Z [info] [0mGET /favicon.ico [36m304[0m 1.080 ms - -[0m
+2020-12-13T12:39:05.283Z [info] Express server started on port: 3000
+2020-12-13T12:39:05.312Z [info] DB migrate: true
+2020-12-13T12:39:05.326Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T12:39:08.198Z [info] [0mPOST /api/users/email [32m200[0m 10.241 ms - 87[0m
+2020-12-13T12:39:08.210Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T12:39:08.216Z [info] [0mGET /api/kcals [36m304[0m 8.122 ms - -[0m
+2020-12-13T12:39:10.210Z [info] [0mGET / [36m304[0m 1.376 ms - -[0m
+2020-12-13T12:39:10.308Z [info] [0mGET /index.js [32m200[0m 3.988 ms - 609265[0m
+2020-12-13T12:39:10.381Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T12:39:10.385Z [info] [0mGET /api/kcals [36m304[0m 5.039 ms - -[0m
+2020-12-13T12:39:10.426Z [info] [0mGET /favicon.ico [32m200[0m 1.573 ms - 341[0m
+2020-12-13T12:42:10.601Z [info] Express server started on port: 3000
+2020-12-13T12:42:10.627Z [info] DB migrate: true
+2020-12-13T12:42:10.641Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T12:42:18.441Z [info] [0mGET / [36m304[0m 3.700 ms - -[0m
+2020-12-13T12:42:18.539Z [info] [0mGET /index.js [32m200[0m 2.369 ms - 609575[0m
+2020-12-13T12:42:18.627Z [info] [0mGET /favicon.ico [32m200[0m 2.204 ms - 341[0m
+2020-12-13T12:42:19.862Z [info] [0mGET / [36m304[0m 0.681 ms - -[0m
+2020-12-13T12:42:19.923Z [info] [0mGET /index.js [36m304[0m 1.551 ms - -[0m
+2020-12-13T12:42:20.018Z [info] [0mGET /favicon.ico [32m200[0m 1.012 ms - 341[0m
+2020-12-13T12:42:29.269Z [info] [0mPOST /api/users/email [32m200[0m 14.843 ms - 87[0m
+2020-12-13T12:42:29.279Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T12:42:29.285Z [info] [0mGET /api/kcals [36m304[0m 7.083 ms - -[0m
+2020-12-13T12:42:31.436Z [info] [0mGET /favicon.ico [36m304[0m 2.380 ms - -[0m
+2020-12-13T12:42:31.438Z [info] [0mGET /21d53fc8c1d6f370f26f3322f43aa670.svg [32m200[0m 1.554 ms - 7290[0m
+2020-12-13T12:42:32.307Z [info] [0mGET /favicon.ico [36m304[0m 0.592 ms - -[0m
+2020-12-13T12:42:35.228Z [info] [0mGET /favicon.ico [36m304[0m 0.598 ms - -[0m
+2020-12-13T12:43:06.032Z [info] Express server started on port: 3000
+2020-12-13T12:43:06.059Z [info] DB migrate: true
+2020-12-13T12:43:06.072Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T12:43:29.524Z [info] [0mGET / [36m304[0m 4.096 ms - -[0m
+2020-12-13T12:43:29.636Z [info] [0mGET /index.js [32m200[0m 2.781 ms - 609657[0m
+2020-12-13T12:43:29.692Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T12:43:29.706Z [info] [0mGET /api/kcals [36m304[0m 16.634 ms - -[0m
+2020-12-13T12:43:29.731Z [info] [0mGET /favicon.ico [32m200[0m 2.329 ms - 341[0m
+2020-12-13T12:43:30.551Z [info] [0mGET /favicon.ico [36m304[0m 2.696 ms - -[0m
+2020-12-13T12:43:30.553Z [info] [0mGET /21d53fc8c1d6f370f26f3322f43aa670.svg [32m200[0m 2.306 ms - 7290[0m
+2020-12-13T12:43:31.135Z [info] [0mGET /favicon.ico [36m304[0m 0.731 ms - -[0m
+2020-12-13T12:43:31.833Z [info] [0mGET /favicon.ico [36m304[0m 0.660 ms - -[0m
+2020-12-13T12:43:34.247Z [info] [0mGET /favicon.ico [36m304[0m 0.733 ms - -[0m
+2020-12-13T12:43:34.806Z [info] [0mGET /favicon.ico [36m304[0m 0.619 ms - -[0m
+2020-12-13T12:43:47.170Z [info] [0mGET /favicon.ico [36m304[0m 0.714 ms - -[0m
+2020-12-13T12:43:48.270Z [info] [0mGET /favicon.ico [36m304[0m 0.616 ms - -[0m
+2020-12-13T12:43:49.254Z [info] [0mGET /favicon.ico [36m304[0m 0.575 ms - -[0m
+2020-12-13T12:43:49.789Z [info] [0mGET /favicon.ico [36m304[0m 0.576 ms - -[0m
+2020-12-13T12:43:50.357Z [info] [0mGET /favicon.ico [36m304[0m 0.694 ms - -[0m
+2020-12-13T12:43:50.849Z [info] [0mGET /favicon.ico [36m304[0m 0.716 ms - -[0m
+2020-12-13T12:43:51.339Z [info] [0mGET /favicon.ico [36m304[0m 0.559 ms - -[0m
+2020-12-13T12:43:55.000Z [info] [0mGET /favicon.ico [36m304[0m 0.555 ms - -[0m
+2020-12-13T12:43:55.841Z [info] [0mGET /favicon.ico [36m304[0m 0.614 ms - -[0m
+2020-12-13T12:44:48.496Z [info] [0mGET /favicon.ico [36m304[0m 0.628 ms - -[0m
+2020-12-13T12:44:49.114Z [info] [0mGET /favicon.ico [36m304[0m 0.577 ms - -[0m
+2020-12-13T12:44:50.060Z [info] [0mGET /favicon.ico [36m304[0m 0.798 ms - -[0m
+2020-12-13T12:44:50.712Z [info] [0mGET /favicon.ico [36m304[0m 0.541 ms - -[0m
+2020-12-13T12:44:52.795Z [info] [0mGET /favicon.ico [36m304[0m 0.805 ms - -[0m
+2020-12-13T12:54:05.557Z [info] [0mGET /favicon.ico [36m304[0m 0.917 ms - -[0m
+2020-12-13T12:54:06.308Z [info] [0mGET /favicon.ico [36m304[0m 0.654 ms - -[0m
+2020-12-13T12:54:06.932Z [info] [0mGET /favicon.ico [36m304[0m 0.527 ms - -[0m
+2020-12-13T12:54:10.992Z [info] [0mGET /favicon.ico [36m304[0m 0.643 ms - -[0m
+2020-12-13T12:54:11.655Z [info] [0mGET /favicon.ico [36m304[0m 0.555 ms - -[0m
+2020-12-13T12:54:12.348Z [info] [0mGET /favicon.ico [36m304[0m 1.336 ms - -[0m
+2020-12-13T12:54:22.530Z [info] [0mGET /favicon.ico [36m304[0m 0.519 ms - -[0m
+2020-12-13T12:54:30.220Z [info] [0mGET /favicon.ico [36m304[0m 0.547 ms - -[0m
+2020-12-13T12:54:37.165Z [info] [0mGET /favicon.ico [36m304[0m 0.498 ms - -[0m
+2020-12-13T12:54:42.455Z [info] [0mGET /favicon.ico [36m304[0m 0.709 ms - -[0m
+2020-12-13T12:54:42.458Z [info] [0mGET /21d53fc8c1d6f370f26f3322f43aa670.svg [36m304[0m 1.113 ms - -[0m
+2020-12-13T12:54:56.250Z [info] [0mGET /favicon.ico [36m304[0m 0.770 ms - -[0m
+2020-12-13T12:55:12.519Z [info] [0mGET /favicon.ico [36m304[0m 0.565 ms - -[0m
+2020-12-13T13:05:37.314Z [info] Express server started on port: 3000
+2020-12-13T13:05:37.345Z [info] DB migrate: true
+2020-12-13T13:05:37.358Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T13:05:38.310Z [info] [0mGET / [36m304[0m 3.307 ms - -[0m
+2020-12-13T13:05:38.424Z [info] [0mGET /index.js [32m200[0m 2.282 ms - 609657[0m
+2020-12-13T13:05:38.515Z [info] [0mGET /favicon.ico [32m200[0m 2.308 ms - 341[0m
+2020-12-13T13:05:40.319Z [info] [0mGET / [36m304[0m 0.547 ms - -[0m
+2020-12-13T13:05:40.405Z [info] [0mGET /index.js [36m304[0m 0.381 ms - -[0m
+2020-12-13T13:05:40.483Z [info] [0mGET /favicon.ico [32m200[0m 0.775 ms - 341[0m
+2020-12-13T13:05:41.214Z [info] [0mGET / [36m304[0m 0.452 ms - -[0m
+2020-12-13T13:05:41.276Z [info] [0mGET /index.js [32m200[0m 0.791 ms - 610863[0m
+2020-12-13T13:05:41.391Z [info] [0mGET /favicon.ico [32m200[0m 0.826 ms - 341[0m
+2020-12-13T13:06:12.208Z [info] Express server started on port: 3000
+2020-12-13T13:06:12.233Z [info] DB migrate: true
+2020-12-13T13:06:12.246Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T13:06:12.970Z [info] [0mGET / [36m304[0m 2.750 ms - -[0m
+2020-12-13T13:06:13.073Z [info] [0mGET /index.js [36m304[0m 0.665 ms - -[0m
+2020-12-13T13:06:13.152Z [info] [0mGET /favicon.ico [32m200[0m 2.307 ms - 341[0m
+2020-12-13T13:06:13.871Z [info] [0mGET / [36m304[0m 0.410 ms - -[0m
+2020-12-13T13:06:13.952Z [info] [0mGET /index.js [36m304[0m 0.600 ms - -[0m
+2020-12-13T13:06:13.994Z [info] [0mGET /favicon.ico [32m200[0m 0.762 ms - 341[0m
+2020-12-13T13:06:14.415Z [info] [0mGET / [36m304[0m 0.428 ms - -[0m
+2020-12-13T13:06:14.501Z [info] [0mGET /index.js [36m304[0m 0.414 ms - -[0m
+2020-12-13T13:06:14.547Z [info] [0mGET /favicon.ico [32m200[0m 0.902 ms - 341[0m
+2020-12-13T13:06:14.821Z [info] [0mGET / [36m304[0m 0.429 ms - -[0m
+2020-12-13T13:06:14.869Z [info] [0mGET /index.js [36m304[0m 0.366 ms - -[0m
+2020-12-13T13:06:14.942Z [info] [0mGET /favicon.ico [32m200[0m 0.821 ms - 341[0m
+2020-12-13T13:06:15.207Z [info] [0mGET / [36m304[0m 0.553 ms - -[0m
+2020-12-13T13:06:15.286Z [info] [0mGET /index.js [36m304[0m 0.338 ms - -[0m
+2020-12-13T13:06:15.351Z [info] [0mGET /favicon.ico [32m200[0m 0.713 ms - 341[0m
+2020-12-13T13:06:15.584Z [info] [0mGET / [36m304[0m 0.339 ms - -[0m
+2020-12-13T13:06:15.661Z [info] [0mGET /index.js [36m304[0m 0.611 ms - -[0m
+2020-12-13T13:06:15.717Z [info] [0mGET /favicon.ico [32m200[0m 0.789 ms - 341[0m
+2020-12-13T13:06:15.935Z [info] [0mGET / [36m304[0m 0.405 ms - -[0m
+2020-12-13T13:06:15.989Z [info] [0mGET /index.js [32m200[0m 0.718 ms - 610946[0m
+2020-12-13T13:06:16.080Z [info] [0mGET /favicon.ico [32m200[0m 0.916 ms - 341[0m
+2020-12-13T13:07:24.193Z [info] Express server started on port: 3000
+2020-12-13T13:07:24.218Z [info] DB migrate: true
+2020-12-13T13:07:24.230Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T13:07:25.924Z [info] [0mGET / [36m304[0m 2.994 ms - -[0m
+2020-12-13T13:07:26.003Z [info] [0mGET /index.js [36m304[0m 0.598 ms - -[0m
+2020-12-13T13:07:26.068Z [info] [0mGET /favicon.ico [32m200[0m 2.969 ms - 341[0m
+2020-12-13T13:07:26.642Z [info] [0mGET / [36m304[0m 0.362 ms - -[0m
+2020-12-13T13:07:26.698Z [info] [0mGET /index.js [36m304[0m 0.345 ms - -[0m
+2020-12-13T13:07:26.725Z [info] [0mGET /favicon.ico [32m200[0m 0.780 ms - 341[0m
+2020-12-13T13:07:27.278Z [info] [0mGET / [36m304[0m 0.452 ms - -[0m
+2020-12-13T13:07:27.326Z [info] [0mGET /index.js [36m304[0m 0.366 ms - -[0m
+2020-12-13T13:07:27.350Z [info] [0mGET /favicon.ico [32m200[0m 0.678 ms - 341[0m
+2020-12-13T13:07:27.705Z [info] [0mGET / [36m304[0m 0.561 ms - -[0m
+2020-12-13T13:07:27.753Z [info] [0mGET /index.js [32m200[0m 0.625 ms - 611051[0m
+2020-12-13T13:07:27.805Z [info] [0mGET /favicon.ico [32m200[0m 1.325 ms - 341[0m
+2020-12-13T13:07:27.871Z [info] [0mGET / [36m304[0m 1.294 ms - -[0m
+2020-12-13T13:07:27.932Z [info] [0mGET /index.js [36m304[0m 0.423 ms - -[0m
+2020-12-13T13:07:27.967Z [info] [0mGET /favicon.ico [32m200[0m 0.958 ms - 341[0m
+2020-12-13T13:07:28.048Z [info] [0mGET / [36m304[0m 0.375 ms - -[0m
+2020-12-13T13:07:28.093Z [info] [0mGET /index.js [36m304[0m 0.500 ms - -[0m
+2020-12-13T13:07:28.126Z [info] [0mGET /favicon.ico [32m200[0m 0.858 ms - 341[0m
+2020-12-13T13:07:29.989Z [info] [0mGET / [36m304[0m 0.437 ms - -[0m
+2020-12-13T13:07:30.037Z [info] [0mGET /index.js [36m304[0m 0.435 ms - -[0m
+2020-12-13T13:07:30.067Z [info] [0mGET /favicon.ico [32m200[0m 0.819 ms - 341[0m
+2020-12-13T13:07:43.530Z [info] Express server started on port: 3000
+2020-12-13T13:07:43.556Z [info] DB migrate: true
+2020-12-13T13:07:43.567Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T13:07:47.883Z [info] [0mGET / [36m304[0m 3.407 ms - -[0m
+2020-12-13T13:07:47.942Z [info] [0mGET /index.js [32m200[0m 2.733 ms - 611118[0m
+2020-12-13T13:07:48.003Z [info] [0mGET /favicon.ico [32m200[0m 2.496 ms - 341[0m
+2020-12-13T13:09:50.169Z [info] Express server started on port: 3000
+2020-12-13T13:09:50.195Z [info] DB migrate: true
+2020-12-13T13:09:50.206Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T13:09:52.042Z [info] [0mGET / [36m304[0m 3.066 ms - -[0m
+2020-12-13T13:09:52.122Z [info] [0mGET /index.js [36m304[0m 0.502 ms - -[0m
+2020-12-13T13:09:52.162Z [info] [0mGET /favicon.ico [32m200[0m 2.600 ms - 341[0m
+2020-12-13T13:09:52.925Z [info] [0mGET / [36m304[0m 0.453 ms - -[0m
+2020-12-13T13:09:52.962Z [info] [0mGET /index.js [36m304[0m 0.429 ms - -[0m
+2020-12-13T13:09:52.993Z [info] [0mGET /favicon.ico [32m200[0m 1.243 ms - 341[0m
+2020-12-13T13:09:53.669Z [info] [0mGET / [36m304[0m 0.511 ms - -[0m
+2020-12-13T13:09:53.721Z [info] [0mGET /index.js [32m200[0m 0.685 ms - 610361[0m
+2020-12-13T13:09:53.775Z [info] [0mGET /favicon.ico [32m200[0m 1.091 ms - 341[0m
+2020-12-13T13:10:11.637Z [info] Express server started on port: 3000
+2020-12-13T13:10:11.664Z [info] DB migrate: true
+2020-12-13T13:10:11.676Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T13:10:12.638Z [info] [0mGET / [36m304[0m 2.739 ms - -[0m
+2020-12-13T13:10:12.692Z [info] [0mGET /index.js [36m304[0m 0.540 ms - -[0m
+2020-12-13T13:10:12.756Z [info] [0mGET /favicon.ico [32m200[0m 3.109 ms - 341[0m
+2020-12-13T13:10:13.261Z [info] [0mGET / [36m304[0m 0.455 ms - -[0m
+2020-12-13T13:10:13.287Z [info] [0mGET /index.js [36m304[0m 0.619 ms - -[0m
+2020-12-13T13:10:13.324Z [info] [0mGET /favicon.ico [32m200[0m 0.766 ms - 341[0m
+2020-12-13T13:10:13.719Z [info] [0mGET / [36m304[0m 0.468 ms - -[0m
+2020-12-13T13:10:13.761Z [info] [0mGET /index.js [36m304[0m 0.541 ms - -[0m
+2020-12-13T13:10:13.795Z [info] [0mGET /favicon.ico [32m200[0m 0.864 ms - 341[0m
+2020-12-13T13:10:14.085Z [info] [0mGET / [36m304[0m 0.454 ms - -[0m
+2020-12-13T13:10:14.134Z [info] [0mGET /index.js [36m304[0m 0.386 ms - -[0m
+2020-12-13T13:10:14.164Z [info] [0mGET /favicon.ico [32m200[0m 1.185 ms - 341[0m
+2020-12-13T13:10:14.324Z [info] [0mGET / [36m304[0m 0.388 ms - -[0m
+2020-12-13T13:10:14.371Z [info] [0mGET /index.js [36m304[0m 0.372 ms - -[0m
+2020-12-13T13:10:14.420Z [info] [0mGET /favicon.ico [32m200[0m 0.767 ms - 341[0m
+2020-12-13T13:10:14.518Z [info] [0mGET / [36m304[0m 0.404 ms - -[0m
+2020-12-13T13:10:14.560Z [info] [0mGET /index.js [36m304[0m 0.446 ms - -[0m
+2020-12-13T13:10:14.591Z [info] [0mGET /favicon.ico [32m200[0m 4.034 ms - 341[0m
+2020-12-13T13:10:14.729Z [info] [0mGET / [36m304[0m 0.467 ms - -[0m
+2020-12-13T13:10:14.780Z [info] [0mGET /index.js [36m304[0m 0.732 ms - -[0m
+2020-12-13T13:10:14.811Z [info] [0mGET /favicon.ico [32m200[0m 0.690 ms - 341[0m
+2020-12-13T13:10:14.924Z [info] [0mGET / [36m304[0m 0.334 ms - -[0m
+2020-12-13T13:10:14.974Z [info] [0mGET /index.js [32m200[0m 0.614 ms - 610361[0m
+2020-12-13T13:10:15.020Z [info] [0mGET /favicon.ico [32m200[0m 0.767 ms - 341[0m
+2020-12-13T13:10:15.099Z [info] [0mGET / [36m304[0m 0.404 ms - -[0m
+2020-12-13T13:10:15.134Z [info] [0mGET /index.js [36m304[0m 0.370 ms - -[0m
+2020-12-13T13:10:15.163Z [info] [0mGET /favicon.ico [32m200[0m 0.589 ms - 341[0m
+2020-12-13T13:10:15.292Z [info] [0mGET / [36m304[0m 0.363 ms - -[0m
+2020-12-13T13:10:15.338Z [info] [0mGET /index.js [36m304[0m 0.478 ms - -[0m
+2020-12-13T13:10:15.374Z [info] [0mGET /favicon.ico [32m200[0m 0.824 ms - 341[0m
+2020-12-13T13:17:21.035Z [info] Express server started on port: 3000
+2020-12-13T13:17:21.062Z [info] DB migrate: true
+2020-12-13T13:17:21.074Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T13:17:24.946Z [info] [0mGET / [36m304[0m 3.731 ms - -[0m
+2020-12-13T13:17:25.030Z [info] [0mGET /index.js [32m200[0m 1.913 ms - 617502[0m
+2020-12-13T13:17:25.100Z [info] [0mGET /favicon.ico [32m200[0m 1.642 ms - 341[0m
+2020-12-13T13:17:25.732Z [info] [0mGET / [36m304[0m 0.484 ms - -[0m
+2020-12-13T13:17:25.778Z [info] [0mGET /index.js [36m304[0m 0.431 ms - -[0m
+2020-12-13T13:17:25.820Z [info] [0mGET /favicon.ico [32m200[0m 1.089 ms - 341[0m
+2020-12-13T13:17:26.572Z [info] [0mGET / [36m304[0m 0.642 ms - -[0m
+2020-12-13T13:17:26.620Z [info] [0mGET /index.js [36m304[0m 0.525 ms - -[0m
+2020-12-13T13:17:26.651Z [info] [0mGET /favicon.ico [32m200[0m 0.790 ms - 341[0m
+2020-12-13T13:17:27.269Z [info] [0mGET / [36m304[0m 0.507 ms - -[0m
+2020-12-13T13:17:27.323Z [info] [0mGET /index.js [36m304[0m 0.447 ms - -[0m
+2020-12-13T13:17:27.355Z [info] [0mGET /favicon.ico [32m200[0m 1.113 ms - 341[0m
+2020-12-13T13:17:27.721Z [info] [0mGET / [36m304[0m 0.507 ms - -[0m
+2020-12-13T13:17:27.771Z [info] [0mGET /index.js [36m304[0m 0.493 ms - -[0m
+2020-12-13T13:17:27.806Z [info] [0mGET /favicon.ico [32m200[0m 1.089 ms - 341[0m
+2020-12-13T13:18:04.919Z [info] Express server started on port: 3000
+2020-12-13T13:18:04.949Z [info] DB migrate: true
+2020-12-13T13:18:04.960Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T13:18:06.829Z [info] [0mGET / [36m304[0m 3.462 ms - -[0m
+2020-12-13T13:18:06.926Z [info] [0mGET /index.js [36m304[0m 0.575 ms - -[0m
+2020-12-13T13:18:06.990Z [info] [0mGET /favicon.ico [32m200[0m 3.221 ms - 341[0m
+2020-12-13T13:18:07.320Z [info] [0mGET / [36m304[0m 0.558 ms - -[0m
+2020-12-13T13:18:07.373Z [info] [0mGET /index.js [32m200[0m 0.878 ms - 617502[0m
+2020-12-13T13:18:07.472Z [info] [0mGET /favicon.ico [32m200[0m 0.958 ms - 341[0m
+2020-12-13T13:18:07.578Z [info] [0mGET / [36m304[0m 0.442 ms - -[0m
+2020-12-13T13:18:07.626Z [info] [0mGET /index.js [36m304[0m 0.499 ms - -[0m
+2020-12-13T13:18:07.698Z [info] [0mGET /favicon.ico [32m200[0m 1.026 ms - 341[0m
+2020-12-13T13:18:57.745Z [info] Express server started on port: 3000
+2020-12-13T13:18:57.775Z [info] DB migrate: true
+2020-12-13T13:18:57.787Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T13:19:19.484Z [info] [0mGET / [36m304[0m 3.910 ms - -[0m
+2020-12-13T13:19:19.593Z [info] [0mGET /index.js [32m200[0m 1.824 ms - 617503[0m
+2020-12-13T13:19:19.683Z [info] [0mGET /favicon.ico [32m200[0m 3.204 ms - 341[0m
+2020-12-13T13:19:20.736Z [info] [0mGET /favicon.ico [36m304[0m 0.622 ms - -[0m
+2020-12-13T13:20:06.793Z [info] Express server started on port: 3000
+2020-12-13T13:20:06.820Z [info] DB migrate: true
+2020-12-13T13:20:06.832Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T13:20:44.454Z [info] [0mGET / [36m304[0m 12.092 ms - -[0m
+2020-12-13T13:20:44.603Z [info] [0mGET /index.js [32m200[0m 4.593 ms - 617501[0m
+2020-12-13T13:20:44.687Z [info] [0mGET /favicon.ico [32m200[0m 3.121 ms - 341[0m
+2020-12-13T13:20:44.876Z [info] [0mGET / [36m304[0m 0.655 ms - -[0m
+2020-12-13T13:20:44.973Z [info] [0mGET /index.js [36m304[0m 0.434 ms - -[0m
+2020-12-13T13:20:45.054Z [info] [0mGET /favicon.ico [32m200[0m 1.483 ms - 341[0m
+2020-12-13T13:22:06.513Z [info] Express server started on port: 3000
+2020-12-13T13:22:06.539Z [info] DB migrate: true
+2020-12-13T13:22:06.552Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T13:22:07.848Z [info] [0mGET / [36m304[0m 2.879 ms - -[0m
+2020-12-13T13:22:07.946Z [info] [0mGET /index.js [36m304[0m 0.534 ms - -[0m
+2020-12-13T13:22:08.025Z [info] [0mGET /favicon.ico [32m200[0m 2.495 ms - 341[0m
+2020-12-13T13:22:15.950Z [info] Express server started on port: 3000
+2020-12-13T13:22:15.986Z [info] DB migrate: true
+2020-12-13T13:22:16.002Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T13:22:16.723Z [info] [0mGET / [36m304[0m 2.944 ms - -[0m
+2020-12-13T13:22:16.833Z [info] [0mGET /index.js [32m200[0m 1.571 ms - 617515[0m
+2020-12-13T13:22:16.919Z [info] [0mGET /favicon.ico [32m200[0m 2.096 ms - 341[0m
+2020-12-13T13:23:43.956Z [info] Express server started on port: 3000
+2020-12-13T13:23:43.982Z [info] DB migrate: true
+2020-12-13T13:23:43.994Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T13:23:45.085Z [info] [0mGET / [36m304[0m 2.790 ms - -[0m
+2020-12-13T13:23:45.220Z [info] [0mGET /index.js [32m200[0m 1.721 ms - 617515[0m
+2020-12-13T13:23:45.322Z [info] [0mGET /favicon.ico [32m200[0m 2.322 ms - 341[0m
+2020-12-13T13:25:43.597Z [info] Express server started on port: 3000
+2020-12-13T13:25:43.628Z [info] DB migrate: true
+2020-12-13T13:25:43.639Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T13:25:48.171Z [info] [0mGET / [36m304[0m 3.372 ms - -[0m
+2020-12-13T13:25:48.265Z [info] [0mGET /index.js [32m200[0m 3.131 ms - 617874[0m
+2020-12-13T13:25:48.362Z [info] [0mGET /favicon.ico [32m200[0m 2.117 ms - 341[0m
+2020-12-13T13:28:25.743Z [info] Express server started on port: 3000
+2020-12-13T13:28:25.772Z [info] DB migrate: true
+2020-12-13T13:28:25.804Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T13:28:28.960Z [info] [0mGET / [36m304[0m 2.738 ms - -[0m
+2020-12-13T13:28:29.032Z [info] [0mGET /index.js [32m200[0m 4.753 ms - 618055[0m
+2020-12-13T13:28:29.133Z [info] [0mGET /favicon.ico [32m200[0m 2.184 ms - 341[0m
+2020-12-13T13:40:14.457Z [info] Express server started on port: 3000
+2020-12-13T13:40:14.488Z [info] DB migrate: true
+2020-12-13T13:40:14.500Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T13:40:35.881Z [info] [0mGET / [36m304[0m 4.566 ms - -[0m
+2020-12-13T13:40:36.000Z [info] [0mGET /index.js [32m200[0m 2.485 ms - 620250[0m
+2020-12-13T13:40:36.124Z [info] [0mGET /favicon.ico [36m304[0m 1.945 ms - -[0m
+2020-12-13T13:40:37.590Z [info] [0mGET /favicon.ico [36m304[0m 0.903 ms - -[0m
+2020-12-13T13:42:09.553Z [info] Express server started on port: 3000
+2020-12-13T13:42:09.581Z [info] DB migrate: true
+2020-12-13T13:42:09.595Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T13:42:12.042Z [info] [0mGET / [36m304[0m 2.988 ms - -[0m
+2020-12-13T13:42:12.219Z [info] [0mGET /index.js [36m304[0m 0.590 ms - -[0m
+2020-12-13T13:42:12.325Z [info] [0mGET /favicon.ico [32m200[0m 2.970 ms - 341[0m
+2020-12-13T13:42:51.779Z [info] Express server started on port: 3000
+2020-12-13T13:42:51.805Z [info] DB migrate: true
+2020-12-13T13:42:51.817Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T13:42:57.028Z [info] [0mGET / [36m304[0m 3.533 ms - -[0m
+2020-12-13T13:42:57.089Z [info] [0mGET /index.js [32m200[0m 2.742 ms - 620258[0m
+2020-12-13T13:42:57.190Z [info] [0mGET /favicon.ico [32m200[0m 2.528 ms - 341[0m
+2020-12-13T13:43:18.279Z [error] 
+2020-12-13T13:43:18.281Z [info] [0mPOST /api/users/email/signup [33m400[0m 12.615 ms - 94[0m
+2020-12-13T13:45:47.110Z [info] [0mPOST /api/users/email/signup [32m201[0m 21.432 ms - 351[0m
+2020-12-13T13:46:16.438Z [info] Express server started on port: 3000
+2020-12-13T13:46:16.464Z [info] DB migrate: true
+2020-12-13T13:46:16.477Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T13:46:21.285Z [error] 
+2020-12-13T13:46:21.289Z [info] [0mPOST /api/users/email/signup [33m400[0m 10.856 ms - 93[0m
+2020-12-13T13:46:27.404Z [info] [0mGET / [36m304[0m 2.441 ms - -[0m
+2020-12-13T13:46:27.488Z [info] [0mGET /index.js [32m200[0m 1.883 ms - 620175[0m
+2020-12-13T13:46:27.551Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:46:27.557Z [info] [0mGET /api/kcals [32m200[0m 8.723 ms - 75[0m
+2020-12-13T13:46:27.560Z [info] [0mGET /favicon.ico [32m200[0m 4.643 ms - 341[0m
+2020-12-13T13:46:29.993Z [info] [0mGET / [36m304[0m 0.457 ms - -[0m
+2020-12-13T13:46:30.039Z [info] [0mGET /index.js [36m304[0m 0.460 ms - -[0m
+2020-12-13T13:46:30.074Z [info] [0mGET /favicon.ico [32m200[0m 1.068 ms - 341[0m
+2020-12-13T13:46:44.211Z [info] [0mPOST /api/users/email/signup [32m201[0m 21.210 ms - 351[0m
+2020-12-13T13:46:44.265Z [info] [0mGET /favicon.ico [36m304[0m 0.802 ms - -[0m
+2020-12-13T13:47:47.033Z [info] Express server started on port: 3000
+2020-12-13T13:47:47.057Z [info] DB migrate: true
+2020-12-13T13:47:47.070Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T13:47:50.505Z [error] 
+2020-12-13T13:47:50.509Z [info] [0mPOST /api/users/email/signup [33m400[0m 11.664 ms - 93[0m
+2020-12-13T13:47:51.150Z [error] 
+2020-12-13T13:47:51.151Z [info] [0mPOST /api/users/email/signup [33m400[0m 3.155 ms - 93[0m
+2020-12-13T13:47:51.336Z [error] 
+2020-12-13T13:47:51.337Z [info] [0mPOST /api/users/email/signup [33m400[0m 3.096 ms - 93[0m
+2020-12-13T13:47:52.473Z [info] [0mGET / [36m304[0m 2.638 ms - -[0m
+2020-12-13T13:47:52.566Z [info] [0mGET /index.js [32m200[0m 1.988 ms - 620180[0m
+2020-12-13T13:47:52.633Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:47:52.638Z [info] [0mGET /api/kcals [36m304[0m 7.988 ms - -[0m
+2020-12-13T13:47:52.640Z [info] [0mGET /favicon.ico [32m200[0m 3.736 ms - 341[0m
+2020-12-13T13:47:55.527Z [info] [0mGET / [36m304[0m 0.649 ms - -[0m
+2020-12-13T13:47:55.571Z [info] [0mGET /index.js [36m304[0m 0.417 ms - -[0m
+2020-12-13T13:47:55.612Z [info] [0mGET /favicon.ico [32m200[0m 0.920 ms - 341[0m
+2020-12-13T13:48:11.859Z [info] [0mGET / [36m304[0m 0.693 ms - -[0m
+2020-12-13T13:48:11.906Z [info] [0mGET /index.js [36m304[0m 0.444 ms - -[0m
+2020-12-13T13:48:11.955Z [info] [0mGET /favicon.ico [32m200[0m 0.849 ms - 341[0m
+2020-12-13T13:48:12.528Z [info] [0mGET /favicon.ico [36m304[0m 0.923 ms - -[0m
+2020-12-13T13:48:25.183Z [info] [0mPOST /api/users/email/signup [32m201[0m 21.931 ms - 351[0m
+2020-12-13T13:48:25.255Z [info] [0mGET /favicon.ico [36m304[0m 0.620 ms - -[0m
+2020-12-13T13:48:38.804Z [info] [0mPOST /api/users/email [32m200[0m 4.827 ms - 86[0m
+2020-12-13T13:48:38.813Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:48:38.815Z [info] [0mGET /api/kcals [36m304[0m 2.888 ms - -[0m
+2020-12-13T13:48:53.272Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:48:53.279Z [info] [0mPOST /api/kcals [32m201[0m 6.868 ms - 154[0m
+2020-12-13T13:48:56.900Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:48:56.904Z [info] [0mPOST /api/kcals [32m201[0m 4.243 ms - 154[0m
+2020-12-13T13:48:57.318Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:48:57.321Z [info] [0mPOST /api/kcals [32m201[0m 3.854 ms - 154[0m
+2020-12-13T13:48:57.490Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:48:57.495Z [info] [0mPOST /api/kcals [32m201[0m 4.339 ms - 154[0m
+2020-12-13T13:48:57.681Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:48:57.685Z [info] [0mPOST /api/kcals [32m201[0m 3.745 ms - 154[0m
+2020-12-13T13:48:58.026Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:48:58.029Z [info] [0mPOST /api/kcals [32m201[0m 3.574 ms - 154[0m
+2020-12-13T13:48:58.192Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:48:58.196Z [info] [0mPOST /api/kcals [32m201[0m 3.809 ms - 154[0m
+2020-12-13T13:48:58.353Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:48:58.356Z [info] [0mPOST /api/kcals [32m201[0m 4.034 ms - 154[0m
+2020-12-13T13:48:58.518Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:48:58.521Z [info] [0mPOST /api/kcals [32m201[0m 3.408 ms - 154[0m
+2020-12-13T13:49:01.136Z [info] [0mGET /57fad95c7dfb0d62adbf9a3892838af8.svg [32m200[0m 1.782 ms - 4448[0m
+2020-12-13T13:49:01.137Z [info] [0mGET /favicon.ico [36m304[0m 1.640 ms - -[0m
+2020-12-13T13:49:01.705Z [info] [0mGET /favicon.ico [36m304[0m 0.550 ms - -[0m
+2020-12-13T13:49:08.145Z [info] [0mGET /favicon.ico [36m304[0m 0.608 ms - -[0m
+2020-12-13T13:49:08.734Z [info] [0mGET /favicon.ico [36m304[0m 1.600 ms - -[0m
+2020-12-13T13:49:14.586Z [info] [0mGET /favicon.ico [36m304[0m 0.552 ms - -[0m
+2020-12-13T13:49:17.615Z [info] [0mGET /favicon.ico [36m304[0m 0.548 ms - -[0m
+2020-12-13T13:49:18.216Z [info] [0mGET /favicon.ico [36m304[0m 0.557 ms - -[0m
+2020-12-13T13:49:19.710Z [info] [0mGET /favicon.ico [36m304[0m 0.571 ms - -[0m
+2020-12-13T13:49:22.432Z [info] [0mGET / [36m304[0m 0.511 ms - -[0m
+2020-12-13T13:49:22.489Z [info] [0mGET /index.js [36m304[0m 0.431 ms - -[0m
+2020-12-13T13:49:22.534Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:49:22.541Z [info] [0mGET /api/kcals [32m200[0m 7.426 ms - 1073[0m
+2020-12-13T13:49:22.572Z [info] [0mGET /favicon.ico [32m200[0m 1.070 ms - 341[0m
+2020-12-13T13:49:25.328Z [info] [0mGET /favicon.ico [36m304[0m 0.601 ms - -[0m
+2020-12-13T13:49:26.893Z [info] [0mGET /favicon.ico [36m304[0m 0.547 ms - -[0m
+2020-12-13T13:49:26.895Z [info] [0mGET /57fad95c7dfb0d62adbf9a3892838af8.svg [36m304[0m 0.576 ms - -[0m
+2020-12-13T13:49:30.028Z [info] [0mGET /favicon.ico [36m304[0m 0.663 ms - -[0m
+2020-12-13T13:49:41.605Z [info] [0mGET / [36m304[0m 0.406 ms - -[0m
+2020-12-13T13:49:41.658Z [info] [0mGET /index.js [36m304[0m 0.471 ms - -[0m
+2020-12-13T13:49:41.705Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:49:41.709Z [info] [0mGET /api/kcals [36m304[0m 4.870 ms - -[0m
+2020-12-13T13:49:41.744Z [info] [0mGET /favicon.ico [32m200[0m 1.008 ms - 341[0m
+2020-12-13T13:49:42.758Z [info] [0mGET /57fad95c7dfb0d62adbf9a3892838af8.svg [36m304[0m 1.112 ms - -[0m
+2020-12-13T13:49:42.759Z [info] [0mGET /favicon.ico [36m304[0m 1.438 ms - -[0m
+2020-12-13T13:49:43.947Z [info] [0mGET /favicon.ico [36m304[0m 0.597 ms - -[0m
+2020-12-13T13:50:14.323Z [info] [0mGET / [36m304[0m 0.403 ms - -[0m
+2020-12-13T13:50:14.417Z [info] [0mGET /index.js [36m304[0m 0.478 ms - -[0m
+2020-12-13T13:50:14.471Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:50:14.475Z [info] [0mGET /api/kcals [32m200[0m 4.486 ms - 75[0m
+2020-12-13T13:50:14.508Z [info] [0mGET /favicon.ico [32m200[0m 2.059 ms - 341[0m
+2020-12-13T13:52:03.567Z [info] Express server started on port: 3000
+2020-12-13T13:52:03.597Z [info] DB migrate: true
+2020-12-13T13:52:03.610Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T13:52:05.940Z [info] [0mGET / [36m304[0m 2.835 ms - -[0m
+2020-12-13T13:52:06.032Z [info] [0mGET /index.js [36m304[0m 1.546 ms - -[0m
+2020-12-13T13:52:06.077Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:52:06.083Z [info] [0mGET /api/kcals [36m304[0m 9.494 ms - -[0m
+2020-12-13T13:52:06.129Z [info] [0mGET /favicon.ico [32m200[0m 2.639 ms - 341[0m
+2020-12-13T13:52:07.333Z [info] [0mGET / [36m304[0m 0.623 ms - -[0m
+2020-12-13T13:52:07.388Z [info] [0mGET /index.js [32m200[0m 0.843 ms - 620180[0m
+2020-12-13T13:52:07.443Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:52:07.445Z [info] [0mGET /api/kcals [36m304[0m 2.507 ms - -[0m
+2020-12-13T13:52:07.485Z [info] [0mGET /favicon.ico [32m200[0m 2.655 ms - 341[0m
+2020-12-13T13:55:12.117Z [info] Express server started on port: 3000
+2020-12-13T13:55:12.142Z [info] DB migrate: true
+2020-12-13T13:55:12.153Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T13:55:18.588Z [info] [0mGET / [36m304[0m 3.935 ms - -[0m
+2020-12-13T13:55:18.703Z [info] [0mGET /index.js [32m200[0m 2.169 ms - 620423[0m
+2020-12-13T13:55:18.772Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:55:18.783Z [info] [0mGET /api/kcals [36m304[0m 14.548 ms - -[0m
+2020-12-13T13:55:18.816Z [info] [0mGET /favicon.ico [32m200[0m 1.503 ms - 341[0m
+2020-12-13T13:55:19.538Z [info] [0mGET / [36m304[0m 0.472 ms - -[0m
+2020-12-13T13:55:19.605Z [info] [0mGET /index.js [36m304[0m 0.442 ms - -[0m
+2020-12-13T13:55:19.649Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:55:19.652Z [info] [0mGET /api/kcals [36m304[0m 2.920 ms - -[0m
+2020-12-13T13:55:19.695Z [info] [0mGET /favicon.ico [32m200[0m 1.386 ms - 341[0m
+2020-12-13T13:55:22.008Z [info] [0mGET /favicon.ico [36m304[0m 1.179 ms - -[0m
+2020-12-13T13:55:22.573Z [info] [0mGET /favicon.ico [36m304[0m 0.709 ms - -[0m
+2020-12-13T13:55:23.846Z [info] [0mGET / [36m304[0m 0.572 ms - -[0m
+2020-12-13T13:55:23.919Z [info] [0mGET /index.js [36m304[0m 0.497 ms - -[0m
+2020-12-13T13:55:23.946Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:55:23.950Z [info] [0mGET /api/kcals [36m304[0m 4.157 ms - -[0m
+2020-12-13T13:55:23.988Z [info] [0mGET /favicon.ico [32m200[0m 1.418 ms - 341[0m
+2020-12-13T13:55:24.784Z [info] [0mGET /favicon.ico [36m304[0m 0.771 ms - -[0m
+2020-12-13T13:55:25.341Z [info] [0mGET /favicon.ico [36m304[0m 0.727 ms - -[0m
+2020-12-13T13:55:27.666Z [info] [0mGET /favicon.ico [36m304[0m 1.059 ms - -[0m
+2020-12-13T13:55:35.986Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:55:36.001Z [info] [0mPOST /api/kcals [32m201[0m 15.243 ms - 153[0m
+2020-12-13T13:55:36.037Z [info] [0mGET / [36m304[0m 0.444 ms - -[0m
+2020-12-13T13:55:36.112Z [info] [0mGET /index.js [36m304[0m 0.463 ms - -[0m
+2020-12-13T13:55:36.167Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:55:36.171Z [info] [0mGET /api/kcals [32m200[0m 5.071 ms - 184[0m
+2020-12-13T13:55:36.213Z [info] [0mGET /favicon.ico [32m200[0m 1.550 ms - 341[0m
+2020-12-13T13:55:38.293Z [info] [0mGET /favicon.ico [36m304[0m 0.630 ms - -[0m
+2020-12-13T13:55:38.299Z [info] [0mGET /21d53fc8c1d6f370f26f3322f43aa670.svg [32m200[0m 2.807 ms - 7290[0m
+2020-12-13T13:55:39.647Z [info] [0mGET /favicon.ico [36m304[0m 0.691 ms - -[0m
+2020-12-13T13:55:42.556Z [info] [0mGET /favicon.ico [36m304[0m 0.699 ms - -[0m
+2020-12-13T13:57:21.509Z [info] Express server started on port: 3000
+2020-12-13T13:57:21.539Z [info] DB migrate: true
+2020-12-13T13:57:21.553Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T13:57:26.081Z [info] [0mGET / [36m304[0m 3.931 ms - -[0m
+2020-12-13T13:57:26.176Z [info] [0mGET /index.js [32m200[0m 2.645 ms - 620547[0m
+2020-12-13T13:57:26.236Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:57:26.245Z [info] [0mGET /api/kcals [36m304[0m 10.812 ms - -[0m
+2020-12-13T13:57:26.272Z [info] [0mGET /favicon.ico [32m200[0m 1.917 ms - 341[0m
+2020-12-13T13:57:49.055Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:57:49.070Z [info] [0mPOST /api/kcals [32m201[0m 16.029 ms - 153[0m
+2020-12-13T13:57:49.102Z [info] [0mGET / [36m304[0m 0.656 ms - -[0m
+2020-12-13T13:57:49.158Z [info] [0mGET /index.js [36m304[0m 0.474 ms - -[0m
+2020-12-13T13:57:49.213Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:57:49.218Z [info] [0mGET /api/kcals [32m200[0m 5.011 ms - 294[0m
+2020-12-13T13:57:49.275Z [info] [0mGET /favicon.ico [32m200[0m 1.601 ms - 341[0m
+2020-12-13T13:57:50.661Z [info] [0mGET /favicon.ico [36m304[0m 0.729 ms - -[0m
+2020-12-13T13:57:58.007Z [info] [0mGET /favicon.ico [36m304[0m 1.760 ms - -[0m
+2020-12-13T13:58:06.784Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:58:06.792Z [info] [0mPOST /api/kcals [32m201[0m 7.796 ms - 153[0m
+2020-12-13T13:58:06.822Z [info] [0mGET / [36m304[0m 0.561 ms - -[0m
+2020-12-13T13:58:06.887Z [info] [0mGET /index.js [36m304[0m 0.681 ms - -[0m
+2020-12-13T13:58:06.920Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:58:06.924Z [info] [0mGET /api/kcals [32m200[0m 4.642 ms - 401[0m
+2020-12-13T13:58:06.969Z [info] [0mGET /favicon.ico [32m200[0m 3.500 ms - 341[0m
+2020-12-13T13:58:07.854Z [info] [0mGET /favicon.ico [36m304[0m 0.671 ms - -[0m
+2020-12-13T13:58:13.394Z [info] [0mGET /favicon.ico [36m304[0m 0.780 ms - -[0m
+2020-12-13T13:58:17.246Z [info] [0mGET /favicon.ico [36m304[0m 0.676 ms - -[0m
+2020-12-13T13:58:19.907Z [info] [0mGET /21d53fc8c1d6f370f26f3322f43aa670.svg [32m200[0m 0.993 ms - 7290[0m
+2020-12-13T13:58:22.274Z [info] [0mGET /favicon.ico [36m304[0m 0.645 ms - -[0m
+2020-12-13T13:58:23.791Z [info] [0mGET / [36m304[0m 0.423 ms - -[0m
+2020-12-13T13:58:23.843Z [info] [0mGET /index.js [36m304[0m 0.718 ms - -[0m
+2020-12-13T13:58:23.932Z [info] [0mGET /favicon.ico [32m200[0m 0.824 ms - 341[0m
+2020-12-13T13:58:25.176Z [info] [0mGET /favicon.ico [36m304[0m 0.606 ms - -[0m
+2020-12-13T13:58:45.090Z [info] [0mPOST /api/users/email/signup [32m201[0m 18.884 ms - 353[0m
+2020-12-13T13:58:45.144Z [info] [0mGET /favicon.ico [36m304[0m 0.759 ms - -[0m
+2020-12-13T13:58:53.263Z [info] [0mPOST /api/users/email [32m200[0m 3.478 ms - 87[0m
+2020-12-13T13:58:53.272Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:58:53.274Z [info] [0mGET /api/kcals [32m200[0m 2.759 ms - 75[0m
+2020-12-13T13:59:02.863Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:59:02.868Z [info] [0mPOST /api/kcals [32m201[0m 4.726 ms - 154[0m
+2020-12-13T13:59:50.859Z [info] [0mGET / [36m304[0m 0.452 ms - -[0m
+2020-12-13T13:59:50.947Z [info] [0mGET /index.js [36m304[0m 1.129 ms - -[0m
+2020-12-13T13:59:50.992Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T13:59:50.996Z [info] [0mGET /api/kcals [32m200[0m 4.223 ms - 185[0m
+2020-12-13T13:59:51.044Z [info] [0mGET /favicon.ico [32m200[0m 1.056 ms - 341[0m
+2020-12-13T14:00:51.954Z [info] [0mGET /favicon.ico [36m304[0m 0.634 ms - -[0m
+2020-12-13T14:00:54.131Z [info] [0mGET /favicon.ico [36m304[0m 0.546 ms - -[0m
+2020-12-13T14:01:11.076Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:01:11.085Z [info] [0mPOST /api/kcals [32m201[0m 8.987 ms - 154[0m
+2020-12-13T14:01:11.117Z [info] [0mGET / [36m304[0m 0.526 ms - -[0m
+2020-12-13T14:01:11.172Z [info] [0mGET /index.js [36m304[0m 0.454 ms - -[0m
+2020-12-13T14:01:11.216Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:01:11.218Z [info] [0mGET /api/kcals [32m200[0m 3.018 ms - 299[0m
+2020-12-13T14:01:11.271Z [info] [0mGET /favicon.ico [32m200[0m 0.872 ms - 341[0m
+2020-12-13T14:01:19.511Z [info] [0mGET / [36m304[0m 0.370 ms - -[0m
+2020-12-13T14:01:19.555Z [info] [0mGET /index.js [36m304[0m 0.363 ms - -[0m
+2020-12-13T14:01:19.603Z [info] [0mGET /favicon.ico [32m200[0m 1.314 ms - 341[0m
+2020-12-13T14:01:21.867Z [info] [0mGET /favicon.ico [36m304[0m 0.533 ms - -[0m
+2020-12-13T14:01:43.243Z [info] [0mPOST /api/users/email/signup [32m201[0m 11.130 ms - 348[0m
+2020-12-13T14:01:43.298Z [info] [0mGET /favicon.ico [36m304[0m 0.491 ms - -[0m
+2020-12-13T14:01:52.232Z [info] [0mPOST /api/users/email [32m200[0m 3.046 ms - 85[0m
+2020-12-13T14:01:52.240Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:01:52.242Z [info] [0mGET /api/kcals [32m200[0m 2.503 ms - 75[0m
+2020-12-13T14:02:26.392Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:02:26.399Z [info] [0mPOST /api/kcals [32m201[0m 7.686 ms - 154[0m
+2020-12-13T14:02:27.758Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:02:27.763Z [info] [0mPOST /api/kcals [32m201[0m 5.045 ms - 154[0m
+2020-12-13T14:02:27.958Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:02:27.963Z [info] [0mPOST /api/kcals [32m201[0m 5.182 ms - 154[0m
+2020-12-13T14:02:28.154Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:02:28.159Z [info] [0mPOST /api/kcals [32m201[0m 5.048 ms - 154[0m
+2020-12-13T14:02:28.353Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:02:28.358Z [info] [0mPOST /api/kcals [32m201[0m 5.651 ms - 154[0m
+2020-12-13T14:02:32.046Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:02:32.051Z [info] [0mPOST /api/kcals [32m201[0m 5.212 ms - 154[0m
+2020-12-13T14:02:32.195Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:02:32.199Z [info] [0mPOST /api/kcals [32m201[0m 4.139 ms - 154[0m
+2020-12-13T14:02:32.357Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:02:32.362Z [info] [0mPOST /api/kcals [32m201[0m 5.411 ms - 154[0m
+2020-12-13T14:02:32.487Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:02:32.491Z [info] [0mPOST /api/kcals [32m201[0m 4.555 ms - 154[0m
+2020-12-13T14:02:32.612Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:02:32.618Z [info] [0mPOST /api/kcals [32m201[0m 5.639 ms - 154[0m
+2020-12-13T14:02:42.764Z [info] [0mGET / [36m304[0m 0.812 ms - -[0m
+2020-12-13T14:02:42.850Z [info] [0mGET /index.js [36m304[0m 0.414 ms - -[0m
+2020-12-13T14:02:42.883Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:02:42.888Z [info] [0mGET /api/kcals [32m200[0m 4.906 ms - 1184[0m
+2020-12-13T14:02:42.916Z [info] [0mGET /favicon.ico [32m200[0m 1.308 ms - 341[0m
+2020-12-13T14:04:13.971Z [info] Express server started on port: 3000
+2020-12-13T14:04:13.997Z [info] DB migrate: true
+2020-12-13T14:04:14.009Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T14:04:17.367Z [info] [0mGET / [36m304[0m 3.623 ms - -[0m
+2020-12-13T14:04:17.461Z [info] [0mGET /index.js [32m200[0m 3.293 ms - 620281[0m
+2020-12-13T14:04:17.523Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:04:17.535Z [info] [0mGET /api/kcals [36m304[0m 15.108 ms - -[0m
+2020-12-13T14:04:17.581Z [info] [0mGET /favicon.ico [32m200[0m 2.344 ms - 341[0m
+2020-12-13T14:04:18.646Z [info] [0mGET / [36m304[0m 0.480 ms - -[0m
+2020-12-13T14:04:18.705Z [info] [0mGET /index.js [36m304[0m 0.489 ms - -[0m
+2020-12-13T14:04:18.792Z [info] [0mGET /favicon.ico [32m200[0m 1.181 ms - 341[0m
+2020-12-13T14:04:19.897Z [info] [0mGET /favicon.ico [36m304[0m 0.578 ms - -[0m
+2020-12-13T14:04:36.762Z [info] [0mPOST /api/users/email/signup [32m201[0m 24.271 ms - 348[0m
+2020-12-13T14:04:36.822Z [info] [0mGET /favicon.ico [36m304[0m 0.792 ms - -[0m
+2020-12-13T14:04:46.973Z [info] [0mPOST /api/users/email [32m200[0m 5.444 ms - 85[0m
+2020-12-13T14:04:46.982Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:04:46.985Z [info] [0mGET /api/kcals [32m200[0m 3.073 ms - 75[0m
+2020-12-13T14:04:53.216Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:04:53.222Z [info] [0mPOST /api/kcals [32m201[0m 6.463 ms - 154[0m
+2020-12-13T14:04:54.889Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:04:54.894Z [info] [0mPOST /api/kcals [32m201[0m 5.512 ms - 154[0m
+2020-12-13T14:04:58.145Z [info] [0mGET / [36m304[0m 0.568 ms - -[0m
+2020-12-13T14:04:58.203Z [info] [0mGET /index.js [36m304[0m 0.488 ms - -[0m
+2020-12-13T14:04:58.244Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:04:58.249Z [info] [0mGET /api/kcals [32m200[0m 4.778 ms - 296[0m
+2020-12-13T14:04:58.289Z [info] [0mGET /favicon.ico [32m200[0m 1.355 ms - 341[0m
+2020-12-13T14:05:03.672Z [info] Express server started on port: 3000
+2020-12-13T14:05:03.698Z [info] DB migrate: true
+2020-12-13T14:05:03.709Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T14:05:05.995Z [info] [0mGET / [36m304[0m 3.891 ms - -[0m
+2020-12-13T14:05:06.063Z [info] [0mGET /index.js [32m200[0m 3.345 ms - 620281[0m
+2020-12-13T14:05:06.127Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:05:06.136Z [info] [0mGET /api/kcals [36m304[0m 11.468 ms - -[0m
+2020-12-13T14:05:06.160Z [info] [0mGET /favicon.ico [32m200[0m 1.406 ms - 341[0m
+2020-12-13T14:05:23.814Z [info] [0mGET / [36m304[0m 0.708 ms - -[0m
+2020-12-13T14:05:23.903Z [info] [0mGET /index.js [36m304[0m 0.791 ms - -[0m
+2020-12-13T14:05:23.962Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:05:23.968Z [info] [0mGET /api/kcals [32m200[0m 5.966 ms - 75[0m
+2020-12-13T14:05:24.006Z [info] [0mGET /favicon.ico [32m200[0m 5.087 ms - 341[0m
+2020-12-13T14:05:25.667Z [info] [0mGET / [36m304[0m 0.524 ms - -[0m
+2020-12-13T14:05:25.726Z [info] [0mGET /index.js [36m304[0m 0.516 ms - -[0m
+2020-12-13T14:05:25.800Z [info] [0mGET /favicon.ico [32m200[0m 0.883 ms - 341[0m
+2020-12-13T14:05:28.204Z [info] [0mGET /favicon.ico [36m304[0m 1.643 ms - -[0m
+2020-12-13T14:05:45.775Z [info] [0mPOST /api/users/email/signup [32m201[0m 21.322 ms - 344[0m
+2020-12-13T14:05:45.833Z [info] [0mGET /favicon.ico [36m304[0m 0.742 ms - -[0m
+2020-12-13T14:06:01.332Z [info] [0mPOST /api/users/email [32m200[0m 6.529 ms - 83[0m
+2020-12-13T14:06:01.342Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:06:01.344Z [info] [0mGET /api/kcals [36m304[0m 2.900 ms - -[0m
+2020-12-13T14:06:07.905Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:06:07.912Z [info] [0mPOST /api/kcals [32m201[0m 6.732 ms - 154[0m
+2020-12-13T14:06:14.533Z [info] [0mGET / [36m304[0m 0.463 ms - -[0m
+2020-12-13T14:06:14.587Z [info] [0mGET /index.js [36m304[0m 0.578 ms - -[0m
+2020-12-13T14:06:14.632Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:06:14.635Z [info] [0mGET /api/kcals [32m200[0m 4.104 ms - 185[0m
+2020-12-13T14:06:14.691Z [info] [0mGET /favicon.ico [32m200[0m 2.391 ms - 341[0m
+2020-12-13T14:09:11.730Z [info] [0mGET / [36m304[0m 0.419 ms - -[0m
+2020-12-13T14:09:11.821Z [info] [0mGET /index.js [36m304[0m 0.594 ms - -[0m
+2020-12-13T14:09:11.865Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:09:11.871Z [info] [0mGET /api/kcals [36m304[0m 6.644 ms - -[0m
+2020-12-13T14:09:11.914Z [info] [0mGET /favicon.ico [32m200[0m 0.851 ms - 341[0m
+2020-12-13T14:09:15.431Z [info] [0mGET / [36m304[0m 0.391 ms - -[0m
+2020-12-13T14:09:15.487Z [info] [0mGET /index.js [36m304[0m 0.397 ms - -[0m
+2020-12-13T14:09:15.582Z [info] [0mGET /favicon.ico [32m200[0m 0.832 ms - 341[0m
+2020-12-13T14:09:16.431Z [info] [0mGET / [36m304[0m 0.451 ms - -[0m
+2020-12-13T14:09:16.487Z [info] [0mGET /index.js [36m304[0m 0.398 ms - -[0m
+2020-12-13T14:09:16.563Z [info] [0mGET /favicon.ico [32m200[0m 0.841 ms - 341[0m
+2020-12-13T14:09:26.486Z [info] [0mPOST /api/users/email [32m200[0m 5.316 ms - 87[0m
+2020-12-13T14:09:26.496Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:09:26.498Z [info] [0mGET /api/kcals [32m200[0m 3.064 ms - 787[0m
+2020-12-13T14:09:35.164Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:09:35.168Z [info] [0mPOST /api/kcals [32m201[0m 4.714 ms - 154[0m
+2020-12-13T14:09:42.873Z [info] [0mGET / [36m304[0m 0.496 ms - -[0m
+2020-12-13T14:09:42.946Z [info] [0mGET /index.js [36m304[0m 0.445 ms - -[0m
+2020-12-13T14:09:42.982Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:09:42.987Z [info] [0mGET /api/kcals [32m200[0m 4.860 ms - 898[0m
+2020-12-13T14:09:43.022Z [info] [0mGET /favicon.ico [32m200[0m 2.289 ms - 341[0m
+2020-12-13T14:11:26.266Z [info] Express server started on port: 3000
+2020-12-13T14:11:26.295Z [info] DB migrate: true
+2020-12-13T14:11:26.307Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T14:12:53.733Z [info] Express server started on port: 3000
+2020-12-13T14:12:53.761Z [info] DB migrate: true
+2020-12-13T14:12:53.773Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-13T14:12:55.892Z [info] [0mGET / [36m304[0m 3.200 ms - -[0m
+2020-12-13T14:12:56.015Z [info] [0mGET /index.js [32m200[0m 2.027 ms - 620718[0m
+2020-12-13T14:12:56.096Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:12:56.105Z [info] [0mGET /api/kcals [36m304[0m 13.351 ms - -[0m
+2020-12-13T14:12:56.107Z [info] [0mGET /favicon.ico [32m200[0m 5.623 ms - 341[0m
+2020-12-13T14:12:58.045Z [info] [0mGET / [36m304[0m 0.478 ms - -[0m
+2020-12-13T14:12:58.122Z [info] [0mGET /index.js [32m200[0m 0.729 ms - 620471[0m
+2020-12-13T14:12:58.229Z [info] [0mGET /favicon.ico [32m200[0m 1.173 ms - 341[0m
+2020-12-13T14:13:00.639Z [info] [0mGET / [36m304[0m 0.716 ms - -[0m
+2020-12-13T14:13:00.705Z [info] [0mGET /index.js [36m304[0m 0.586 ms - -[0m
+2020-12-13T14:13:00.792Z [info] [0mGET /favicon.ico [32m200[0m 0.932 ms - 341[0m
+2020-12-13T14:13:01.216Z [info] [0mGET / [36m304[0m 0.481 ms - -[0m
+2020-12-13T14:13:01.271Z [info] [0mGET /index.js [36m304[0m 0.672 ms - -[0m
+2020-12-13T14:13:01.348Z [info] [0mGET /favicon.ico [32m200[0m 1.504 ms - 341[0m
+2020-12-13T14:13:10.973Z [info] [0mPOST /api/users/email [32m200[0m 8.463 ms - 87[0m
+2020-12-13T14:13:10.984Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:13:10.988Z [info] [0mGET /api/kcals [36m304[0m 4.517 ms - -[0m
+2020-12-13T14:13:18.112Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:13:18.123Z [info] [0mPOST /api/kcals [32m201[0m 11.514 ms - 156[0m
+2020-12-13T14:13:18.157Z [info] [0mGET / [36m304[0m 0.657 ms - -[0m
+2020-12-13T14:13:18.248Z [info] [0mGET /index.js [36m304[0m 0.515 ms - -[0m
+2020-12-13T14:13:18.305Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:13:18.310Z [info] [0mGET /api/kcals [32m200[0m 5.038 ms - 1011[0m
+2020-12-13T14:13:18.338Z [info] [0mGET /favicon.ico [32m200[0m 1.152 ms - 341[0m
+2020-12-13T14:13:22.227Z [info] [0mGET /favicon.ico [36m304[0m 0.631 ms - -[0m
+2020-12-13T14:13:25.780Z [info] [0mGET / [36m304[0m 0.453 ms - -[0m
+2020-12-13T14:13:25.867Z [info] [0mGET /index.js [36m304[0m 0.431 ms - -[0m
+2020-12-13T14:13:25.932Z [info] [0mGET /favicon.ico [32m200[0m 1.451 ms - 341[0m
+2020-12-13T14:15:40.481Z [info] [0mGET /favicon.ico [36m304[0m 0.597 ms - -[0m
+2020-12-13T14:17:17.744Z [info] [0mGET / [36m304[0m 0.634 ms - -[0m
+2020-12-13T14:17:17.829Z [info] [0mGET /index.js [36m304[0m 0.578 ms - -[0m
+2020-12-13T14:17:17.888Z [info] [0mGET /favicon.ico [32m200[0m 0.912 ms - 341[0m
+2020-12-13T14:17:45.712Z [info] [0mGET / [36m304[0m 0.830 ms - -[0m
+2020-12-13T14:17:45.877Z [info] [0mGET /index.js [36m304[0m 1.166 ms - -[0m
+2020-12-13T14:17:45.961Z [info] [0mGET /favicon.ico [36m304[0m 0.556 ms - -[0m
+2020-12-13T14:17:49.586Z [info] [0mGET /favicon.ico [36m304[0m 0.753 ms - -[0m
+2020-12-13T14:18:01.937Z [info] [0mPOST /api/users/email/signup [32m201[0m 17.910 ms - 332[0m
+2020-12-13T14:18:02.031Z [info] [0mGET /favicon.ico [36m304[0m 0.917 ms - -[0m
+2020-12-13T14:18:09.824Z [info] [0mPOST /api/users/email [32m200[0m 3.483 ms - 81[0m
+2020-12-13T14:18:09.836Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:18:09.839Z [info] [0mGET /api/kcals [32m200[0m 3.560 ms - 75[0m
+2020-12-13T14:18:22.056Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:18:22.064Z [info] [0mPOST /api/kcals [32m201[0m 7.284 ms - 154[0m
+2020-12-13T14:18:22.095Z [info] [0mGET / [36m304[0m 0.510 ms - -[0m
+2020-12-13T14:18:22.207Z [info] [0mGET /index.js [36m304[0m 0.406 ms - -[0m
+2020-12-13T14:18:22.230Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:18:22.234Z [info] [0mGET /api/kcals [32m200[0m 4.899 ms - 185[0m
+2020-12-13T14:18:22.319Z [info] [0mGET /favicon.ico [32m200[0m 1.691 ms - 341[0m
+2020-12-13T14:18:32.906Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:18:32.910Z [info] [0mPOST /api/kcals [32m201[0m 4.132 ms - 154[0m
+2020-12-13T14:18:32.966Z [info] [0mGET / [36m304[0m 0.583 ms - -[0m
+2020-12-13T14:18:33.090Z [info] [0mGET /index.js [36m304[0m 0.411 ms - -[0m
+2020-12-13T14:18:33.112Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:18:33.118Z [info] [0mGET /api/kcals [32m200[0m 7.018 ms - 296[0m
+2020-12-13T14:18:33.159Z [info] [0mGET /favicon.ico [32m200[0m 1.440 ms - 341[0m
+2020-12-13T14:18:43.118Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:18:43.123Z [info] [0mPOST /api/kcals [32m201[0m 4.897 ms - 154[0m
+2020-12-13T14:18:43.179Z [info] [0mGET / [36m304[0m 0.856 ms - -[0m
+2020-12-13T14:18:43.298Z [info] [0mGET /index.js [36m304[0m 0.629 ms - -[0m
+2020-12-13T14:18:43.334Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:18:43.338Z [info] [0mGET /api/kcals [32m200[0m 3.564 ms - 410[0m
+2020-12-13T14:18:43.365Z [info] [0mGET /favicon.ico [32m200[0m 1.142 ms - 341[0m
+2020-12-13T14:18:58.470Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:18:58.477Z [info] [0mPOST /api/kcals [32m201[0m 7.228 ms - 168[0m
+2020-12-13T14:18:58.538Z [info] [0mGET / [36m304[0m 0.533 ms - -[0m
+2020-12-13T14:18:58.631Z [info] [0mGET /index.js [36m304[0m 0.402 ms - -[0m
+2020-12-13T14:18:58.721Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:18:58.725Z [info] [0mGET /api/kcals [32m200[0m 5.111 ms - 535[0m
+2020-12-13T14:18:58.726Z [info] [0mGET /favicon.ico [32m200[0m 3.631 ms - 341[0m
+2020-12-13T14:19:13.855Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:19:13.861Z [info] [0mPOST /api/kcals [32m201[0m 6.592 ms - 154[0m
+2020-12-13T14:19:13.912Z [info] [0mGET / [36m304[0m 0.545 ms - -[0m
+2020-12-13T14:19:14.053Z [info] [0mGET /index.js [36m304[0m 0.433 ms - -[0m
+2020-12-13T14:19:14.080Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:19:14.084Z [info] [0mGET /api/kcals [32m200[0m 4.977 ms - 649[0m
+2020-12-13T14:19:14.136Z [info] [0mGET /favicon.ico [32m200[0m 1.654 ms - 341[0m
+2020-12-13T14:19:30.164Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:19:30.172Z [info] [0mPOST /api/kcals [32m201[0m 8.712 ms - 165[0m
+2020-12-13T14:19:30.228Z [info] [0mGET / [36m304[0m 0.495 ms - -[0m
+2020-12-13T14:19:30.381Z [info] [0mGET /index.js [36m304[0m 0.456 ms - -[0m
+2020-12-13T14:19:30.404Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-13T14:19:30.408Z [info] [0mGET /api/kcals [32m200[0m 5.074 ms - 768[0m
+2020-12-13T14:19:30.450Z [info] [0mGET /favicon.ico [32m200[0m 0.870 ms - 341[0m
+2020-12-13T14:19:33.763Z [info] [0mGET /09c34de951b6ce6850776145adeba9f4.svg [32m200[0m 4.957 ms - 3591[0m
+2020-12-13T14:19:33.764Z [info] [0mGET /57fad95c7dfb0d62adbf9a3892838af8.svg [32m200[0m 4.868 ms - 4448[0m
+2020-12-13T14:19:33.765Z [info] [0mGET /favicon.ico [36m304[0m 4.084 ms - -[0m
+2020-12-13T14:19:33.767Z [info] [0mGET /21d53fc8c1d6f370f26f3322f43aa670.svg [32m200[0m 5.062 ms - 7290[0m
+2020-12-13T14:19:37.793Z [info] [0mGET /favicon.ico [36m304[0m 0.858 ms - -[0m
+2020-12-13T14:19:41.398Z [info] [0mGET / [36m304[0m 0.392 ms - -[0m
+2020-12-13T14:19:41.566Z [info] [0mGET /index.js [36m304[0m 0.452 ms - -[0m
+2020-12-13T14:19:41.643Z [info] [0mGET /favicon.ico [32m200[0m 0.739 ms - 341[0m

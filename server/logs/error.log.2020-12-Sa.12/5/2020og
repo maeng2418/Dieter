@@ -1,0 +1,42 @@
+2020-12-05T09:40:25.728Z [error] Error: Error: WHERE parameter "email" has invalid "undefined" value
+    at _callee$ (/Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:15:11)
+    at tryCatch (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.<computed> [as throw] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:9:191)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:9:402
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-05T09:40:25.981Z [error] Error: Error: WHERE parameter "email" has invalid "undefined" value
+    at _callee$ (/Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:15:11)
+    at tryCatch (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.<computed> [as throw] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:9:191)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:9:402
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-05T09:40:26.152Z [error] Error: Error: WHERE parameter "email" has invalid "undefined" value
+    at _callee$ (/Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:15:11)
+    at tryCatch (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.<computed> [as throw] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:9:191)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:9:402
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-05T09:40:26.320Z [error] Error: Error: WHERE parameter "email" has invalid "undefined" value
+    at _callee$ (/Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:15:11)
+    at tryCatch (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.<computed> [as throw] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:9:191)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:9:402
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-05T09:40:26.494Z [error] Error: Error: WHERE parameter "email" has invalid "undefined" value
+    at _callee$ (/Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:15:11)
+    at tryCatch (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.<computed> [as throw] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:9:191)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:9:402
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-05T09:44:09.785Z [error] 
+2020-12-05T09:45:02.467Z [error] 

@@ -1,0 +1,477 @@
+2020-12-06T15:00:06.374Z [info] Express server started on port: 3000
+2020-12-06T15:00:06.414Z [info] DB migrate: false
+2020-12-06T15:00:06.480Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:00:06.493Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NjgwNiwiZXhwIjoxNjA3MzUzMjA2fQ.7TZinsf-0gFQSFywTBt7yAZ6WtSppH83VAsvyNn14jM
+2020-12-06T15:00:06.494Z [info] success migrating
+2020-12-06T15:00:09.316Z [info] DB migrate: false
+2020-12-06T15:00:09.364Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:00:09.373Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NjgwOSwiZXhwIjoxNjA3MzUzMjA5fQ.B7LBwvejo4naAAx4hy2cgWh1nfE3jceKsZHOXYAkxbk
+2020-12-06T15:00:09.374Z [info] success migrating
+2020-12-06T15:00:18.144Z [info] Express server started on port: 3000
+2020-12-06T15:00:18.172Z [info] DB migrate: false
+2020-12-06T15:00:18.217Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:00:18.228Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NjgxOCwiZXhwIjoxNjA3MzUzMjE4fQ.zcxPBZWMNU4gL5etItt-qexptO61rKp1A23I0c8pKZE
+2020-12-06T15:00:18.228Z [info] success migrating
+2020-12-06T15:00:25.827Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-06T15:00:25.832Z [error] Error: Failed to serialize user into session
+    at pass (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/authenticator.js:281:19)
+    at Authenticator.serializeUser (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/authenticator.js:299:5)
+    at SessionManager.logIn (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/sessionmanager.js:14:8)
+    at IncomingMessage.req.login.req.logIn (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/http/request.js:50:33)
+    at JwtStrategy.strategy.success (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:253:13)
+    at verified (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport-jwt/lib/strategy.js:115:41)
+    at JwtStrategy._verify (/Users/maeng/Desktop/Project/Dieter/server/src/modules/auth/passport.js:22:12)
+    at /Users/maeng/Desktop/Project/Dieter/server/node_modules/passport-jwt/lib/strategy.js:123:34
+    at /Users/maeng/Desktop/Project/Dieter/server/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/Users/maeng/Desktop/Project/Dieter/server/node_modules/jsonwebtoken/verify.js:90:14)
+2020-12-06T15:00:25.840Z [info] [0mGET /api/kcals [31m500[0m 11.783 ms - 1214[0m
+2020-12-06T15:01:28.097Z [info] Express server started on port: 3000
+2020-12-06T15:01:28.138Z [info] DB migrate: false
+2020-12-06T15:01:28.193Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:01:28.205Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2Njg4OCwiZXhwIjoxNjA3MzUzMjg4fQ.melb8XLHfrRTTm0r-Hd0RK-O1lEc9oABY4foUebGVxM
+2020-12-06T15:01:28.205Z [info] success migrating
+2020-12-06T15:01:28.227Z [info] DB migrate: false
+2020-12-06T15:01:28.271Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:01:28.284Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2Njg4OCwiZXhwIjoxNjA3MzUzMjg4fQ.melb8XLHfrRTTm0r-Hd0RK-O1lEc9oABY4foUebGVxM
+2020-12-06T15:01:28.285Z [info] success migrating
+2020-12-06T15:03:40.068Z [info] Express server started on port: 3000
+2020-12-06T15:03:40.098Z [info] DB migrate: false
+2020-12-06T15:03:40.134Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:03:40.147Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzAyMCwiZXhwIjoxNjA3MzUzNDIwfQ.IZRHS72YkxV9Y3Y3RxnRXrMpI8U-lJzaql4kzFM-jZw
+2020-12-06T15:03:40.147Z [info] success migrating
+2020-12-06T15:03:42.901Z [info] Express server started on port: 3000
+2020-12-06T15:03:42.972Z [info] DB migrate: false
+2020-12-06T15:03:43.020Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:03:43.035Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzAyMywiZXhwIjoxNjA3MzUzNDIzfQ.4ggu86WuFXlTqUN9ECGkPPcOUsG8w8xRpjrCR6aYWjM
+2020-12-06T15:03:43.036Z [info] success migrating
+2020-12-06T15:04:51.161Z [info] Express server started on port: 3000
+2020-12-06T15:04:51.189Z [info] DB migrate: false
+2020-12-06T15:04:51.227Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:04:51.238Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzA5MSwiZXhwIjoxNjA3MzUzNDkxfQ.4IxsayQZeJqU-WiHfM2AScmJGVpspqVGAkUot2IJj2I
+2020-12-06T15:04:51.238Z [info] success migrating
+2020-12-06T15:05:21.318Z [info] Express server started on port: 3000
+2020-12-06T15:05:21.352Z [info] DB migrate: false
+2020-12-06T15:05:21.388Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:05:21.398Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzEyMSwiZXhwIjoxNjA3MzUzNTIxfQ.IGS1AcYSQWt0OqyTKpklKrtlIYxE8kn7KhjNRFuCbH0
+2020-12-06T15:05:21.398Z [info] success migrating
+2020-12-06T15:05:29.146Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-06T15:05:29.154Z [error] Error: Failed to serialize user into session
+    at pass (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/authenticator.js:281:19)
+    at Authenticator.serializeUser (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/authenticator.js:299:5)
+    at SessionManager.logIn (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/sessionmanager.js:14:8)
+    at IncomingMessage.req.login.req.logIn (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/http/request.js:50:33)
+    at JwtStrategy.strategy.success (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:253:13)
+    at verified (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport-jwt/lib/strategy.js:115:41)
+    at JwtStrategy._verify (/Users/maeng/Desktop/Project/Dieter/server/src/modules/auth/passport.js:22:12)
+    at /Users/maeng/Desktop/Project/Dieter/server/node_modules/passport-jwt/lib/strategy.js:123:34
+    at /Users/maeng/Desktop/Project/Dieter/server/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/Users/maeng/Desktop/Project/Dieter/server/node_modules/jsonwebtoken/verify.js:90:14)
+2020-12-06T15:05:29.165Z [info] [0mGET /api/kcals [31m500[0m 16.547 ms - 1214[0m
+2020-12-06T15:06:59.792Z [info] Express server started on port: 3000
+2020-12-06T15:06:59.852Z [info] DB migrate: false
+2020-12-06T15:06:59.889Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:06:59.902Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzIxOSwiZXhwIjoxNjA3MzUzNjE5fQ.f8yNc4XDiLgcXZK5Zj25V_OVj8EqKnvYjSk6VdS-ggs
+2020-12-06T15:06:59.902Z [info] success migrating
+2020-12-06T15:06:59.904Z [info] DB migrate: false
+2020-12-06T15:06:59.943Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:06:59.955Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzIxOSwiZXhwIjoxNjA3MzUzNjE5fQ.f8yNc4XDiLgcXZK5Zj25V_OVj8EqKnvYjSk6VdS-ggs
+2020-12-06T15:06:59.955Z [info] success migrating
+2020-12-06T15:07:44.561Z [info] Express server started on port: 3000
+2020-12-06T15:07:44.614Z [info] DB migrate: false
+2020-12-06T15:07:44.662Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:07:44.676Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzI2NCwiZXhwIjoxNjA3MzUzNjY0fQ.3Js5qirstkkbUFTIwu_n1x78fry1SkQ_omTZyaIzvEM
+2020-12-06T15:07:44.676Z [info] success migrating
+2020-12-06T15:07:58.534Z [info] Express server started on port: 3000
+2020-12-06T15:07:58.561Z [info] DB migrate: false
+2020-12-06T15:07:58.603Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:07:58.614Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzI3OCwiZXhwIjoxNjA3MzUzNjc4fQ.-e-Fqu4bGAmirLO7IWwo9PzmY2lzzmThlm4ryDtmgsQ
+2020-12-06T15:07:58.614Z [info] success migrating
+2020-12-06T15:08:07.189Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-06T15:08:07.195Z [error] TypeError: Cannot read property 'findAllKcals' of undefined
+    at _callee2$ (/Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:28:37)
+    at tryCatch (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.<computed> [as next] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:17:191)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:17:437
+    at new Promise (<anonymous>)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:17:99
+    at findAllKcals (/Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:23:7)
+    at newFn (/Users/maeng/Desktop/Project/Dieter/server/node_modules/express-async-errors/index.js:16:20)
+2020-12-06T15:08:07.204Z [info] [0mGET /api/kcals [31m500[0m 13.202 ms - 1214[0m
+2020-12-06T15:09:47.767Z [info] Express server started on port: 3000
+2020-12-06T15:09:47.865Z [info] DB migrate: false
+2020-12-06T15:09:47.907Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:09:47.919Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzM4NywiZXhwIjoxNjA3MzUzNzg3fQ.ue9uCVIVMVuHArtHpuqY90g_hXp2oVkPeychRL60dI8
+2020-12-06T15:09:47.920Z [info] success migrating
+2020-12-06T15:09:47.954Z [info] DB migrate: false
+2020-12-06T15:09:47.992Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:09:48.003Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzM4OCwiZXhwIjoxNjA3MzUzNzg4fQ.9AVNy4uEIR9-pnBdc3MCmIGu11jFDgOIeJSDQvdoHz8
+2020-12-06T15:09:48.004Z [info] success migrating
+2020-12-06T15:10:41.945Z [info] Express server started on port: 3000
+2020-12-06T15:10:42.001Z [info] DB migrate: false
+2020-12-06T15:10:42.049Z [info] DB migrate: false
+2020-12-06T15:10:42.065Z [info] unable to connect to the database: 127.0.0.1([object Object])(Table 'dieter.kcals' doesn't exist)
+2020-12-06T15:10:42.117Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:10:42.144Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzQ0MiwiZXhwIjoxNjA3MzUzODQyfQ.Q821Cff9MlnHyxKJ_h2O3bPos0ChVG9wTxUTc5m54Yw
+2020-12-06T15:10:42.145Z [info] success migrating
+2020-12-06T15:10:55.225Z [info] Express server started on port: 3000
+2020-12-06T15:10:55.277Z [info] DB migrate: false
+2020-12-06T15:10:55.327Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:10:55.340Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzQ1NSwiZXhwIjoxNjA3MzUzODU1fQ.gHAKHhKDJ0y6_BFBERbc7Kl05OoJ3ULZTbKJbvakH2s
+2020-12-06T15:10:55.340Z [info] success migrating
+2020-12-06T15:11:38.808Z [info] Express server started on port: 3000
+2020-12-06T15:11:38.847Z [info] DB migrate: false
+2020-12-06T15:11:38.930Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:11:38.937Z [info] DB migrate: false
+2020-12-06T15:11:38.951Z [info] unable to connect to the database: 127.0.0.1([object Object])(Table 'dieter.users' doesn't exist)
+2020-12-06T15:11:38.983Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:11:38.994Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzQ5OCwiZXhwIjoxNjA3MzUzODk4fQ.I3WmXHkQ1e6-KU0cR0Q5essI2zd2bvfHTg5OwRaiGQs
+2020-12-06T15:11:38.994Z [info] success migrating
+2020-12-06T15:11:42.566Z [info] Express server started on port: 3000
+2020-12-06T15:11:42.628Z [info] DB migrate: false
+2020-12-06T15:11:42.715Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:11:42.731Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzUwMiwiZXhwIjoxNjA3MzUzOTAyfQ.CNQbcP3NhCaSWcI7wfZOGvAd73trVFfwOfD4Cwzn3OI
+2020-12-06T15:11:42.731Z [info] success migrating
+2020-12-06T15:11:42.789Z [info] DB migrate: false
+2020-12-06T15:11:42.826Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:11:42.841Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzUwMiwiZXhwIjoxNjA3MzUzOTAyfQ.CNQbcP3NhCaSWcI7wfZOGvAd73trVFfwOfD4Cwzn3OI
+2020-12-06T15:11:42.841Z [info] success migrating
+2020-12-06T15:11:46.701Z [info] Express server started on port: 3000
+2020-12-06T15:11:46.793Z [info] DB migrate: false
+2020-12-06T15:11:46.842Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:11:46.868Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzUwNiwiZXhwIjoxNjA3MzUzOTA2fQ.YLApQqQlJScpdpnF1qqp345DFDCNaVvNxFaBq3wtfgo
+2020-12-06T15:11:46.871Z [info] success migrating
+2020-12-06T15:11:47.094Z [info] DB migrate: false
+2020-12-06T15:11:47.150Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:11:47.167Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzUwNywiZXhwIjoxNjA3MzUzOTA3fQ.wN36cBJq5IbmBE2uoNigZgWKK37iEWQM_RmsfxzTWtc
+2020-12-06T15:11:47.167Z [info] success migrating
+2020-12-06T15:11:51.461Z [info] Express server started on port: 3000
+2020-12-06T15:11:51.562Z [info] DB migrate: false
+2020-12-06T15:11:51.601Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:11:51.614Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzUxMSwiZXhwIjoxNjA3MzUzOTExfQ.j_9odLgypsnPLzN2PxhJDOs-eYiuPkKNB3N10Qnym4Q
+2020-12-06T15:11:51.614Z [info] success migrating
+2020-12-06T15:11:51.781Z [info] DB migrate: false
+2020-12-06T15:11:51.818Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:11:51.829Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzUxMSwiZXhwIjoxNjA3MzUzOTExfQ.j_9odLgypsnPLzN2PxhJDOs-eYiuPkKNB3N10Qnym4Q
+2020-12-06T15:11:51.830Z [info] success migrating
+2020-12-06T15:12:04.845Z [info] Express server started on port: 3000
+2020-12-06T15:12:04.922Z [info] DB migrate: false
+2020-12-06T15:12:04.994Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:12:05.007Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzUyNSwiZXhwIjoxNjA3MzUzOTI1fQ.6tuFl7w5Wi2T0PupyxIsJ79pzhnJguyEHjh7BE9bXfk
+2020-12-06T15:12:05.007Z [info] success migrating
+2020-12-06T15:12:05.146Z [info] DB migrate: false
+2020-12-06T15:12:05.177Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:12:05.187Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzUyNSwiZXhwIjoxNjA3MzUzOTI1fQ.6tuFl7w5Wi2T0PupyxIsJ79pzhnJguyEHjh7BE9bXfk
+2020-12-06T15:12:05.187Z [info] success migrating
+2020-12-06T15:12:11.249Z [info] Express server started on port: 3000
+2020-12-06T15:12:11.321Z [info] DB migrate: false
+2020-12-06T15:12:11.358Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:12:11.372Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzUzMSwiZXhwIjoxNjA3MzUzOTMxfQ.twJQdyksCK1emSYezH83vab0s0mvOGHIv-aX1LhTzt4
+2020-12-06T15:12:11.372Z [info] success migrating
+2020-12-06T15:12:11.470Z [info] DB migrate: false
+2020-12-06T15:12:11.504Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:12:11.516Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzUzMSwiZXhwIjoxNjA3MzUzOTMxfQ.twJQdyksCK1emSYezH83vab0s0mvOGHIv-aX1LhTzt4
+2020-12-06T15:12:11.516Z [info] success migrating
+2020-12-06T15:12:24.221Z [info] Express server started on port: 3000
+2020-12-06T15:12:24.309Z [info] DB migrate: false
+2020-12-06T15:12:24.375Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:12:24.386Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzU0NCwiZXhwIjoxNjA3MzUzOTQ0fQ.oR0Z4vq6rQMurrcygdYGjOGR1XJs8TZMBIchP7oriVA
+2020-12-06T15:12:24.387Z [info] success migrating
+2020-12-06T15:12:31.445Z [info] Express server started on port: 3000
+2020-12-06T15:12:31.474Z [info] DB migrate: false
+2020-12-06T15:12:31.508Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:12:31.518Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzU1MSwiZXhwIjoxNjA3MzUzOTUxfQ.gnAFna4chHm0giP6Q5NrqFFZla8l3u2B0n57x7zJ9H0
+2020-12-06T15:12:31.518Z [info] success migrating
+2020-12-06T15:12:38.094Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-06T15:12:38.108Z [info] [0mGET /api/kcals [32m200[0m 15.945 ms - 74[0m
+2020-12-06T15:13:13.047Z [info] Express server started on port: 3000
+2020-12-06T15:13:13.102Z [info] DB migrate: false
+2020-12-06T15:13:13.148Z [info] DB migrate: false
+2020-12-06T15:13:13.150Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:13:13.162Z [info] unable to connect to the database: 127.0.0.1([object Object])(Table 'dieter.users' doesn't exist)
+2020-12-06T15:13:13.193Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:13:13.207Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzU5MywiZXhwIjoxNjA3MzUzOTkzfQ.4_9IcxnAXOywLG5auT0zyqUt5IzmfyTuMj83_vwxaUo
+2020-12-06T15:13:13.208Z [info] success migrating
+2020-12-06T15:17:14.816Z [info] Express server started on port: 3000
+2020-12-06T15:17:14.844Z [info] DB migrate: false
+2020-12-06T15:17:14.882Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:17:14.893Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2NzgzNCwiZXhwIjoxNjA3MzU0MjM0fQ.dHzwVX4PxIizldXUyRjux9UlEKMUV8lqBwJHx5zKE7Q
+2020-12-06T15:17:14.893Z [info] success migrating
+2020-12-06T15:18:39.260Z [error] ReferenceError: CustomError is not defined
+    at /Users/maeng/Desktop/Project/Dieter/server/src/routes/kcals.js:15:9
+    at allFailed (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:107:18)
+    at attempt (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:180:28)
+    at JwtStrategy.strategy.fail (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:302:9)
+    at JwtStrategy.authenticate (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport-jwt/lib/strategy.js:96:21)
+    at attempt (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:366:16)
+    at authenticate (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:367:7)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/routes/kcals.js:10:5
+    at newFn (/Users/maeng/Desktop/Project/Dieter/server/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/express/lib/router/layer.js:95:5)
+2020-12-06T15:18:39.269Z [info] [0mGET /api/kcals [31m500[0m 10.907 ms - 1214[0m
+2020-12-06T15:19:42.318Z [info] [0mPOST /api/users/email [32m200[0m 10.429 ms - 87[0m
+2020-12-06T15:20:07.769Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-06T15:20:07.780Z [info] [0mGET /api/kcals [32m200[0m 14.958 ms - 75[0m
+2020-12-06T15:20:14.072Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-06T15:20:14.077Z [error] TypeError: _services.KcalService.create is not a function
+    at _callee$ (/Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:9:23)
+    at tryCatch (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.<computed> [as next] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:17:191)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:17:437
+    at new Promise (<anonymous>)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:17:99
+    at insertKcal (/Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:5:7)
+    at newFn (/Users/maeng/Desktop/Project/Dieter/server/node_modules/express-async-errors/index.js:16:20)
+2020-12-06T15:20:14.078Z [info] [0mPOST /api/kcals [31m500[0m 5.615 ms - 1214[0m
+2020-12-06T15:20:42.236Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-06T15:20:42.239Z [error] TypeError: _services.KcalService.create is not a function
+    at _callee$ (/Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:9:23)
+    at tryCatch (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.<computed> [as next] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:17:191)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:17:437
+    at new Promise (<anonymous>)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:17:99
+    at insertKcal (/Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:5:7)
+    at newFn (/Users/maeng/Desktop/Project/Dieter/server/node_modules/express-async-errors/index.js:16:20)
+2020-12-06T15:20:42.241Z [info] [0mPOST /api/kcals [31m500[0m 4.171 ms - 1214[0m
+2020-12-06T15:21:44.570Z [info] Express server started on port: 3000
+2020-12-06T15:21:44.602Z [info] DB migrate: false
+2020-12-06T15:21:44.650Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:21:44.709Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODEwNCwiZXhwIjoxNjA3MzU0NTA0fQ.aEPcOIpNrjRk2odZsCegdG46w97Kb_r6doyf7YVSacM
+2020-12-06T15:21:44.709Z [info] success migrating
+2020-12-06T15:21:44.857Z [info] DB migrate: false
+2020-12-06T15:21:44.938Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:21:44.950Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODEwNCwiZXhwIjoxNjA3MzU0NTA0fQ.aEPcOIpNrjRk2odZsCegdG46w97Kb_r6doyf7YVSacM
+2020-12-06T15:21:44.950Z [info] success migrating
+2020-12-06T15:21:49.180Z [info] Express server started on port: 3000
+2020-12-06T15:21:49.234Z [info] DB migrate: false
+2020-12-06T15:21:49.284Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:21:49.296Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODEwOSwiZXhwIjoxNjA3MzU0NTA5fQ.wf3QhCp95g0CfovpsmvP4gv_0_csm1IfxdA22qpHgk8
+2020-12-06T15:21:49.297Z [info] success migrating
+2020-12-06T15:21:49.557Z [info] DB migrate: false
+2020-12-06T15:21:49.591Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:21:49.601Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODEwOSwiZXhwIjoxNjA3MzU0NTA5fQ.wf3QhCp95g0CfovpsmvP4gv_0_csm1IfxdA22qpHgk8
+2020-12-06T15:21:49.601Z [info] success migrating
+2020-12-06T15:21:55.458Z [info] Express server started on port: 3000
+2020-12-06T15:21:55.509Z [info] DB migrate: false
+2020-12-06T15:21:55.564Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:21:55.584Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODExNSwiZXhwIjoxNjA3MzU0NTE1fQ.dp4ODWCjKUe0iJEkHG8BwoWmQu3K66tuvqJaJPdLolY
+2020-12-06T15:21:55.585Z [info] success migrating
+2020-12-06T15:21:55.864Z [info] DB migrate: false
+2020-12-06T15:21:55.906Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:21:55.917Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODExNSwiZXhwIjoxNjA3MzU0NTE1fQ.dp4ODWCjKUe0iJEkHG8BwoWmQu3K66tuvqJaJPdLolY
+2020-12-06T15:21:55.918Z [info] success migrating
+2020-12-06T15:22:10.486Z [info] Express server started on port: 3000
+2020-12-06T15:22:10.520Z [info] DB migrate: false
+2020-12-06T15:22:10.573Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:22:10.583Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODEzMCwiZXhwIjoxNjA3MzU0NTMwfQ.jAFuABQKSLj6v9Fkltfdjm05fZ2LjWRGxeyAN0xL4sI
+2020-12-06T15:22:10.584Z [info] success migrating
+2020-12-06T15:22:16.440Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-06T15:22:16.445Z [error] TypeError: _services.KcalService.create is not a function
+    at _callee$ (/Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:10:23)
+    at tryCatch (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.<computed> [as next] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:17:191)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:17:437
+    at new Promise (<anonymous>)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:17:99
+    at insertKcal (/Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:5:7)
+    at newFn (/Users/maeng/Desktop/Project/Dieter/server/node_modules/express-async-errors/index.js:16:20)
+2020-12-06T15:22:16.453Z [info] [0mPOST /api/kcals [31m500[0m 9.811 ms - 1214[0m
+2020-12-06T15:22:25.781Z [info] [0mPOST /api/users/email [32m200[0m 15.428 ms - 87[0m
+2020-12-06T15:22:32.226Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-06T15:22:32.228Z [error] TypeError: _services.KcalService.create is not a function
+    at _callee$ (/Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:10:23)
+    at tryCatch (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.<computed> [as next] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:17:191)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:17:437
+    at new Promise (<anonymous>)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:17:99
+    at insertKcal (/Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:5:7)
+    at newFn (/Users/maeng/Desktop/Project/Dieter/server/node_modules/express-async-errors/index.js:16:20)
+2020-12-06T15:22:32.230Z [info] [0mPOST /api/kcals [31m500[0m 2.706 ms - 1214[0m
+2020-12-06T15:22:49.730Z [info] Express server started on port: 3000
+2020-12-06T15:22:49.786Z [info] DB migrate: false
+2020-12-06T15:22:49.836Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:22:49.848Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODE2OSwiZXhwIjoxNjA3MzU0NTY5fQ.4R6X-8oa7vMycmmlAf9dh9PZK6geicZcAX4PIi6kYxc
+2020-12-06T15:22:49.862Z [info] success migrating
+2020-12-06T15:22:50.131Z [info] DB migrate: false
+2020-12-06T15:22:50.177Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:22:50.188Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODE3MCwiZXhwIjoxNjA3MzU0NTcwfQ.NnPzvClG60gwlGmBZS6c9l_xHfmtF0orofuoszUQp9k
+2020-12-06T15:22:50.188Z [info] success migrating
+2020-12-06T15:22:53.963Z [info] Express server started on port: 3000
+2020-12-06T15:22:53.999Z [info] DB migrate: false
+2020-12-06T15:22:54.054Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:22:54.068Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODE3NCwiZXhwIjoxNjA3MzU0NTc0fQ.7AuwzWkdlYnQioYUMFzBQTCt5Hlnwd2WBlH5b4PkpJs
+2020-12-06T15:22:54.068Z [info] success migrating
+2020-12-06T15:22:54.313Z [info] DB migrate: false
+2020-12-06T15:22:54.362Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:22:54.373Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODE3NCwiZXhwIjoxNjA3MzU0NTc0fQ.7AuwzWkdlYnQioYUMFzBQTCt5Hlnwd2WBlH5b4PkpJs
+2020-12-06T15:22:54.374Z [info] success migrating
+2020-12-06T15:22:58.453Z [info] Express server started on port: 3000
+2020-12-06T15:22:58.480Z [info] DB migrate: false
+2020-12-06T15:22:58.522Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:22:58.533Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODE3OCwiZXhwIjoxNjA3MzU0NTc4fQ.yZF_eBTd1pNWt1dtp-XUDtE-OENKwaD3uBr4qLtpe5g
+2020-12-06T15:22:58.533Z [info] success migrating
+2020-12-06T15:23:03.879Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-06T15:23:03.888Z [error] TypeError: _services.KcalService.create is not a function
+    at _callee$ (/Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:11:23)
+    at tryCatch (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.<computed> [as next] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:17:191)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:17:437
+    at new Promise (<anonymous>)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:17:99
+    at insertKcal (/Users/maeng/Desktop/Project/Dieter/server/src/controllers/kcals.js:5:7)
+    at newFn (/Users/maeng/Desktop/Project/Dieter/server/node_modules/express-async-errors/index.js:16:20)
+2020-12-06T15:23:03.900Z [info] [0mPOST /api/kcals [31m500[0m 14.872 ms - 1214[0m
+2020-12-06T15:23:30.009Z [info] Express server started on port: 3000
+2020-12-06T15:23:30.085Z [info] DB migrate: false
+2020-12-06T15:23:30.148Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:23:30.161Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODIxMCwiZXhwIjoxNjA3MzU0NjEwfQ.wRr7tofmoPyCg5KYyNNGgRSgbXqtaRH_qzXShdchkk0
+2020-12-06T15:23:30.161Z [info] success migrating
+2020-12-06T15:23:30.177Z [info] DB migrate: false
+2020-12-06T15:23:30.233Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:23:30.251Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODIxMCwiZXhwIjoxNjA3MzU0NjEwfQ.wRr7tofmoPyCg5KYyNNGgRSgbXqtaRH_qzXShdchkk0
+2020-12-06T15:23:30.254Z [info] success migrating
+2020-12-06T15:23:46.311Z [info] Express server started on port: 3000
+2020-12-06T15:23:46.389Z [info] DB migrate: false
+2020-12-06T15:23:46.404Z [info] DB migrate: false
+2020-12-06T15:23:46.464Z [info] unable to connect to the database: 127.0.0.1([object Object])(Cannot drop table 'users' referenced by a foreign key constraint 'kcals_ibfk_1' on table 'kcals'.)
+2020-12-06T15:23:46.466Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:23:46.478Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODIyNiwiZXhwIjoxNjA3MzU0NjI2fQ.C9udRc4bGe01tet7yna-B_VakHKNHPXe2tQE_asRjCk
+2020-12-06T15:23:46.479Z [info] success migrating
+2020-12-06T15:23:55.551Z [info] Express server started on port: 3000
+2020-12-06T15:23:55.579Z [info] DB migrate: false
+2020-12-06T15:23:55.618Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:23:55.628Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODIzNSwiZXhwIjoxNjA3MzU0NjM1fQ.1rlbA37MnC8eAZ4LEsoD9Okf9v3VQ2lp5rPRhKVSSxs
+2020-12-06T15:23:55.628Z [info] success migrating
+2020-12-06T15:24:12.771Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-06T15:24:12.799Z [error] Error: SequelizeValidationError: notNull Violation: kcal.type cannot be null,
+notNull Violation: kcal.date cannot be null,
+notNull Violation: kcal.category cannot be null,
+notNull Violation: kcal.kcal cannot be null,
+notNull Violation: kcal.content cannot be null
+    at _callee2$ (/Users/maeng/Desktop/Project/Dieter/server/src/services/kcals.js:29:11)
+    at tryCatch (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.<computed> [as throw] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/maeng/Desktop/Project/Dieter/server/src/services/kcals.js:9:191)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/services/kcals.js:9:402
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-06T15:24:12.807Z [info] [0mPOST /api/kcals [31m500[0m 33.394 ms - 1214[0m
+2020-12-06T15:25:46.370Z [info] Express server started on port: 3000
+2020-12-06T15:25:46.434Z [info] DB migrate: false
+2020-12-06T15:25:46.492Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:25:46.505Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODM0NiwiZXhwIjoxNjA3MzU0NzQ2fQ.Vahi2tYQpwUsgjItzPSq3RoURE_qLjVvN_sH8yIeTt8
+2020-12-06T15:25:46.505Z [info] success migrating
+2020-12-06T15:25:46.859Z [info] DB migrate: false
+2020-12-06T15:25:46.898Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:25:46.909Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODM0NiwiZXhwIjoxNjA3MzU0NzQ2fQ.Vahi2tYQpwUsgjItzPSq3RoURE_qLjVvN_sH8yIeTt8
+2020-12-06T15:25:46.909Z [info] success migrating
+2020-12-06T15:25:57.067Z [info] Express server started on port: 3000
+2020-12-06T15:25:57.139Z [info] DB migrate: false
+2020-12-06T15:25:57.247Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:25:57.257Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODM1NywiZXhwIjoxNjA3MzU0NzU3fQ.qO5PVIZ05pd2kd47E-N_bCJIthtgOwHS7kCI2grHNZU
+2020-12-06T15:25:57.259Z [info] success migrating
+2020-12-06T15:25:59.274Z [info] Express server started on port: 3000
+2020-12-06T15:25:59.306Z [info] DB migrate: false
+2020-12-06T15:26:01.542Z [info] Express server started on port: 3000
+2020-12-06T15:26:01.610Z [info] DB migrate: false
+2020-12-06T15:26:01.659Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:26:01.669Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODM2MSwiZXhwIjoxNjA3MzU0NzYxfQ.J4BIspJQkm216Sp9l3z9OQ7lLkkqIH4uO4pZ_XgQtbU
+2020-12-06T15:26:01.670Z [info] success migrating
+2020-12-06T15:26:04.975Z [info] Express server started on port: 3000
+2020-12-06T15:26:05.081Z [info] DB migrate: false
+2020-12-06T15:26:05.145Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:26:05.161Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODM2NSwiZXhwIjoxNjA3MzU0NzY1fQ.psxh7WzfCPwQEI8HeDBHlMQHVsFQD7uUoKCMUmnpEak
+2020-12-06T15:26:05.161Z [info] success migrating
+2020-12-06T15:26:05.226Z [info] DB migrate: false
+2020-12-06T15:26:05.261Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:26:05.272Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODM2NSwiZXhwIjoxNjA3MzU0NzY1fQ.psxh7WzfCPwQEI8HeDBHlMQHVsFQD7uUoKCMUmnpEak
+2020-12-06T15:26:05.273Z [info] success migrating
+2020-12-06T15:26:09.063Z [info] Express server started on port: 3000
+2020-12-06T15:26:09.102Z [info] DB migrate: false
+2020-12-06T15:26:09.149Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:26:09.173Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODM2OSwiZXhwIjoxNjA3MzU0NzY5fQ.Njgigs2f0D_OliXsAIT5WnkpR4IponvoTynAyXNqTDU
+2020-12-06T15:26:09.173Z [info] success migrating
+2020-12-06T15:26:09.184Z [info] DB migrate: false
+2020-12-06T15:26:09.222Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:26:09.232Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODM2OSwiZXhwIjoxNjA3MzU0NzY5fQ.Njgigs2f0D_OliXsAIT5WnkpR4IponvoTynAyXNqTDU
+2020-12-06T15:26:09.232Z [info] success migrating
+2020-12-06T15:26:15.415Z [info] Express server started on port: 3000
+2020-12-06T15:26:15.524Z [info] DB migrate: false
+2020-12-06T15:26:15.541Z [info] DB migrate: false
+2020-12-06T15:26:15.555Z [info] unable to connect to the database: 127.0.0.1([object Object])(Failed to open the referenced table 'users')
+2020-12-06T15:26:15.581Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:26:15.593Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODM3NSwiZXhwIjoxNjA3MzU0Nzc1fQ.4Zv9Zf7qVwjyfyLoA1ezDuKowVGYzH0UrXH-82tnedo
+2020-12-06T15:26:15.593Z [info] success migrating
+2020-12-06T15:26:21.537Z [info] Express server started on port: 3000
+2020-12-06T15:26:21.652Z [info] DB migrate: false
+2020-12-06T15:26:21.726Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:26:21.747Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODM4MSwiZXhwIjoxNjA3MzU0NzgxfQ.dTLgwXYm1vyIAkcuXO-6uOIKdCe6XDTj3WvOswhC_hM
+2020-12-06T15:26:21.748Z [info] success migrating
+2020-12-06T15:26:21.831Z [info] DB migrate: false
+2020-12-06T15:26:21.872Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:26:21.886Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODM4MSwiZXhwIjoxNjA3MzU0NzgxfQ.dTLgwXYm1vyIAkcuXO-6uOIKdCe6XDTj3WvOswhC_hM
+2020-12-06T15:26:21.886Z [info] success migrating
+2020-12-06T15:26:28.343Z [info] Express server started on port: 3000
+2020-12-06T15:26:28.421Z [info] DB migrate: false
+2020-12-06T15:26:28.472Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:26:28.486Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODM4OCwiZXhwIjoxNjA3MzU0Nzg4fQ.G1nXSxDjPIBkvNYn8BBZUhkzBBqR3s4ww0P_q1P8LTE
+2020-12-06T15:26:28.486Z [info] success migrating
+2020-12-06T15:26:28.891Z [info] DB migrate: false
+2020-12-06T15:26:28.933Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:26:28.944Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODM4OCwiZXhwIjoxNjA3MzU0Nzg4fQ.G1nXSxDjPIBkvNYn8BBZUhkzBBqR3s4ww0P_q1P8LTE
+2020-12-06T15:26:28.944Z [info] success migrating
+2020-12-06T15:26:34.355Z [info] Express server started on port: 3000
+2020-12-06T15:26:34.500Z [info] DB migrate: false
+2020-12-06T15:26:34.556Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:26:34.573Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODM5NCwiZXhwIjoxNjA3MzU0Nzk0fQ.lbhQhaFtyUgyEi_BNRFxZAuov1sT9DS9r78Vh2AGG4Y
+2020-12-06T15:26:34.573Z [info] success migrating
+2020-12-06T15:26:34.589Z [info] DB migrate: false
+2020-12-06T15:26:34.642Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:26:34.682Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODM5NCwiZXhwIjoxNjA3MzU0Nzk0fQ.lbhQhaFtyUgyEi_BNRFxZAuov1sT9DS9r78Vh2AGG4Y
+2020-12-06T15:26:34.685Z [info] success migrating
+2020-12-06T15:26:41.586Z [info] Express server started on port: 3000
+2020-12-06T15:26:41.720Z [info] DB migrate: false
+2020-12-06T15:26:41.765Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:26:41.778Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODQwMSwiZXhwIjoxNjA3MzU0ODAxfQ.O6atLUIlxj3goiPSV2dgbE3pDu0E4mtr64f5n65YxXA
+2020-12-06T15:26:41.778Z [info] success migrating
+2020-12-06T15:26:41.965Z [info] DB migrate: false
+2020-12-06T15:26:41.996Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:26:42.005Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODQwMiwiZXhwIjoxNjA3MzU0ODAyfQ.jwc1ourdk_5H-YOzqd69EpIp3hknqUuZmxO7IPO950I
+2020-12-06T15:26:42.006Z [info] success migrating
+2020-12-06T15:26:54.594Z [info] Express server started on port: 3000
+2020-12-06T15:26:54.644Z [info] DB migrate: false
+2020-12-06T15:26:54.695Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:26:54.705Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODQxNCwiZXhwIjoxNjA3MzU0ODE0fQ.y_e95iwRxOMHaZa59EbTR31Qt6x5ZP3CQghs0oynR1g
+2020-12-06T15:26:54.706Z [info] success migrating
+2020-12-06T15:27:01.523Z [info] Express server started on port: 3000
+2020-12-06T15:27:01.549Z [info] DB migrate: false
+2020-12-06T15:27:01.591Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T15:27:01.600Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI2ODQyMSwiZXhwIjoxNjA3MzU0ODIxfQ.KdxbeFUeAT7mO4bHSnXlhnc11IH76e5Eq-9sqMc545s
+2020-12-06T15:27:01.600Z [info] success migrating
+2020-12-06T15:27:04.898Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-06T15:27:04.917Z [info] [0mPOST /api/kcals [32m201[0m 19.758 ms - 69[0m
+2020-12-06T15:27:29.458Z [info] JWT BASED AUTH GETTING CALLED
+2020-12-06T15:27:29.466Z [info] [0mGET /api/kcals [32m200[0m 8.600 ms - 184[0m
+2020-12-06T15:37:25.317Z [info] Express server started on port: 3000
+2020-12-06T15:37:25.359Z [info] unable to connect to the database: 127.0.0.1([object Object])(write EPIPE)
+2020-12-06T16:03:20.181Z [info] Express server started on port: 3000
+2020-12-06T16:03:20.258Z [info] DB migrate: false
+2020-12-06T16:03:20.263Z [info] unable to connect to the database: 127.0.0.1([object Object])(Cannot drop table 'users' referenced by a foreign key constraint 'kcals_ibfk_1' on table 'kcals'.)
+2020-12-06T16:05:13.979Z [info] Express server started on port: 3000
+2020-12-06T16:05:14.053Z [info] DB migrate: false
+2020-12-06T16:05:14.132Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-06T16:05:14.145Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzI3MDcxNCwiZXhwIjoxNjA3MzU3MTE0fQ.2m9fmx4hB0bEvLYxK7pn0f1LXiu4npVJNT_rvfTqR7M
+2020-12-06T16:05:14.145Z [info] success migrating

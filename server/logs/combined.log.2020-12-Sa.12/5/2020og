@@ -1,0 +1,644 @@
+2020-12-05T07:51:23.540Z [info] DB migrate: false
+2020-12-05T07:51:23.667Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T07:51:23.688Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE1NDY4MywiZXhwIjoxNjA3MjQxMDgzfQ.DHaxacVv66ZZ0sxhGv7YKJ3eX1H9eVHep0ZnMbAdSuo
+2020-12-05T07:51:23.688Z [info] success migrating
+2020-12-05T08:04:48.585Z [info] [0mGET / [32m200[0m 11.190 ms - 341[0m
+2020-12-05T08:04:48.614Z [info] [0mGET /index.js [32m200[0m 1.853 ms - 428487[0m
+2020-12-05T08:25:40.816Z [info] [0mGET / [36m304[0m 10.744 ms - -[0m
+2020-12-05T08:25:40.833Z [info] [0mGET /index.js [36m304[0m 1.332 ms - -[0m
+2020-12-05T08:57:13.568Z [info] DB migrate: false
+2020-12-05T08:57:13.637Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T08:57:13.650Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE1ODYzMywiZXhwIjoxNjA3MjQ1MDMzfQ.quvRxlo0zeawUG4LNZLkH98EXXPk0IcRK1iLbrwb7h4
+2020-12-05T08:57:13.650Z [info] success migrating
+2020-12-05T09:16:39.736Z [info] DB migrate: false
+2020-12-05T09:16:39.824Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:16:39.834Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE1OTc5OSwiZXhwIjoxNjA3MjQ2MTk5fQ.UR5mNbyXkzcYwdrA8gi4bcDYdUDciCWySNiJjIkGDKs
+2020-12-05T09:16:39.835Z [info] success migrating
+2020-12-05T09:29:35.616Z [info] DB migrate: false
+2020-12-05T09:29:35.670Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:29:35.686Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MDU3NSwiZXhwIjoxNjA3MjQ2OTc1fQ.zDDyTvsyHdfh1aqfXG85hcKzZF33kj-TWrNVOOWxXeo
+2020-12-05T09:29:35.686Z [info] success migrating
+2020-12-05T09:40:25.612Z [info] [0mOPTIONS /api/users/email [32m204[0m 6.281 ms - 0[0m
+2020-12-05T09:40:25.728Z [error] Error: Error: WHERE parameter "email" has invalid "undefined" value
+    at _callee$ (/Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:15:11)
+    at tryCatch (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.<computed> [as throw] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:9:191)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:9:402
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-05T09:40:25.744Z [info] [0mPOST /api/users/email [31m500[0m 26.427 ms - 1214[0m
+2020-12-05T09:40:25.981Z [error] Error: Error: WHERE parameter "email" has invalid "undefined" value
+    at _callee$ (/Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:15:11)
+    at tryCatch (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.<computed> [as throw] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:9:191)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:9:402
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-05T09:40:25.982Z [info] [0mPOST /api/users/email [31m500[0m 2.059 ms - 1214[0m
+2020-12-05T09:40:26.152Z [error] Error: Error: WHERE parameter "email" has invalid "undefined" value
+    at _callee$ (/Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:15:11)
+    at tryCatch (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.<computed> [as throw] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:9:191)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:9:402
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-05T09:40:26.154Z [info] [0mPOST /api/users/email [31m500[0m 1.933 ms - 1214[0m
+2020-12-05T09:40:26.320Z [error] Error: Error: WHERE parameter "email" has invalid "undefined" value
+    at _callee$ (/Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:15:11)
+    at tryCatch (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.<computed> [as throw] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:9:191)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:9:402
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-05T09:40:26.321Z [info] [0mPOST /api/users/email [31m500[0m 1.747 ms - 1214[0m
+2020-12-05T09:40:26.495Z [error] Error: Error: WHERE parameter "email" has invalid "undefined" value
+    at _callee$ (/Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:15:11)
+    at tryCatch (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.<computed> [as throw] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:9:191)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/services/users.js:9:402
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-05T09:42:54.997Z [info] Express server started on port: 3000
+2020-12-05T09:42:55.071Z [info] DB migrate: false
+2020-12-05T09:42:55.126Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:42:55.141Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MTM3NSwiZXhwIjoxNjA3MjQ3Nzc1fQ.ETf1V9JaTg11FpqTjk0gTCV05VbV4AK9Q9pH8fJSlug
+2020-12-05T09:42:55.142Z [info] success migrating
+2020-12-05T09:42:56.843Z [info] Express server started on port: 3000
+2020-12-05T09:42:56.889Z [info] DB migrate: false
+2020-12-05T09:42:56.932Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:42:56.945Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MTM3NiwiZXhwIjoxNjA3MjQ3Nzc2fQ.Cay4zezSuu2D_4Gf6ERoEa0McZA_-EyK7sZIzVKXjRY
+2020-12-05T09:42:56.946Z [info] success migrating
+2020-12-05T09:42:59.492Z [info] Express server started on port: 3000
+2020-12-05T09:42:59.530Z [info] DB migrate: false
+2020-12-05T09:42:59.572Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:42:59.586Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MTM3OSwiZXhwIjoxNjA3MjQ3Nzc5fQ.PAw75BBzyLCTKAvlNAlJE4jwSaSLypYcCwXXflUWG74
+2020-12-05T09:42:59.586Z [info] success migrating
+2020-12-05T09:44:00.829Z [info] Express server started on port: 3000
+2020-12-05T09:44:00.864Z [info] DB migrate: false
+2020-12-05T09:44:00.922Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:44:00.935Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MTQ0MCwiZXhwIjoxNjA3MjQ3ODQwfQ.2gOXNLCaHEaYhdymtgzzxqduflZrhiswzwGbjtP1DAY
+2020-12-05T09:44:00.935Z [info] success migrating
+2020-12-05T09:44:09.757Z [info] [0mOPTIONS /api/users/email [32m204[0m 1.314 ms - 0[0m
+2020-12-05T09:44:09.786Z [error] 
+2020-12-05T09:44:09.788Z [info] [0mPOST /api/users/email [32m202[0m 12.674 ms - 73[0m
+2020-12-05T09:44:38.125Z [info] Express server started on port: 3000
+2020-12-05T09:44:38.202Z [info] DB migrate: false
+2020-12-05T09:44:38.203Z [info] DB migrate: false
+2020-12-05T09:44:38.258Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:44:38.258Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:44:38.269Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MTQ3OCwiZXhwIjoxNjA3MjQ3ODc4fQ.aS1Uo8gplZY6YRr1MdWjl23fFWDB9oibqYYKoqvz188
+2020-12-05T09:44:38.269Z [info] success migrating
+2020-12-05T09:44:38.277Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MTQ3OCwiZXhwIjoxNjA3MjQ3ODc4fQ.aS1Uo8gplZY6YRr1MdWjl23fFWDB9oibqYYKoqvz188
+2020-12-05T09:44:38.277Z [info] success migrating
+2020-12-05T09:44:50.099Z [info] Express server started on port: 3000
+2020-12-05T09:44:50.129Z [info] DB migrate: false
+2020-12-05T09:44:50.158Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:44:50.169Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MTQ5MCwiZXhwIjoxNjA3MjQ3ODkwfQ.gdlAfyB2gJvJR6AnNKv7w93tEoPynG-puOEefqi-be8
+2020-12-05T09:44:50.169Z [info] success migrating
+2020-12-05T09:45:02.438Z [info] [0mOPTIONS /api/users/email [32m204[0m 1.378 ms - 0[0m
+2020-12-05T09:45:02.468Z [error] 
+2020-12-05T09:45:02.470Z [info] [0mPOST /api/users/email [32m202[0m 13.614 ms - 89[0m
+2020-12-05T09:45:46.054Z [info] Express server started on port: 3000
+2020-12-05T09:45:46.131Z [info] DB migrate: false
+2020-12-05T09:45:46.141Z [info] DB migrate: false
+2020-12-05T09:45:46.172Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:45:46.177Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:45:46.191Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MTU0NiwiZXhwIjoxNjA3MjQ3OTQ2fQ.1FVpp9M_C_MYvvjpcQuC-l9SJ-YJrListVGCan5gzhE
+2020-12-05T09:45:46.191Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MTU0NiwiZXhwIjoxNjA3MjQ3OTQ2fQ.1FVpp9M_C_MYvvjpcQuC-l9SJ-YJrListVGCan5gzhE
+2020-12-05T09:45:46.191Z [info] success migrating
+2020-12-05T09:45:46.192Z [info] success migrating
+2020-12-05T09:46:15.786Z [info] Express server started on port: 3000
+2020-12-05T09:46:15.820Z [info] DB migrate: false
+2020-12-05T09:46:15.867Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:46:15.877Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MTU3NSwiZXhwIjoxNjA3MjQ3OTc1fQ.EHbXnho6HSaZ6aU-q-tEwjAFU3rGfzm9Dv_ivYN96vU
+2020-12-05T09:46:15.877Z [info] success migrating
+2020-12-05T09:46:20.506Z [info] [0mOPTIONS /api/users/email [32m204[0m 1.377 ms - 0[0m
+2020-12-05T09:46:20.533Z [info] [0mPOST /api/users/email [32m200[0m 9.276 ms - 87[0m
+2020-12-05T09:47:10.585Z [info] Express server started on port: 3000
+2020-12-05T09:47:10.646Z [info] DB migrate: false
+2020-12-05T09:47:10.646Z [info] DB migrate: false
+2020-12-05T09:47:10.676Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:47:10.676Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:47:10.686Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MTYzMCwiZXhwIjoxNjA3MjQ4MDMwfQ.Cn9BOb-ccHAda2cia43jxGpXKQ5CzbLdBBi57GG7fg0
+2020-12-05T09:47:10.686Z [info] success migrating
+2020-12-05T09:47:10.690Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MTYzMCwiZXhwIjoxNjA3MjQ4MDMwfQ.Cn9BOb-ccHAda2cia43jxGpXKQ5CzbLdBBi57GG7fg0
+2020-12-05T09:47:10.691Z [info] success migrating
+2020-12-05T09:47:43.889Z [info] Express server started on port: 3000
+2020-12-05T09:47:43.915Z [info] DB migrate: false
+2020-12-05T09:47:43.941Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:47:43.951Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MTY2MywiZXhwIjoxNjA3MjQ4MDYzfQ.y84rDVry2jyxWSbaKEM7g-tpqtT3Aa2FpUOrnnAS03k
+2020-12-05T09:47:43.951Z [info] success migrating
+2020-12-05T09:47:49.137Z [info] [0mOPTIONS /api/users/email [32m204[0m 1.489 ms - 0[0m
+2020-12-05T09:47:49.165Z [info] [0mPOST /api/users/email [32m200[0m 10.149 ms - 87[0m
+2020-12-05T09:53:02.486Z [info] Express server started on port: 3000
+2020-12-05T09:53:02.549Z [info] DB migrate: false
+2020-12-05T09:53:02.549Z [info] DB migrate: false
+2020-12-05T09:53:02.580Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:53:02.580Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:53:02.591Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MTk4MiwiZXhwIjoxNjA3MjQ4MzgyfQ.FZNNNnIQN1F8r_wrzPb6YU4J7jyws7vTswwEg2HkEFk
+2020-12-05T09:53:02.592Z [info] success migrating
+2020-12-05T09:53:02.596Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MTk4MiwiZXhwIjoxNjA3MjQ4MzgyfQ.FZNNNnIQN1F8r_wrzPb6YU4J7jyws7vTswwEg2HkEFk
+2020-12-05T09:53:02.596Z [info] success migrating
+2020-12-05T09:53:05.857Z [info] Express server started on port: 3000
+2020-12-05T09:53:05.917Z [info] DB migrate: false
+2020-12-05T09:53:05.945Z [info] DB migrate: false
+2020-12-05T09:53:05.963Z [info] unable to connect to the database: 127.0.0.1([object Object])(Table 'dieter.users' doesn't exist)
+2020-12-05T09:53:05.984Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:53:05.997Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MTk4NSwiZXhwIjoxNjA3MjQ4Mzg1fQ.LsdlxFqizaXiDV0pHc96M_ni_uHL6zTHgqbODJ0yPD4
+2020-12-05T09:53:05.997Z [info] success migrating
+2020-12-05T09:54:15.828Z [info] Express server started on port: 3000
+2020-12-05T09:54:15.857Z [info] DB migrate: false
+2020-12-05T09:54:15.884Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:54:15.895Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjA1NSwiZXhwIjoxNjA3MjQ4NDU1fQ.2Os7LaMmGoKNY8e_Ne-zSv22RcFZ3JnoWvUrcSqit2c
+2020-12-05T09:54:15.896Z [info] success migrating
+2020-12-05T09:54:20.835Z [info] [0mOPTIONS /api/users/email [32m204[0m 1.508 ms - 0[0m
+2020-12-05T09:54:20.862Z [info] [0mPOST /api/users/email [32m200[0m 8.823 ms - 87[0m
+2020-12-05T09:58:51.238Z [info] Express server started on port: 3000
+2020-12-05T09:58:51.278Z [info] DB migrate: false
+2020-12-05T09:58:51.308Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:58:51.323Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjMzMSwiZXhwIjoxNjA3MjQ4NzMxfQ.qgGwmsdL_EW4GEfgnbcAJOrau6aOndY79wZCSq3G4yE
+2020-12-05T09:58:51.323Z [info] success migrating
+2020-12-05T09:58:51.420Z [info] DB migrate: false
+2020-12-05T09:58:51.468Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:58:51.496Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjMzMSwiZXhwIjoxNjA3MjQ4NzMxfQ.qgGwmsdL_EW4GEfgnbcAJOrau6aOndY79wZCSq3G4yE
+2020-12-05T09:58:51.496Z [info] success migrating
+2020-12-05T09:58:56.334Z [info] Express server started on port: 3000
+2020-12-05T09:58:56.399Z [info] DB migrate: false
+2020-12-05T09:58:56.423Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:58:56.435Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjMzNiwiZXhwIjoxNjA3MjQ4NzM2fQ.uc5U9BHOBc0ZkepDiutPIVwXH1BZIThV1qF_uCoZZ7Q
+2020-12-05T09:58:56.435Z [info] success migrating
+2020-12-05T09:58:56.484Z [info] DB migrate: false
+2020-12-05T09:58:56.506Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:58:56.517Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjMzNiwiZXhwIjoxNjA3MjQ4NzM2fQ.uc5U9BHOBc0ZkepDiutPIVwXH1BZIThV1qF_uCoZZ7Q
+2020-12-05T09:58:56.518Z [info] success migrating
+2020-12-05T09:58:59.591Z [info] Express server started on port: 3000
+2020-12-05T09:58:59.624Z [info] DB migrate: false
+2020-12-05T09:58:59.647Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:58:59.653Z [info] DB migrate: false
+2020-12-05T09:58:59.662Z [info] unable to connect to the database: 127.0.0.1([object Object])(Table 'dieter.users' doesn't exist)
+2020-12-05T09:58:59.677Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:58:59.687Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjMzOSwiZXhwIjoxNjA3MjQ4NzM5fQ.LMvBUEZpB7zV7APyHwdPpsSx_pCfR2fxkiivFsJPTk8
+2020-12-05T09:58:59.687Z [info] success migrating
+2020-12-05T09:59:04.122Z [info] Express server started on port: 3000
+2020-12-05T09:59:04.160Z [info] DB migrate: false
+2020-12-05T09:59:04.184Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:59:04.196Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjM0NCwiZXhwIjoxNjA3MjQ4NzQ0fQ.2ob6ODlaxYZ3jmN6mTxY9ncclduBEfdSuW5CovVZUTY
+2020-12-05T09:59:04.197Z [info] success migrating
+2020-12-05T09:59:12.269Z [info] Express server started on port: 3000
+2020-12-05T09:59:12.311Z [info] DB migrate: false
+2020-12-05T09:59:12.343Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:59:12.360Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjM1MiwiZXhwIjoxNjA3MjQ4NzUyfQ.A7TYLvE2tOPmz2x_7KdGzR7JDu4kB1eCa7OnXb8pJ-Q
+2020-12-05T09:59:12.365Z [info] success migrating
+2020-12-05T09:59:15.728Z [info] Express server started on port: 3000
+2020-12-05T09:59:15.766Z [info] DB migrate: false
+2020-12-05T09:59:15.787Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:59:15.800Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjM1NSwiZXhwIjoxNjA3MjQ4NzU1fQ.j4Vn3NuhUn4uQIUQV-uofxAM4R6gqqEAYlYLYctHXfU
+2020-12-05T09:59:15.800Z [info] success migrating
+2020-12-05T09:59:15.819Z [info] DB migrate: false
+2020-12-05T09:59:15.845Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:59:15.856Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjM1NSwiZXhwIjoxNjA3MjQ4NzU1fQ.j4Vn3NuhUn4uQIUQV-uofxAM4R6gqqEAYlYLYctHXfU
+2020-12-05T09:59:15.857Z [info] success migrating
+2020-12-05T09:59:46.632Z [info] Express server started on port: 3000
+2020-12-05T09:59:46.669Z [info] DB migrate: false
+2020-12-05T09:59:46.703Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:59:47.839Z [info] Express server started on port: 3000
+2020-12-05T09:59:47.868Z [info] DB migrate: false
+2020-12-05T09:59:47.905Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:59:47.918Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjM4NywiZXhwIjoxNjA3MjQ4Nzg3fQ.vaQB7mJfkFbkBnSDPISbT4vySh58XFOa0G5wSGwr2Rg
+2020-12-05T09:59:47.919Z [info] success migrating
+2020-12-05T09:59:48.076Z [info] DB migrate: false
+2020-12-05T09:59:48.100Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:59:48.112Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjM4OCwiZXhwIjoxNjA3MjQ4Nzg4fQ.cNPesyz7Onc6UxMaqVVRiga5MaNUBCcm9v-ljFmX1aM
+2020-12-05T09:59:48.112Z [info] success migrating
+2020-12-05T09:59:55.188Z [info] Express server started on port: 3000
+2020-12-05T09:59:55.228Z [info] DB migrate: false
+2020-12-05T09:59:55.250Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:59:55.262Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjM5NSwiZXhwIjoxNjA3MjQ4Nzk1fQ.nYE0mO9GAYd0yt-IIsV0NrnzZPX9vDYv-vnA7Rk1RIk
+2020-12-05T09:59:55.263Z [info] success migrating
+2020-12-05T09:59:55.495Z [info] DB migrate: false
+2020-12-05T09:59:55.515Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T09:59:55.524Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjM5NSwiZXhwIjoxNjA3MjQ4Nzk1fQ.nYE0mO9GAYd0yt-IIsV0NrnzZPX9vDYv-vnA7Rk1RIk
+2020-12-05T09:59:55.524Z [info] success migrating
+2020-12-05T10:00:02.631Z [info] Express server started on port: 3000
+2020-12-05T10:00:02.666Z [info] DB migrate: false
+2020-12-05T10:00:02.680Z [info] DB migrate: false
+2020-12-05T10:00:02.689Z [info] unable to connect to the database: 127.0.0.1([object Object])(Table 'dieter.users' doesn't exist)
+2020-12-05T10:00:02.702Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:00:02.712Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjQwMiwiZXhwIjoxNjA3MjQ4ODAyfQ.SwFMdVO0JoFvepWqG6ZhaKq29KlyAXldT-180v7S6qA
+2020-12-05T10:00:02.712Z [info] success migrating
+2020-12-05T10:00:14.805Z [info] Express server started on port: 3000
+2020-12-05T10:00:14.835Z [info] DB migrate: false
+2020-12-05T10:00:14.847Z [info] DB migrate: false
+2020-12-05T10:00:14.857Z [info] unable to connect to the database: 127.0.0.1([object Object])(Table 'dieter.users' doesn't exist)
+2020-12-05T10:00:14.872Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:00:14.884Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjQxNCwiZXhwIjoxNjA3MjQ4ODE0fQ.QbbNNxLbnA0iZ1RVduYijpkX-BqSgCUBcabnZgW82RA
+2020-12-05T10:00:14.884Z [info] success migrating
+2020-12-05T10:00:21.581Z [info] Express server started on port: 3000
+2020-12-05T10:00:21.610Z [info] DB migrate: false
+2020-12-05T10:00:21.629Z [info] DB migrate: false
+2020-12-05T10:00:21.631Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:00:21.647Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:00:21.647Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjQyMSwiZXhwIjoxNjA3MjQ4ODIxfQ.MLFZgGHXFkCNhiNx0TmJsgVAzB4MyiQ2FjAqEbKWcOs
+2020-12-05T10:00:21.647Z [info] success migrating
+2020-12-05T10:00:21.657Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjQyMSwiZXhwIjoxNjA3MjQ4ODIxfQ.MLFZgGHXFkCNhiNx0TmJsgVAzB4MyiQ2FjAqEbKWcOs
+2020-12-05T10:00:21.657Z [info] success migrating
+2020-12-05T10:00:23.247Z [info] Express server started on port: 3000
+2020-12-05T10:00:23.289Z [info] DB migrate: false
+2020-12-05T10:00:23.309Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:00:23.323Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjQyMywiZXhwIjoxNjA3MjQ4ODIzfQ.JWz_J6N-aNEUo1gpX1jE8p6ug4hvkqyvSfuh59vsh1Y
+2020-12-05T10:00:23.324Z [info] success migrating
+2020-12-05T10:00:23.340Z [info] DB migrate: false
+2020-12-05T10:00:23.360Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:00:23.369Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjQyMywiZXhwIjoxNjA3MjQ4ODIzfQ.JWz_J6N-aNEUo1gpX1jE8p6ug4hvkqyvSfuh59vsh1Y
+2020-12-05T10:00:23.369Z [info] success migrating
+2020-12-05T10:00:25.357Z [info] Express server started on port: 3000
+2020-12-05T10:00:25.390Z [info] DB migrate: false
+2020-12-05T10:00:25.411Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:00:25.424Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjQyNSwiZXhwIjoxNjA3MjQ4ODI1fQ._W1zmZBMJ9wJs_Gp4QW1pHz0fAbjFWAX9Ndf9VuumwQ
+2020-12-05T10:00:25.424Z [info] success migrating
+2020-12-05T10:00:25.461Z [info] DB migrate: false
+2020-12-05T10:00:25.480Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:00:25.489Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjQyNSwiZXhwIjoxNjA3MjQ4ODI1fQ._W1zmZBMJ9wJs_Gp4QW1pHz0fAbjFWAX9Ndf9VuumwQ
+2020-12-05T10:00:25.489Z [info] success migrating
+2020-12-05T10:00:28.347Z [info] Express server started on port: 3000
+2020-12-05T10:00:28.378Z [info] DB migrate: false
+2020-12-05T10:00:28.397Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:00:28.409Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjQyOCwiZXhwIjoxNjA3MjQ4ODI4fQ.pMJtRqILdKdeiOZrKd8zuo9tvriP_t1rpgwuYAgkA9g
+2020-12-05T10:00:28.409Z [info] success migrating
+2020-12-05T10:00:28.446Z [info] DB migrate: false
+2020-12-05T10:00:28.471Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:00:28.481Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjQyOCwiZXhwIjoxNjA3MjQ4ODI4fQ.pMJtRqILdKdeiOZrKd8zuo9tvriP_t1rpgwuYAgkA9g
+2020-12-05T10:00:28.481Z [info] success migrating
+2020-12-05T10:01:18.516Z [info] Express server started on port: 3000
+2020-12-05T10:01:18.560Z [info] DB migrate: false
+2020-12-05T10:01:18.560Z [info] DB migrate: false
+2020-12-05T10:01:18.585Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:01:18.587Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:01:18.600Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjQ3OCwiZXhwIjoxNjA3MjQ4ODc4fQ.uOgwQF1RrB1Jm8E0p1V4jMWfNcLC3uac8Ti2IYJ3GY4
+2020-12-05T10:01:18.600Z [info] success migrating
+2020-12-05T10:01:18.601Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjQ3OCwiZXhwIjoxNjA3MjQ4ODc4fQ.uOgwQF1RrB1Jm8E0p1V4jMWfNcLC3uac8Ti2IYJ3GY4
+2020-12-05T10:01:18.601Z [info] success migrating
+2020-12-05T10:01:40.259Z [info] Express server started on port: 3000
+2020-12-05T10:01:40.296Z [info] DB migrate: false
+2020-12-05T10:01:40.318Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:01:40.333Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjUwMCwiZXhwIjoxNjA3MjQ4OTAwfQ.FpG_kojYxX-IZH1uwcJHxDWm654uQX2jjl_megfHPtE
+2020-12-05T10:01:40.333Z [info] success migrating
+2020-12-05T10:01:40.337Z [info] DB migrate: false
+2020-12-05T10:01:40.356Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:01:40.367Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjUwMCwiZXhwIjoxNjA3MjQ4OTAwfQ.FpG_kojYxX-IZH1uwcJHxDWm654uQX2jjl_megfHPtE
+2020-12-05T10:01:40.367Z [info] success migrating
+2020-12-05T10:01:43.140Z [info] Express server started on port: 3000
+2020-12-05T10:01:43.171Z [info] DB migrate: false
+2020-12-05T10:01:43.195Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:01:43.205Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjUwMywiZXhwIjoxNjA3MjQ4OTAzfQ.WwMuXTX8UKzfH6FgBHV7nOM4hLGc1259tsnrdncHCKk
+2020-12-05T10:01:43.205Z [info] success migrating
+2020-12-05T10:01:49.993Z [info] Express server started on port: 3000
+2020-12-05T10:01:50.040Z [info] DB migrate: false
+2020-12-05T10:01:50.070Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:01:50.090Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjUxMCwiZXhwIjoxNjA3MjQ4OTEwfQ._Br7CpiJ5LuJfY4xvmG0meOG342IrsL01FMw_ETGdx4
+2020-12-05T10:01:50.090Z [info] success migrating
+2020-12-05T10:01:55.484Z [info] Express server started on port: 3000
+2020-12-05T10:01:55.517Z [info] DB migrate: false
+2020-12-05T10:01:55.549Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:01:55.559Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjUxNSwiZXhwIjoxNjA3MjQ4OTE1fQ.DxK18RK1wNlBRHas8Ck3fmhY3UQCEj6PyHBQWGYvLtk
+2020-12-05T10:01:55.560Z [info] success migrating
+2020-12-05T10:02:00.607Z [info] Express server started on port: 3000
+2020-12-05T10:02:00.643Z [info] DB migrate: false
+2020-12-05T10:02:00.663Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:02:00.676Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjUyMCwiZXhwIjoxNjA3MjQ4OTIwfQ.4bVSyl9JtvcV834qioc9ejr6uxhXLocEjiGMqaNOaPA
+2020-12-05T10:02:00.676Z [info] success migrating
+2020-12-05T10:02:00.755Z [info] DB migrate: false
+2020-12-05T10:02:00.775Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:02:00.784Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjUyMCwiZXhwIjoxNjA3MjQ4OTIwfQ.4bVSyl9JtvcV834qioc9ejr6uxhXLocEjiGMqaNOaPA
+2020-12-05T10:02:00.784Z [info] success migrating
+2020-12-05T10:02:08.407Z [info] Express server started on port: 3000
+2020-12-05T10:02:08.448Z [info] DB migrate: false
+2020-12-05T10:02:08.458Z [info] DB migrate: false
+2020-12-05T10:02:08.476Z [info] unable to connect to the database: 127.0.0.1([object Object])(Table 'dieter.users' doesn't exist)
+2020-12-05T10:02:08.489Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:02:08.501Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjUyOCwiZXhwIjoxNjA3MjQ4OTI4fQ.DIgPpZ532K_k_BXLryQi2QiyovDkWM7AauuWfTNd9Pk
+2020-12-05T10:02:08.502Z [info] success migrating
+2020-12-05T10:02:09.784Z [info] Express server started on port: 3000
+2020-12-05T10:02:09.817Z [info] DB migrate: false
+2020-12-05T10:02:09.842Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:02:09.856Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjUyOSwiZXhwIjoxNjA3MjQ4OTI5fQ.ZiQRDanC6_S6UzK827TPayRiuvv2gtjygB2Ymo4Sv7g
+2020-12-05T10:02:09.857Z [info] success migrating
+2020-12-05T10:02:15.665Z [info] Express server started on port: 3000
+2020-12-05T10:02:15.696Z [info] DB migrate: false
+2020-12-05T10:02:15.717Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:02:15.729Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjUzNSwiZXhwIjoxNjA3MjQ4OTM1fQ.iLF6-TkN4R5sYOxpg9btyOaGGmIERIPGe2eFS6BXbVE
+2020-12-05T10:02:15.729Z [info] success migrating
+2020-12-05T10:02:22.491Z [info] Express server started on port: 3000
+2020-12-05T10:02:22.522Z [info] DB migrate: false
+2020-12-05T10:02:22.544Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:02:22.564Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjU0MiwiZXhwIjoxNjA3MjQ4OTQyfQ.OssIFKa5V-w-WJR0ktc6_-z-wN9GybzAQf33-c38LG4
+2020-12-05T10:02:22.567Z [info] success migrating
+2020-12-05T10:02:42.669Z [info] Express server started on port: 3000
+2020-12-05T10:02:42.718Z [info] DB migrate: false
+2020-12-05T10:02:42.747Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:02:42.760Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjU2MiwiZXhwIjoxNjA3MjQ4OTYyfQ.ra8xgfbgTw9hXodafdaiM4YsXnXJFgVNPXA8XeCpO8E
+2020-12-05T10:02:42.760Z [info] success migrating
+2020-12-05T10:02:54.443Z [info] Express server started on port: 3000
+2020-12-05T10:02:54.484Z [info] DB migrate: false
+2020-12-05T10:02:54.506Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:02:54.519Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjU3NCwiZXhwIjoxNjA3MjQ4OTc0fQ.-NvSv_gtHUKF_Q72LNgWOWWTdWgmT4xnNZVCE9aVcjQ
+2020-12-05T10:02:54.519Z [info] success migrating
+2020-12-05T10:02:54.643Z [info] DB migrate: false
+2020-12-05T10:02:54.665Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:02:54.674Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjU3NCwiZXhwIjoxNjA3MjQ4OTc0fQ.-NvSv_gtHUKF_Q72LNgWOWWTdWgmT4xnNZVCE9aVcjQ
+2020-12-05T10:02:54.674Z [info] success migrating
+2020-12-05T10:02:56.314Z [info] Express server started on port: 3000
+2020-12-05T10:02:56.349Z [info] DB migrate: false
+2020-12-05T10:02:56.367Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:02:56.382Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjU3NiwiZXhwIjoxNjA3MjQ4OTc2fQ.05yPGBCrTbdpnM7-_04f0-i0AUffJZ8cfIIr8AD8VDw
+2020-12-05T10:02:56.382Z [info] success migrating
+2020-12-05T10:02:56.466Z [info] DB migrate: false
+2020-12-05T10:02:56.486Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:02:56.496Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjU3NiwiZXhwIjoxNjA3MjQ4OTc2fQ.05yPGBCrTbdpnM7-_04f0-i0AUffJZ8cfIIr8AD8VDw
+2020-12-05T10:02:56.496Z [info] success migrating
+2020-12-05T10:03:06.453Z [info] Express server started on port: 3000
+2020-12-05T10:03:06.496Z [info] DB migrate: false
+2020-12-05T10:03:06.496Z [info] DB migrate: false
+2020-12-05T10:03:06.520Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:03:06.521Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:03:06.531Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjU4NiwiZXhwIjoxNjA3MjQ4OTg2fQ.Q0tP0hh6aPx89EpMFMx_xh2SCYHkYQJF5hQrjirEhjs
+2020-12-05T10:03:06.532Z [info] success migrating
+2020-12-05T10:03:06.535Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjU4NiwiZXhwIjoxNjA3MjQ4OTg2fQ.Q0tP0hh6aPx89EpMFMx_xh2SCYHkYQJF5hQrjirEhjs
+2020-12-05T10:03:06.536Z [info] success migrating
+2020-12-05T10:03:07.972Z [info] Express server started on port: 3000
+2020-12-05T10:03:08.005Z [info] DB migrate: false
+2020-12-05T10:03:08.030Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:03:08.044Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjU4OCwiZXhwIjoxNjA3MjQ4OTg4fQ.v4C30M27UIvsJDMJwqewPmy5zIeZF6PlngczZZRJFrg
+2020-12-05T10:03:08.044Z [info] success migrating
+2020-12-05T10:03:08.133Z [info] DB migrate: false
+2020-12-05T10:03:08.152Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:03:08.165Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjU4OCwiZXhwIjoxNjA3MjQ4OTg4fQ.v4C30M27UIvsJDMJwqewPmy5zIeZF6PlngczZZRJFrg
+2020-12-05T10:03:08.166Z [info] success migrating
+2020-12-05T10:05:13.525Z [info] Express server started on port: 3000
+2020-12-05T10:05:13.566Z [info] DB migrate: false
+2020-12-05T10:05:13.603Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:05:13.616Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjcxMywiZXhwIjoxNjA3MjQ5MTEzfQ.Bwp0L8X4yYg72aQEX_hc0zb2otqIcas-57sOtrYYJAI
+2020-12-05T10:05:13.616Z [info] success migrating
+2020-12-05T10:05:13.638Z [info] DB migrate: false
+2020-12-05T10:05:13.678Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:05:13.688Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjcxMywiZXhwIjoxNjA3MjQ5MTEzfQ.Bwp0L8X4yYg72aQEX_hc0zb2otqIcas-57sOtrYYJAI
+2020-12-05T10:05:13.689Z [info] success migrating
+2020-12-05T10:05:21.302Z [info] Express server started on port: 3000
+2020-12-05T10:05:21.329Z [info] DB migrate: false
+2020-12-05T10:05:21.372Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:05:21.381Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MjcyMSwiZXhwIjoxNjA3MjQ5MTIxfQ.WzTWzi7TJzVyBTVrmu924-gBJZO_6-G87rbMwLi3nSU
+2020-12-05T10:05:21.382Z [info] success migrating
+2020-12-05T10:15:40.854Z [info] Express server started on port: 3000
+2020-12-05T10:15:40.891Z [info] DB migrate: false
+2020-12-05T10:15:40.928Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:15:40.941Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzM0MCwiZXhwIjoxNjA3MjQ5NzQwfQ.wLF3tNYy8AfTPpE_pKYi3CYZvt2X692-EysTnoCeZ3w
+2020-12-05T10:15:40.941Z [info] success migrating
+2020-12-05T10:15:40.943Z [info] DB migrate: false
+2020-12-05T10:15:40.984Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:15:40.994Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzM0MCwiZXhwIjoxNjA3MjQ5NzQwfQ.wLF3tNYy8AfTPpE_pKYi3CYZvt2X692-EysTnoCeZ3w
+2020-12-05T10:15:40.994Z [info] success migrating
+2020-12-05T10:15:55.588Z [info] Express server started on port: 3000
+2020-12-05T10:15:55.630Z [info] DB migrate: false
+2020-12-05T10:15:55.722Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:15:55.733Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzM1NSwiZXhwIjoxNjA3MjQ5NzU1fQ.nucU6p6p8dTVWSBadM6swtLd-vO1Ng53ZvBal37MYIw
+2020-12-05T10:15:55.733Z [info] success migrating
+2020-12-05T10:15:58.294Z [info] Express server started on port: 3000
+2020-12-05T10:15:58.337Z [info] DB migrate: false
+2020-12-05T10:15:58.409Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:15:58.422Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzM1OCwiZXhwIjoxNjA3MjQ5NzU4fQ.TH2_NSCl5VJMFrICJbAtrVM5cLtRbQ1DYoNg3ltjxX8
+2020-12-05T10:15:58.422Z [info] success migrating
+2020-12-05T10:15:58.454Z [info] DB migrate: false
+2020-12-05T10:15:58.500Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:15:58.512Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzM1OCwiZXhwIjoxNjA3MjQ5NzU4fQ.TH2_NSCl5VJMFrICJbAtrVM5cLtRbQ1DYoNg3ltjxX8
+2020-12-05T10:15:58.512Z [info] success migrating
+2020-12-05T10:16:05.952Z [info] Express server started on port: 3000
+2020-12-05T10:16:05.993Z [info] DB migrate: false
+2020-12-05T10:16:06.048Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:16:06.052Z [info] DB migrate: false
+2020-12-05T10:16:06.071Z [info] unable to connect to the database: 127.0.0.1([object Object])(Table 'dieter.users' doesn't exist)
+2020-12-05T10:16:06.098Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:16:06.111Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzM2NiwiZXhwIjoxNjA3MjQ5NzY2fQ.FlQDbZZrprusJO9S2o3nyiFhSQ7J1MzIutyEylGfw7o
+2020-12-05T10:16:06.111Z [info] success migrating
+2020-12-05T10:16:09.473Z [info] Express server started on port: 3000
+2020-12-05T10:16:09.509Z [info] DB migrate: false
+2020-12-05T10:16:09.562Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:16:09.576Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzM2OSwiZXhwIjoxNjA3MjQ5NzY5fQ.W4wBxX9nqny0Xc02dJ5yfiWwa5Qtr1uDpS5kv8gWafA
+2020-12-05T10:16:09.577Z [info] success migrating
+2020-12-05T10:16:09.631Z [info] DB migrate: false
+2020-12-05T10:16:09.669Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:16:09.679Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzM2OSwiZXhwIjoxNjA3MjQ5NzY5fQ.W4wBxX9nqny0Xc02dJ5yfiWwa5Qtr1uDpS5kv8gWafA
+2020-12-05T10:16:09.679Z [info] success migrating
+2020-12-05T10:16:33.023Z [info] Express server started on port: 3000
+2020-12-05T10:16:33.055Z [info] DB migrate: false
+2020-12-05T10:16:33.088Z [info] DB migrate: false
+2020-12-05T10:16:33.103Z [info] unable to connect to the database: 127.0.0.1([object Object])(Table 'dieter.kcals' doesn't exist)
+2020-12-05T10:16:33.136Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:16:33.149Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzM5MywiZXhwIjoxNjA3MjQ5NzkzfQ.lInSWrZlm3r5Q1SEf3IKnzAP-2fyGMZ7I_DubCvKptk
+2020-12-05T10:16:33.149Z [info] success migrating
+2020-12-05T10:17:56.442Z [info] Express server started on port: 3000
+2020-12-05T10:17:56.482Z [info] DB migrate: false
+2020-12-05T10:17:56.483Z [info] DB migrate: false
+2020-12-05T10:17:56.523Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:17:56.523Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:17:56.534Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzQ3NiwiZXhwIjoxNjA3MjQ5ODc2fQ.ZPhga2pUMY-GvuPsa_--c02U0RfBs7KCzWita7CKiJU
+2020-12-05T10:17:56.535Z [info] success migrating
+2020-12-05T10:17:56.540Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzQ3NiwiZXhwIjoxNjA3MjQ5ODc2fQ.ZPhga2pUMY-GvuPsa_--c02U0RfBs7KCzWita7CKiJU
+2020-12-05T10:17:56.541Z [info] success migrating
+2020-12-05T10:18:02.404Z [info] Express server started on port: 3000
+2020-12-05T10:18:02.440Z [info] DB migrate: false
+2020-12-05T10:18:02.480Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:18:02.491Z [info] DB migrate: false
+2020-12-05T10:18:02.496Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzQ4MiwiZXhwIjoxNjA3MjQ5ODgyfQ.bdHJnTQZlfMcEMIMmmQlAFRQIF30cIfg7Jz1fdITM2E
+2020-12-05T10:18:02.496Z [info] success migrating
+2020-12-05T10:18:02.539Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:18:02.552Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzQ4MiwiZXhwIjoxNjA3MjQ5ODgyfQ.bdHJnTQZlfMcEMIMmmQlAFRQIF30cIfg7Jz1fdITM2E
+2020-12-05T10:18:02.553Z [info] success migrating
+2020-12-05T10:18:06.186Z [info] Express server started on port: 3000
+2020-12-05T10:18:06.214Z [info] DB migrate: false
+2020-12-05T10:18:06.267Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:18:06.279Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzQ4NiwiZXhwIjoxNjA3MjQ5ODg2fQ.CH3afrXborYI7ligo4IB1CWqLS_-a48bPzNhTPI6dlY
+2020-12-05T10:18:06.279Z [info] success migrating
+2020-12-05T10:18:12.961Z [info] Express server started on port: 3000
+2020-12-05T10:18:13.015Z [info] DB migrate: false
+2020-12-05T10:18:13.083Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:18:13.102Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzQ5MywiZXhwIjoxNjA3MjQ5ODkzfQ.fzFbGsThEDXVutjdQfqoZdtrA-yV6ZIzwXJiSHym4YM
+2020-12-05T10:18:13.102Z [info] success migrating
+2020-12-05T10:18:16.196Z [info] Express server started on port: 3000
+2020-12-05T10:18:16.227Z [info] DB migrate: false
+2020-12-05T10:18:16.270Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:18:16.282Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzQ5NiwiZXhwIjoxNjA3MjQ5ODk2fQ.bHRBkh3-tfsvq2BdPoaN0jSVG-pQ-TYxPf61uQAllNE
+2020-12-05T10:18:16.282Z [info] success migrating
+2020-12-05T10:18:16.327Z [info] DB migrate: false
+2020-12-05T10:18:16.360Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:18:16.369Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzQ5NiwiZXhwIjoxNjA3MjQ5ODk2fQ.bHRBkh3-tfsvq2BdPoaN0jSVG-pQ-TYxPf61uQAllNE
+2020-12-05T10:18:16.369Z [info] success migrating
+2020-12-05T10:18:20.052Z [info] Express server started on port: 3000
+2020-12-05T10:18:20.081Z [info] DB migrate: false
+2020-12-05T10:18:20.118Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:18:20.132Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzUwMCwiZXhwIjoxNjA3MjQ5OTAwfQ.Ka_ikfL3rpTCF-w6p0qr9uaFp5m_paL-GrIJJnhviG4
+2020-12-05T10:18:20.132Z [info] success migrating
+2020-12-05T10:18:20.193Z [info] DB migrate: false
+2020-12-05T10:18:20.232Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:18:20.242Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzUwMCwiZXhwIjoxNjA3MjQ5OTAwfQ.Ka_ikfL3rpTCF-w6p0qr9uaFp5m_paL-GrIJJnhviG4
+2020-12-05T10:18:20.243Z [info] success migrating
+2020-12-05T10:18:25.470Z [info] Express server started on port: 3000
+2020-12-05T10:18:25.500Z [info] DB migrate: false
+2020-12-05T10:18:25.528Z [info] DB migrate: false
+2020-12-05T10:18:25.541Z [info] unable to connect to the database: 127.0.0.1([object Object])(Table 'dieter.kcals' doesn't exist)
+2020-12-05T10:18:25.575Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:18:25.587Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzUwNSwiZXhwIjoxNjA3MjQ5OTA1fQ.DjAg9x6upAs4l1spLbQBs6iNj4Mma72l8hc3w6eSPiU
+2020-12-05T10:18:25.587Z [info] success migrating
+2020-12-05T10:18:50.190Z [info] Express server started on port: 3000
+2020-12-05T10:18:50.229Z [info] DB migrate: false
+2020-12-05T10:18:50.277Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:18:50.289Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzUzMCwiZXhwIjoxNjA3MjQ5OTMwfQ.pNiP6SYP3eV5N0o8c_BBgbrVKuGRH_EwyKk77I58Ccw
+2020-12-05T10:18:50.290Z [info] success migrating
+2020-12-05T10:18:50.403Z [info] DB migrate: false
+2020-12-05T10:18:50.450Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:18:50.461Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzUzMCwiZXhwIjoxNjA3MjQ5OTMwfQ.pNiP6SYP3eV5N0o8c_BBgbrVKuGRH_EwyKk77I58Ccw
+2020-12-05T10:18:50.462Z [info] success migrating
+2020-12-05T10:18:57.864Z [info] Express server started on port: 3000
+2020-12-05T10:18:57.901Z [info] DB migrate: false
+2020-12-05T10:18:57.955Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:18:57.967Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzUzNywiZXhwIjoxNjA3MjQ5OTM3fQ.XmXEqN7RwXSHxDUuFte-JVRJmxixpL9PQzB2K5zlni8
+2020-12-05T10:18:57.968Z [info] success migrating
+2020-12-05T10:18:58.025Z [info] DB migrate: false
+2020-12-05T10:18:59.511Z [info] Express server started on port: 3000
+2020-12-05T10:18:59.554Z [info] DB migrate: false
+2020-12-05T10:18:59.588Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:18:59.602Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzUzOSwiZXhwIjoxNjA3MjQ5OTM5fQ.PdaFw5WUDJXiUSoaKgvXiozmCgmZRKldjbulJylytZM
+2020-12-05T10:18:59.602Z [info] success migrating
+2020-12-05T10:18:59.649Z [info] DB migrate: false
+2020-12-05T10:18:59.682Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:18:59.691Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzUzOSwiZXhwIjoxNjA3MjQ5OTM5fQ.PdaFw5WUDJXiUSoaKgvXiozmCgmZRKldjbulJylytZM
+2020-12-05T10:18:59.692Z [info] success migrating
+2020-12-05T10:19:09.698Z [info] Express server started on port: 3000
+2020-12-05T10:19:09.729Z [info] DB migrate: false
+2020-12-05T10:19:09.753Z [info] DB migrate: false
+2020-12-05T10:19:09.776Z [info] unable to connect to the database: 127.0.0.1([object Object])(Table 'dieter.kcals' doesn't exist)
+2020-12-05T10:19:09.810Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:19:09.822Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzU0OSwiZXhwIjoxNjA3MjQ5OTQ5fQ.pF69XHCs-bWq94iyYCbtiTwBbioqtIZI8iu3YU1kxms
+2020-12-05T10:19:09.822Z [info] success migrating
+2020-12-05T10:19:13.923Z [info] Express server started on port: 3000
+2020-12-05T10:19:13.954Z [info] DB migrate: false
+2020-12-05T10:19:13.965Z [info] DB migrate: false
+2020-12-05T10:19:13.993Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:19:13.993Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:19:14.004Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzU1NCwiZXhwIjoxNjA3MjQ5OTU0fQ.l2E4e6Kh7qVrvDGIjhjiRzlTjeTX43TO8GJL4u5zr2E
+2020-12-05T10:19:14.005Z [info] success migrating
+2020-12-05T10:19:14.007Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzU1NCwiZXhwIjoxNjA3MjQ5OTU0fQ.l2E4e6Kh7qVrvDGIjhjiRzlTjeTX43TO8GJL4u5zr2E
+2020-12-05T10:19:14.007Z [info] success migrating
+2020-12-05T10:19:19.238Z [info] Express server started on port: 3000
+2020-12-05T10:19:19.263Z [info] DB migrate: false
+2020-12-05T10:19:19.312Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:19:19.323Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzU1OSwiZXhwIjoxNjA3MjQ5OTU5fQ.MOYRcv67pkQpEvKExljrXhoWcXUbJns2Fu33XzY_dvs
+2020-12-05T10:19:19.323Z [info] success migrating
+2020-12-05T10:19:20.303Z [info] Express server started on port: 3000
+2020-12-05T10:19:20.339Z [info] DB migrate: false
+2020-12-05T10:19:20.374Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:19:20.387Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzU2MCwiZXhwIjoxNjA3MjQ5OTYwfQ.ms4jAI184pOXbW7_z0nxHtazCs-HflT6Ypy6-WIk0WQ
+2020-12-05T10:19:20.387Z [info] success migrating
+2020-12-05T10:19:20.454Z [info] DB migrate: false
+2020-12-05T10:19:20.488Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:19:20.498Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzU2MCwiZXhwIjoxNjA3MjQ5OTYwfQ.ms4jAI184pOXbW7_z0nxHtazCs-HflT6Ypy6-WIk0WQ
+2020-12-05T10:19:20.498Z [info] success migrating
+2020-12-05T10:19:37.800Z [info] Express server started on port: 3000
+2020-12-05T10:19:37.832Z [info] DB migrate: false
+2020-12-05T10:19:37.868Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:19:37.882Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzU3NywiZXhwIjoxNjA3MjQ5OTc3fQ.dM2eiI1tv__XysHSTebw_PfkMmo_yefaJ3YxZEVfFB8
+2020-12-05T10:19:37.882Z [info] success migrating
+2020-12-05T10:19:38.026Z [info] DB migrate: false
+2020-12-05T10:19:38.065Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:19:38.075Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzU3OCwiZXhwIjoxNjA3MjQ5OTc4fQ.mAtDuEynQul-l7VbPP-juE4JRgEF471L2yfhg00dIgA
+2020-12-05T10:19:38.075Z [info] success migrating
+2020-12-05T10:19:45.225Z [info] Express server started on port: 3000
+2020-12-05T10:19:45.254Z [info] DB migrate: false
+2020-12-05T10:19:45.299Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:19:45.306Z [info] DB migrate: false
+2020-12-05T10:19:45.312Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzU4NSwiZXhwIjoxNjA3MjQ5OTg1fQ.xNomThpDpd3qgOfmhubMgiXiQUlB-tZN6-vGOTjcmr0
+2020-12-05T10:19:45.312Z [info] success migrating
+2020-12-05T10:19:45.353Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:19:45.367Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzU4NSwiZXhwIjoxNjA3MjQ5OTg1fQ.xNomThpDpd3qgOfmhubMgiXiQUlB-tZN6-vGOTjcmr0
+2020-12-05T10:19:45.367Z [info] success migrating
+2020-12-05T10:19:46.939Z [info] Express server started on port: 3000
+2020-12-05T10:19:46.974Z [info] DB migrate: false
+2020-12-05T10:19:46.981Z [info] DB migrate: false
+2020-12-05T10:19:47.014Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:19:47.015Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:19:47.027Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzU4NywiZXhwIjoxNjA3MjQ5OTg3fQ.ueAiR-rJNlNaJ1oaIkI_qwtFPvwrpme6fCSVJYMXuF8
+2020-12-05T10:19:47.028Z [info] success migrating
+2020-12-05T10:19:47.031Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzU4NywiZXhwIjoxNjA3MjQ5OTg3fQ.ueAiR-rJNlNaJ1oaIkI_qwtFPvwrpme6fCSVJYMXuF8
+2020-12-05T10:19:47.031Z [info] success migrating
+2020-12-05T10:20:45.000Z [info] Express server started on port: 3000
+2020-12-05T10:20:45.041Z [info] DB migrate: false
+2020-12-05T10:20:45.089Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:20:45.100Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2MzY0NSwiZXhwIjoxNjA3MjUwMDQ1fQ.IzbavM6-_5pfCgUEXIvw0kiccw5sARY-vyVyAfZVdkM
+2020-12-05T10:20:45.100Z [info] success migrating
+2020-12-05T10:35:16.192Z [info] Express server started on port: 3000
+2020-12-05T10:35:16.239Z [info] DB migrate: false
+2020-12-05T10:35:16.313Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:35:16.330Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2NDUxNiwiZXhwIjoxNjA3MjUwOTE2fQ.7Ic0eXaA8HCuz9-l-rV6vjqC9jYVmSoHU9TZCmaHRo4
+2020-12-05T10:35:16.330Z [info] success migrating
+2020-12-05T10:35:42.375Z [info] Express server started on port: 3000
+2020-12-05T10:35:42.414Z [info] DB migrate: false
+2020-12-05T10:35:42.423Z [info] DB migrate: false
+2020-12-05T10:35:42.462Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:35:42.462Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:35:42.477Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2NDU0MiwiZXhwIjoxNjA3MjUwOTQyfQ.YBrgfH35X0ZEbIVnDXOYuz0c9pGaIpBw3JmGxTtbPg4
+2020-12-05T10:35:42.479Z [info] success migrating
+2020-12-05T10:35:42.485Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2NDU0MiwiZXhwIjoxNjA3MjUwOTQyfQ.YBrgfH35X0ZEbIVnDXOYuz0c9pGaIpBw3JmGxTtbPg4
+2020-12-05T10:35:42.485Z [info] success migrating
+2020-12-05T10:35:46.500Z [info] Express server started on port: 3000
+2020-12-05T10:35:46.600Z [info] DB migrate: false
+2020-12-05T10:35:46.673Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:35:46.687Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2NDU0NiwiZXhwIjoxNjA3MjUwOTQ2fQ.ystNMUv_sroWqHAKU8PEFPho2FQP66-FEK6mdzII1IM
+2020-12-05T10:35:46.687Z [info] success migrating
+2020-12-05T10:35:56.994Z [info] Express server started on port: 3000
+2020-12-05T10:35:57.062Z [info] DB migrate: false
+2020-12-05T10:35:57.133Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:35:57.151Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2NDU1NywiZXhwIjoxNjA3MjUwOTU3fQ.Rvw-RlamMLdaTxK7KjMi8v4NwgUztxKsR2_mNlCC8bo
+2020-12-05T10:35:57.152Z [info] success migrating
+2020-12-05T10:35:57.211Z [info] DB migrate: false
+2020-12-05T10:35:57.269Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:35:57.288Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2NDU1NywiZXhwIjoxNjA3MjUwOTU3fQ.Rvw-RlamMLdaTxK7KjMi8v4NwgUztxKsR2_mNlCC8bo
+2020-12-05T10:35:57.289Z [info] success migrating
+2020-12-05T10:35:59.501Z [info] Express server started on port: 3000
+2020-12-05T10:35:59.542Z [info] DB migrate: false
+2020-12-05T10:35:59.585Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:35:59.611Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2NDU1OSwiZXhwIjoxNjA3MjUwOTU5fQ.1qdJSVtYiO6jmmVzqSmKwbaeJFQV64mbfy5oJSmucYE
+2020-12-05T10:35:59.611Z [info] success migrating
+2020-12-05T10:35:59.670Z [info] DB migrate: false
+2020-12-05T10:35:59.709Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:35:59.719Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2NDU1OSwiZXhwIjoxNjA3MjUwOTU5fQ.1qdJSVtYiO6jmmVzqSmKwbaeJFQV64mbfy5oJSmucYE
+2020-12-05T10:35:59.720Z [info] success migrating
+2020-12-05T10:46:21.577Z [info] Express server started on port: 3000
+2020-12-05T10:46:21.633Z [info] DB migrate: false
+2020-12-05T10:46:21.666Z [info] DB migrate: false
+2020-12-05T10:46:21.686Z [info] unable to connect to the database: 127.0.0.1([object Object])(Table 'dieter.kcals' doesn't exist)
+2020-12-05T10:46:21.722Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:46:21.735Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2NTE4MSwiZXhwIjoxNjA3MjUxNTgxfQ.IUMxqoxWywnLqaIPXaZSocCyOlyjYZ2JxVXY1pMuf9M
+2020-12-05T10:46:21.736Z [info] success migrating
+2020-12-05T10:46:26.796Z [info] Express server started on port: 3000
+2020-12-05T10:46:26.887Z [info] DB migrate: false
+2020-12-05T10:46:26.942Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:46:26.960Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2NTE4NiwiZXhwIjoxNjA3MjUxNTg2fQ.Xp7sCOpQ69WjbLIUsTkZLaBBc6cmdhOw3QThGtW-oB0
+2020-12-05T10:46:26.960Z [info] success migrating
+2020-12-05T10:46:30.366Z [info] Express server started on port: 3000
+2020-12-05T10:46:30.566Z [info] DB migrate: false
+2020-12-05T10:46:30.620Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:46:30.632Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2NTE5MCwiZXhwIjoxNjA3MjUxNTkwfQ.7HZsOMxjv-YtG0f80GnXrWm8olYP4XCw1LVN_zgGDTk
+2020-12-05T10:46:30.633Z [info] success migrating
+2020-12-05T10:46:30.668Z [info] DB migrate: false
+2020-12-05T10:46:30.715Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:46:30.729Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2NTE5MCwiZXhwIjoxNjA3MjUxNTkwfQ.7HZsOMxjv-YtG0f80GnXrWm8olYP4XCw1LVN_zgGDTk
+2020-12-05T10:46:30.729Z [info] success migrating
+2020-12-05T10:47:09.538Z [info] Express server started on port: 3000
+2020-12-05T10:47:09.565Z [info] DB migrate: false
+2020-12-05T10:47:09.609Z [info] connection to the database has been established successfully: 127.0.0.1([object Object])
+2020-12-05T10:47:09.619Z [info] admin token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoibWFlbmciLCJlbWFpbCI6Im1hZW5nMjQxOEBuYXZlci5jb20iLCJwcm92aWRlciI6ImVtYWlsIn0sImlhdCI6MTYwNzE2NTIyOSwiZXhwIjoxNjA3MjUxNjI5fQ.SerLj9zt2aSe2vW1JPYUa-qYGj-3HYp9sqZTxKpT4Zo
+2020-12-05T10:47:09.619Z [info] success migrating

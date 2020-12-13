@@ -1,0 +1,89 @@
+2020-12-09T15:47:58.350Z [error] 
+2020-12-09T15:48:06.228Z [error] 
+2020-12-09T15:48:10.690Z [error] 
+2020-12-10T12:02:04.518Z [error] 
+2020-12-10T12:58:06.063Z [error] Error: SequelizeValidationError: notNull Violation: kcal.kcal cannot be null
+    at _callee2$ (/Users/maeng/Desktop/Project/Dieter/server/src/services/kcals.js:31:11)
+    at tryCatch (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.<computed> [as throw] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/maeng/Desktop/Project/Dieter/server/src/services/kcals.js:9:191)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/services/kcals.js:9:402
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-12-10T14:29:33.993Z [error] ReferenceError: CustomError is not defined
+    at /Users/maeng/Desktop/Project/Dieter/server/src/routes/kcals.js:31:9
+    at allFailed (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:107:18)
+    at attempt (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:180:28)
+    at JwtStrategy.strategy.fail (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:302:9)
+    at JwtStrategy.authenticate (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport-jwt/lib/strategy.js:96:21)
+    at attempt (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:366:16)
+    at authenticate (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:367:7)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/routes/kcals.js:26:5
+    at newFn (/Users/maeng/Desktop/Project/Dieter/server/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/express/lib/router/layer.js:95:5)
+2020-12-10T14:29:39.780Z [error] ReferenceError: CustomError is not defined
+    at /Users/maeng/Desktop/Project/Dieter/server/src/routes/kcals.js:31:9
+    at allFailed (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:107:18)
+    at attempt (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:180:28)
+    at JwtStrategy.strategy.fail (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:302:9)
+    at JwtStrategy.authenticate (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport-jwt/lib/strategy.js:96:21)
+    at attempt (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:366:16)
+    at authenticate (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:367:7)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/routes/kcals.js:26:5
+    at newFn (/Users/maeng/Desktop/Project/Dieter/server/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/express/lib/router/layer.js:95:5)
+2020-12-10T14:29:40.374Z [error] ReferenceError: CustomError is not defined
+    at /Users/maeng/Desktop/Project/Dieter/server/src/routes/kcals.js:31:9
+    at allFailed (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:107:18)
+    at attempt (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:180:28)
+    at JwtStrategy.strategy.fail (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:302:9)
+    at JwtStrategy.authenticate (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport-jwt/lib/strategy.js:96:21)
+    at attempt (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:366:16)
+    at authenticate (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:367:7)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/routes/kcals.js:26:5
+    at newFn (/Users/maeng/Desktop/Project/Dieter/server/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/express/lib/router/layer.js:95:5)
+2020-12-10T14:29:40.560Z [error] ReferenceError: CustomError is not defined
+    at /Users/maeng/Desktop/Project/Dieter/server/src/routes/kcals.js:31:9
+    at allFailed (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:107:18)
+    at attempt (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:180:28)
+    at JwtStrategy.strategy.fail (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:302:9)
+    at JwtStrategy.authenticate (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport-jwt/lib/strategy.js:96:21)
+    at attempt (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:366:16)
+    at authenticate (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:367:7)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/routes/kcals.js:26:5
+    at newFn (/Users/maeng/Desktop/Project/Dieter/server/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/express/lib/router/layer.js:95:5)
+2020-12-10T14:29:40.883Z [error] ReferenceError: CustomError is not defined
+    at /Users/maeng/Desktop/Project/Dieter/server/src/routes/kcals.js:31:9
+    at allFailed (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:107:18)
+    at attempt (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:180:28)
+    at JwtStrategy.strategy.fail (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:302:9)
+    at JwtStrategy.authenticate (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport-jwt/lib/strategy.js:96:21)
+    at attempt (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:366:16)
+    at authenticate (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:367:7)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/routes/kcals.js:26:5
+    at newFn (/Users/maeng/Desktop/Project/Dieter/server/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/express/lib/router/layer.js:95:5)
+2020-12-10T14:29:41.069Z [error] ReferenceError: CustomError is not defined
+    at /Users/maeng/Desktop/Project/Dieter/server/src/routes/kcals.js:31:9
+    at allFailed (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:107:18)
+    at attempt (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:180:28)
+    at JwtStrategy.strategy.fail (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:302:9)
+    at JwtStrategy.authenticate (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport-jwt/lib/strategy.js:96:21)
+    at attempt (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:366:16)
+    at authenticate (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:367:7)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/routes/kcals.js:26:5
+    at newFn (/Users/maeng/Desktop/Project/Dieter/server/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/express/lib/router/layer.js:95:5)
+2020-12-10T14:30:09.019Z [error] ReferenceError: CustomError is not defined
+    at /Users/maeng/Desktop/Project/Dieter/server/src/routes/kcals.js:31:9
+    at allFailed (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:107:18)
+    at attempt (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:180:28)
+    at JwtStrategy.strategy.fail (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:302:9)
+    at JwtStrategy.authenticate (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport-jwt/lib/strategy.js:96:21)
+    at attempt (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:366:16)
+    at authenticate (/Users/maeng/Desktop/Project/Dieter/server/node_modules/passport/lib/middleware/authenticate.js:367:7)
+    at /Users/maeng/Desktop/Project/Dieter/server/src/routes/kcals.js:26:5
+    at newFn (/Users/maeng/Desktop/Project/Dieter/server/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/Users/maeng/Desktop/Project/Dieter/server/node_modules/express/lib/router/layer.js:95:5)
