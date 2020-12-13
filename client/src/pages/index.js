@@ -3,7 +3,7 @@ import MainPage from './main';
 import LoginPage from './login';
 import onEventHandler from '../event-handler';
 import { onLoadDataHandler } from '../event-handler';
-import { setState, setEvent } from '../store';
+import { setState, setEvent } from 'store';
 import { onStoreDateHandler, onStoreLoadDataHandler } from '../event-handler/store-event';
 
 const App = async () => {
