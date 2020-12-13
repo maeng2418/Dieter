@@ -1,4 +1,5 @@
 const path = require('path');
+const Dotenv = require('dotenv-webpack');
 
 module.exports = {
   entry: './src/index.js',
@@ -12,6 +13,9 @@ module.exports = {
       components: path.resolve(__dirname, './src/components'),
       tags: path.resolve(__dirname, './src/components/Tags'),
       pages: path.resolve(__dirname, './src/pages'),
+      utils: path.resolve(__dirname, './src/utils'),
+      images: path.resolve(__dirname, './src/assets/images'),
+      store: path.resolve(__dirname, './src/store'),
     },
   },
   devtool: 'inline-source-map',
@@ -58,4 +62,12 @@ module.exports = {
       },
     ],
   },
+  plugins: [
+    new Dotenv({
+      path:
+        process.env === 'production'
+          ? '../shared/env/production.env.dev'
+          : '../shared/env/development.env',
+    }),
+  ],
 };
