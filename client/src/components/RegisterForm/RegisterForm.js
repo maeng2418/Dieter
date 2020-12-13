@@ -80,24 +80,28 @@ const InputStyle = `
   height: 2rem;
   padding: 0 10px;
   outline: none;
+  cursor: pointer;
 `;
 
 const ButtonStyle = `
   height: 2rem;
   width: 5rem;
   outline: none;
+  cursor: pointer;
 `;
 
 const isSelectedStyle = `
   color: #36cfc9;
   background: #fff;
   border: 2px solid #36cfc9;
+  cursor: pointer;
 `;
 
 const unSelectedStyle = `
   background: #36cfc9;
   color: #fff;
   border: 2px solid #36cfc9;
+  cursor: pointer;
 `;
 
 const SubmitButtonStyle = `
@@ -106,4 +110,5 @@ const SubmitButtonStyle = `
   color: #fff;
   border: 2px solid #36cfc9;
   outline: none;
+  cursor: pointer;
 `;

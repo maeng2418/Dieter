@@ -117,26 +117,28 @@ export const onLoadDataHandler = async () => {
   return [];
 };
 
+const onSignOutHandler = () => {
+  document.cookie = 'authorization=; expires=Thu, 01 Jan 1999 00:00:10 GMT; path=/ ';
+  window.location.reload();
+};
+
 const onEventHandler = () => {
   document.getElementById('root').addEventListener('click', async (e) => {
+    e.preventDefault();
     if (e.target.closest(`.nav-btn`)) {
-      e.preventDefault();
       onNavEventHandler(e.target.id);
     } else if (e.target.closest('.month-nav-btn')) {
-      e.preventDefault();
       onChangeDateHandler(e.target.id);
     } else if (e.target.closest('.type-btn')) {
-      e.preventDefault();
       onSelectTypeHandler(e.target.classList);
     } else if (e.target.closest('.submit-btn')) {
-      e.preventDefault();
       onSubmitHandler();
     } else if (e.target.closest('.login-btn')) {
-      e.preventDefault();
       onLoginHandler();
     } else if (e.target.closest('.get-btn')) {
-      e.preventDefault();
       onGetHandler();
+    } else if (e.target.closest('.signout')) {
+      onSignOutHandler();
     }
   });
 };
