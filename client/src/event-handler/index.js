@@ -4,7 +4,7 @@ import GraphPage from 'pages/graph';
 import LoginPage from 'pages/login';
 import { Option } from 'tags';
 import { DateList, KcalList, Layout } from 'components';
-import { getState, setState, setEvent } from '../store';
+import { getState, setState, setEvent } from 'store';
 import API from 'utils/api';
 
 // 네이비게이션 이벤트 핸들러

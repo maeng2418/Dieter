@@ -2,9 +2,9 @@ import { Div, Img } from 'tags';
 import { CalendarBody } from './CalendarBody';
 import { CalendarWeek } from './CalendarWeek';
 import { CalendarDate } from './CalendarDate';
-import { getState, getDate } from '../../store';
+import { getState, getDate } from 'store';
 import { getFormatDate } from 'utils/date-format';
-import { dateDescending } from 'utils/date-sorting';
+import { getDayKcal } from 'utils/kcal-calculator';
 import NormalEmoji from 'images/normal.svg';
 import ObesityEmoji from 'images/obesity.svg';
 import OverEmoji from 'images/over.svg';
@@ -94,35 +94,6 @@ const createCalendar = (year, month) => {
     weekList.push(dayList.join(''));
   }
   return weekList.map((week) => CalendarWeek([week])).join('');
-};
-
-const getDayKcal = () => {
-  const sortedKcalData = getState('kcalData')
-    .sort(dateDescending)
-    .reduce((acc, cur) => {
-      if (acc.hasOwnProperty(cur.date)) {
-        if (cur.type === 'intake') {
-          const kcal = acc[cur.date] + cur.kcal;
-          acc[cur.date] = kcal;
-          return acc;
-        } else {
-          const kcal = acc[cur.date] - cur.kcal;
-          acc[cur.date] = kcal;
-          return acc;
-        }
-      } else {
-        if (cur.type === 'intake') {
-          const kcal = cur.kcal;
-          acc[cur.date] = kcal;
-          return acc;
-        } else {
-          const kcal = -cur.kcal;
-          acc[cur.date] = kcal;
-          return acc;
-        }
-      }
-    }, {});
-  return sortedKcalData;
 };
 
 const getEmoji = (kcal) => {

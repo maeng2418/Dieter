@@ -1,6 +1,6 @@
 import { Div } from 'tags';
 import { RegisterForm, DateList, KcalList } from 'components';
-import { getState } from '../store';
+import { getState } from 'store';
 import { dateDescending } from 'utils/date-sorting';
 
 const MainPage = () => {

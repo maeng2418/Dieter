@@ -1,5 +1,5 @@
 import { Div, Button } from 'tags';
-import { getState } from '../../store';
+import { getState } from 'store';
 
 export const MonthNav = (children = [], props = {}) => {
   const year = getState('date').getFullYear();
