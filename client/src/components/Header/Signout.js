@@ -18,6 +18,7 @@ export const Signout = (children = [], props = {}) => {
 };
 
 const Style = `
+  cursor: pointer;
   position: absolute;
   right: 0;
   margin-right: 2rem;

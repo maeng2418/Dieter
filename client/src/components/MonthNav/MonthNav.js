@@ -9,7 +9,7 @@ export const MonthNav = (children = [], props = {}) => {
       Button(['<'], {
         id: 'prev-btn',
         class: 'month-nav-btn',
-        style: `background: none; border: none; font-size: 2rem; outline: none;`,
+        style: `background: none; border: none; font-size: 2rem; outline: none; cursor: pointer;`,
         onmouseover: "this.style.color='#fa541c'",
         onmouseout: "this.style.color='black'",
       }),
@@ -20,7 +20,7 @@ export const MonthNav = (children = [], props = {}) => {
       Button(['>'], {
         id: 'next-btn',
         class: 'month-nav-btn',
-        style: `background: none; border: none; font-size: 2rem; outline: none;`,
+        style: `background: none; border: none; font-size: 2rem; outline: none; cursor: pointer;`,
         onmouseover: "this.style.color='#fa541c'",
         onmouseout: "this.style.color='black'",
       }),

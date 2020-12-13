@@ -14,7 +14,7 @@ export const LoginForm = (children = [], props = {}) => {
             class: 'input-id',
           }),
         ],
-        { style: 'width: 100%;' }
+        { style: 'width: 100%; cursor: pointer;' }
       ),
       FormItem(
         [
@@ -26,7 +26,7 @@ export const LoginForm = (children = [], props = {}) => {
             class: 'input-pw',
           }),
         ],
-        { style: 'width: 100%;' }
+        { style: 'width: 100%; cursor: pointer;' }
       ),
       Button(['로그인'], { style: SubmitButtonStyle, class: 'login-btn' }),
     ],
@@ -66,4 +66,5 @@ const SubmitButtonStyle = `
   outline: none;
   margin: 2rem auto;
   width: 100%;
+  cursor: pointer;
 `;
